@@ -1,0 +1,6 @@
+Buat Model untuk Regresi Logistik
+Metrik Pengukuran Regresi Logistik + Confusion Matrix (Uraikan)
+Kelebihan dan Kekurangan Regresi Logistik
+Cari 10 Jurnal terkait pemanfaatan Regresi Logistik 
+Diskusikan dalam Forum
+Tuliskan dalam laporan (dikumpulkan saat UTS)

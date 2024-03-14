@@ -1,0 +1,17 @@
+Case I
+Seorang peneliti ingin mengetahui bagaimana pengaruh kualitas pelayanan publik 
+terhadap kepuasan pengguna (masyarakat). Kualitas pelayanan publik diteliti 
+melaluji variabel Daya Tanggap (X1) dan Empati (X2). Kepuasan penggunana 
+layanan (Y) sebagai variabel dependent adalah variabel dummy dimana dimana 
+jika responden menjawab puas maka kita beri skor 1 dan jika menjawab tidak puas 
+kita beri skor 0. 
+
+Case II
+Contoh kasus: Pemberian ASI Eksklusif dapat dipengaruhi oleh Pengetahuan ibu dan status pekerjaan. 
+Pemberian ASI Eksklusif sebagai variabel dependen (Y), variabel independen : Status pekerjaan (X1) dan 
+pengetahuan ibu (X2). Peneliti ingin mengetahui pengaruh status pekerjaan dan pengetahuan ibu terhadap 
+pemberian ASI Eksklusif. Data selengkapnya sebagai berikut : 
+Y  ASI Eksklusif , Jika diberikan ASI eksklusif (1) tidak diberi/bukan ASI eksklusif (0) 
+X1  Status pekerjaan, Jika bekerja (1); tidak bekerja (0) 
+X2  Pengetahuan Ibu, Jika (1) Tidak Memiliki Pengetahuan; (2) Kurang Memiliki Pengetahuan; (3) Cukup 
+Memiliki Pengetahuan; (4) Memiliki Pengetahuan yang Baik; (5) Memiliki Pengetahuan Sangat Baik 
