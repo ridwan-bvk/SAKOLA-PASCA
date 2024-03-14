@@ -1,0 +1,26 @@
+Pertanyaan:
+Untuk menyelesaikan masalah maksimisasi dengan batasan – batasan (kendala) yang bertanda kurang dari atau sama dengan ( ≤ ) yang menunjukkan keterbatasan sumber daya yang tersedia, digunakan metode simpleks. 
+
+Apa yang anda ketahui dengan metode simpleks?
+
+Jawaban:
+izin menjawab sepengetahuan saya dari refernsi yg saya dapat 
+metode simplek itu metode yang digunakan untuk menyelesaikan persoalan yang telah diformulasikan terlebih dahulu kedalam persamaan matematika program linear yg mempunyai variabel keputusan lebih besar sama dengan 2 
+sampai multivariabel
+
+langkah-langkah nya
+merubah fungsi tujuan dan batasan-batasan
+menyusun persamaan2 didalam tabel simplek
+memilih kolom kunci
+memilih baris kunci
+merubah nilai2 baris kunci
+merubah nilai2 selai pada baris kunci 
+melanjutkan perbaikan2
+
+istilah dalam tabel simplek
+iterasi : tahapan perhitungan
+variabel non basis : variabel yg nilain diatur menjadi nol pada sembarang iterasi
+variabel basis:variabel yg nilainya bukan nol pada sembarang iterasi,variabel basis merupakan variabel slack (jika fungsi kendala merupakan pertidak samaan <=) atau variabel buatan (jika fungsi kendala menggunakan pertidak samaan >= atau =) secara umum jumlah variabel basis sama dengan jumlah fungsi pembatas (tanpa fungsi non negatif)
+solusi nilai kanan (NK) merupaka nilai sumber daya pembatas yang masih tersedia
+variable slack merupakan variabel yg ditambahkan ke model matematik kendala untuk mengkorvisikan pertidaksaman <= menjadi =
+

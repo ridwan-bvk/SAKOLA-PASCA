@@ -1,0 +1,65 @@
+ijin menjawab, dr sepengetahuan yg saya dapat
+
+pertannyannya: Ada 6 cara untuk menyelesaikan persamaan linier,apa saja?
+1. Metode Eliminasi
+2. Metode Substitusi
+3. Metode Matrik
+4. Metode Grafis
+5. Metode Substitusi Balik
+6. Metode Interpolasi
+
+pertanyaan k2: 6 cara tersebut dan bagaimana cara menggunakannya?
+
+1. Metode Eliminasi
+Jumlahkan atau kurangkan kedua persamaan untuk menghilangkan salah satu variabel.
+Setelah salah satu variabel dieliminasi, akan didapatkan satu variabel yang dapat dipecahkan lebih lanjut.
+
+2. Metode Substitusi
+Identifikasi salah satu variabel yang mudah untuk disubstitusi dalam salah satu persamaan.
+Selesaikan variabel tersebut dalam persamaan lainnya.
+Gantikan nilai variabel yang sudah diketahui ke dalam persamaan lainnya untuk mencari nilai variabel yang lain.
+
+3. Metode Matrik
+Plot persamaan dalam grafik koordinat.
+Temukan titik potong dari kedua garis sebagai solusi.
+Solusi ini akan menjadi titik di mana kedua garis bertemu.
+
+4.Metode Substitusi Balik
+Pilih salah satu variabel sebagai target dan selesaikan persamaan yang memuat variabel tersebut.
+Gantikan nilai tersebut ke dalam persamaan lainnya yang mengandung variabel yang sama.
+Teruskan proses ini hingga semua variabel ditemukan.
+
+6 . Metode Interpolasi:
+Susun data dalam bentuk tabel atau set.
+Pilih model linier yang cocok dengan data (misalnya, garis lurus untuk data linear).
+Hitung koefisien model linier yang sesuai dengan data .
+Gunakan model linier untuk memprediksi nilai di luar data yang diberikan.
+
+pertanyaan 3:
+Cara mana yang paling mudah jika variabel yang digunakan lebih dari 3?
+
+sejauh ini yg saya mengerti dan mudah untuk 3 variabel
+1. Metode Eliminasi subsititusi
+2. Metode matrik dengan menggunakan operasi matriks seperti invers atau eliminasi gauss-jordan
+
+
+
+
+1. Metode Eliminasi 
+     - Untuk metode ini biasanya menggunakan cara menggabungkan atau mengurangi persamaan tersebut untuk menghilangkan     variabel nya
+2. Metode Substitusi
+     - Untuk metode ini kita harus menyelesaikan terlebih dahulu satu persamaan untuk satu variabel kemudian di substitusi hasilnya kedalam 
+        variabel lain
+3. Metode Matrik
+     - Untuk metode ini biasa diselesaikan dengan menggunakan operasi matriks seperti invers atau eliminasi gauss-jordan
+4. Metode Grafik
+     - Untuk metode ini dilakukan plot pada grafik kartesian pada persamaan liniernya. dan titik potong dari kedua garis yang mewakili solusi sistem 
+        persamaan
+
+kemudian ada 2 cara penyelesaian persamaan linier yang jarang di ketahui yaitu :
+
+1. Metode Komplemen
+    - Metode ini menggunakan sifat-sifat dari persamaan tersebut untuk menyederhanakan proses penyelesaiannya
+2. Metode Geometri
+    - Metode ini sangat unik dikarenakan melibatkan proses yang berbeda dengan mewakili geometris dari persamaan linier dalam suatu ruang 
+      dimensi
