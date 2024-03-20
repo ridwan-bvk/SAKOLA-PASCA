@@ -1,0 +1,27 @@
+
+Referensi indonesia belajar
+https://www.youtube.com/watch?v=vqgucRK5K1A&list=PL2O3HdJI4voHNEv59SdXKRQVRZAFmwN9E&index=2
+https://scikit-learn.org/stable/index.html
+
+sekumpulan bidang ilmu yg mempelajari dari sebidang data
+learning problem in konteks mechine learning
+1.supervised learning
+program memprediksi suatu nilai output untuk suatu input berdasrkan proses learning dg memanfaatkan sekumpulan data yg terbagi dalam dua label
+2.unsupervised learning
+program tidak melakukan learning label data melain mencoba menemuka pola pada data
+
+istilah
+input 
+output
+training set : sekumpulan contoh digunakan untuk proses learning
+tes set : sekumpulan contoh digunakan untuk mengukur pada supervised learning
+
+Supervised Machine learning
+1 classification task (penngelompokan)
+2 Regresiion task (prediksi)
+
+UnSupervised Machine learning
+Clastering 
+menekankan pada proses explorasi data untuk menemuka kelompo (group) pada data berdasarkan kemiripan/karakteristik
+dimension production 
+menekankan pada proses explorasi data untuk menemuka sejumlah fetures yg paling berdampak terhadap response variable
