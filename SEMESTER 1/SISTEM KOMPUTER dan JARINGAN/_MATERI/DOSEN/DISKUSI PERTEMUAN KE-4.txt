@@ -1,0 +1,57 @@
+Ceritakan tentang  Jaringan Komunikasi Data dan IP dan Netmask?
+
+IP atau Internet Protocol (Protokol Internet) adalah seperangkat aturan dan standar yang memungkinkan komputer dan perangkat lainnya untuk berkomunikasi di internet.
+
+contoh sederhana nomor pada alamat kampus, 
+IP Address berfungsi untuk memastikan data dikirim ke perangkat yang tepat. Rentang angkanya adalah dari 0.0.0.0 sampai 255.255.255.255.
+
+Ada beberapa jenis IP yang umumnya dikenal dalam konteks jaringan komputer. Berikut adalah beberapa di antaranya:
+
+1.IPv4 (Internet Protocol version 4):
+Ini adalah versi IP yang paling umum digunakan saat ini. Alamat IPv4 terdiri dari 32 bit, biasanya ditulis dalam format desimal, seperti 192.168.1.1.
+
+2.IPv6 (Internet Protocol version 6):
+IPv6 diperkenalkan untuk mengatasi keterbatasan alamat IPv4 yang semakin terbatas. Alamat IPv6 terdiri dari 128 bit, ditulis dalam format heksadesimal, seperti 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
+
+3.Alamat IP Publik dan IP Pribadi:
+Alamat IP publik adalah alamat unik yang diberikan kepada perangkat untuk diidentifikasi di internet secara global. Alamat IP pribadi adalah alamat yang digunakan dalam jaringan lokal dan tidak dapat diakses langsung dari internet. Alamat IP pribadi biasanya dialokasikan secara internal dalam jaringan lokal dan diubah menjadi alamat IP publik oleh router menggunakan NAT (Network Address Translation).
+
+4.Static IP dan Dynamic IP:
+Static IP adalah alamat IP yang tetap atau tidak berubah, diberikan secara manual ke perangkat dan biasanya digunakan untuk server atau perangkat yang membutuhkan konsistensi alamat. Dynamic IP adalah alamat IP yang diberikan secara dinamis oleh server DHCP (Dynamic Host Configuration Protocol) dan dapat berubah setiap kali perangkat terhubung ke jaringan.
+
+5.Alamat IP Terarah (Directed IP Address) dan Alamat IP Tidak Terarah (Unicast dan Multicast):
+Alamat IP terarah (directed IP address) adalah alamat IP yang ditujukan untuk satu tujuan tertentu, seperti perangkat individu atau host. Alamat IP tidak terarah (unicast) adalah alamat IP yang digunakan untuk komunikasi satu-ke-satu. Alamat IP multicast, di sisi lain, digunakan untuk mengirim data ke sekelompok perangkat, yang memungkinkan pengiriman satu paket data ke beberapa tujuan
+Loopback IP:
+Loopback IP (127.0.0.1 dalam IPv4) adalah alamat yang dialokasikan ke perangkat itu sendiri, digunakan untuk menguji konektivitas jaringan lokal. Ini memungkinkan perangkat untuk berkomunikasi dengan dirinya sendiri.
+
+6.Private IP Ranges:
+Ada tiga rentang alamat IP yang dialokasikan secara khusus untuk penggunaan pribadi dalam jaringan lokal:
+10.0.0.0 hingga 10.255.255.255
+172.16.0.0 hingga 172.31.255.255
+192.168.0.0 hingga 192.168.255.255
+
+Aturan penulisan alamat IP (Internet Protocol) mengikuti standar tertentu. Berikut adalah aturan umum untuk penulisan alamat IP
+
+Apa itu Netmask
+
+Netmask (Network Mask atau Subnet Mask) adalah seperangkat angka yang digunakan untuk menentukan bagian mana dari alamat IP yang merupakan bagian jaringan dan bagian mana yang merupakan bagian host dalam sebuah jaringan komputer.
+
+Netmask digunakan bersama dengan alamat IP untuk menentukan rentang alamat IP yang tersedia dalam sebuah subnet.
+
+Ada beberapa jenis subnet mask yang umum digunakan dalam jaringan komputer. Berikut adalah beberapa jenis subnet mask yang paling umum:
+
+1. Subnet Mask Standar IPv4
+Subnet mask standar untuk IPv4 terdiri dari angka-angka biner atau desimal yang menunjukkan pembagian antara bagian jaringan dan bagian host dari alamat IP. Contoh: 255.0.0.0, 255.255.0.0, 255.255.255.0, dll.
+
+2. Subnet Mask CIDR (Classless Inter-Domain Routing)
+CIDR adalah metode penggabungan alamat IP yang memungkinkan untuk menggunakan subnet mask dengan panjang yang bervariasi.Dalam notasi CIDR, subnet mask ditulis dalam format alamat IP diikuti oleh tanda garis miring dan jumlah bit yang digunakan untuk bagian jaringan.
+Contoh: /8, /16, /24, dll.
+
+3. Wildcard Mask:
+Wildcard mask digunakan dalam konfigurasi ACL (Access Control List) pada perangkat jaringan seperti router atau firewall.Wildcard mask adalah kebalikan dari subnet mask standar, di mana bit 0 menunjukkan bagian yang diabaikan, sedangkan bit 1 menunjukkan bagian yang harus cocok
+Contoh: 0.0.255.255 (wildcard dari subnet mask 255.255.0.0), 0.0.0.255 (wildcard dari subnet mask 255.255.255.0)
+
+4. Subnet Mask Khusus
+Selain subnet mask standar, ada juga subnet mask khusus yang digunakan dalam situasi tertentu, seperti subnetting berlebihan (supernetting) atau menggunakan blok alamat IP khusus
+
+terimakasih
