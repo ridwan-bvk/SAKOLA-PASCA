@@ -1,0 +1,447 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "aef01664-c217-4096-86d9-49ea198d0c6a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Matplotlib is building the font cache; this may take a moment.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# import library numpy, pandas dan scikit learn\n",
+    "import numpy as np\n",
+    "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "from sklearn import tree\n",
+    "from sklearn.tree import DecisionTreeClassifier\n",
+    "from sklearn import datasets\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "8f50e997-e4a0-422e-885b-64a75fb350e2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "DataIris = pd.read_csv('Dataset Iris.csv',\n",
+    "                          delimiter=';',\n",
+    "                          header=0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "97173fdb-c04c-49b7-8f8b-a01a5d3cbd84",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "DataIris.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "998f6319-fc5e-4724-b72e-19a3064aa880",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ubah dulu Species ke Integer\n",
+    "DataIris[\"Species\"] = pd.factorize(DataIris.Species)[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "4b6b80c7-cfcf-4490-b76e-00f67d209629",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>SepalLengthCm</th>\n",
+       "      <th>SepalWidthCm</th>\n",
+       "      <th>PetalLengthCm</th>\n",
+       "      <th>PetalWidthCm</th>\n",
+       "      <th>Species</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>7.00</td>\n",
+       "      <td>3.02</td>\n",
+       "      <td>4.07</td>\n",
+       "      <td>1.04</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>6.04</td>\n",
+       "      <td>3.02</td>\n",
+       "      <td>4.05</td>\n",
+       "      <td>1.05</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>6.09</td>\n",
+       "      <td>3.01</td>\n",
+       "      <td>4.09</td>\n",
+       "      <td>1.05</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>5.05</td>\n",
+       "      <td>2.03</td>\n",
+       "      <td>4.00</td>\n",
+       "      <td>1.03</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>6.05</td>\n",
+       "      <td>2.08</td>\n",
+       "      <td>4.06</td>\n",
+       "      <td>1.05</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm  Species\n",
+       "0           7.00          3.02           4.07          1.04        0\n",
+       "1           6.04          3.02           4.05          1.05        0\n",
+       "2           6.09          3.01           4.09          1.05        0\n",
+       "3           5.05          2.03           4.00          1.03        0\n",
+       "4           6.05          2.08           4.06          1.05        0"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "DataIris.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f80f7f0f-09d4-401d-bb37-c004950b994a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# kita pisahkan dulu kolom idnya\n",
+    "DataIris = DataIris.drop(labels=\"Id\",axis=1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "498a84ce-c53f-4073-b4ad-afe2d6f50c74",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>SepalLengthCm</th>\n",
+       "      <th>SepalWidthCm</th>\n",
+       "      <th>PetalLengthCm</th>\n",
+       "      <th>PetalWidthCm</th>\n",
+       "      <th>Species</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>7.00</td>\n",
+       "      <td>3.02</td>\n",
+       "      <td>4.07</td>\n",
+       "      <td>1.04</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>6.04</td>\n",
+       "      <td>3.02</td>\n",
+       "      <td>4.05</td>\n",
+       "      <td>1.05</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>6.09</td>\n",
+       "      <td>3.01</td>\n",
+       "      <td>4.09</td>\n",
+       "      <td>1.05</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>5.05</td>\n",
+       "      <td>2.03</td>\n",
+       "      <td>4.00</td>\n",
+       "      <td>1.03</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>6.05</td>\n",
+       "      <td>2.08</td>\n",
+       "      <td>4.06</td>\n",
+       "      <td>1.05</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm  Species\n",
+       "0           7.00          3.02           4.07          1.04        0\n",
+       "1           6.04          3.02           4.05          1.05        0\n",
+       "2           6.09          3.01           4.09          1.05        0\n",
+       "3           5.05          2.03           4.00          1.03        0\n",
+       "4           6.05          2.08           4.06          1.05        0"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "DataIris.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "67f3d155-3240-44d0-81c9-4162faf0ffb3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ubah data jadi array Numpy\n",
+    "DataIris = DataIris.to_numpy()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "22fc9037-266a-4b81-a7ec-5eadca3a5bc2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[7.   3.02 4.07 1.04 0.  ]\n",
+      " [6.04 3.02 4.05 1.05 0.  ]\n",
+      " [6.09 3.01 4.09 1.05 0.  ]\n",
+      " [5.05 2.03 4.   1.03 0.  ]\n",
+      " [6.05 2.08 4.06 1.05 0.  ]\n",
+      " [5.07 2.08 4.05 1.03 0.  ]\n",
+      " [6.03 3.03 4.07 1.06 0.  ]\n",
+      " [4.09 2.04 3.03 1.   0.  ]\n",
+      " [6.06 2.09 4.06 1.03 0.  ]\n",
+      " [5.02 2.07 3.09 1.04 0.  ]\n",
+      " [5.   2.   3.05 1.   0.  ]\n",
+      " [5.09 3.   4.02 1.05 0.  ]\n",
+      " [6.   2.02 4.   1.   0.  ]\n",
+      " [6.01 2.09 4.07 1.04 0.  ]\n",
+      " [5.06 2.09 3.06 1.03 0.  ]\n",
+      " [6.07 3.01 4.04 1.04 0.  ]\n",
+      " [5.06 3.   4.05 1.05 0.  ]\n",
+      " [5.08 2.07 4.01 1.   0.  ]\n",
+      " [6.02 2.02 4.05 1.05 0.  ]\n",
+      " [5.06 2.05 3.09 1.01 0.  ]\n",
+      " [5.09 3.02 4.08 1.08 0.  ]\n",
+      " [6.01 2.08 4.   1.03 0.  ]\n",
+      " [6.03 2.05 4.09 1.05 0.  ]\n",
+      " [6.01 2.08 4.07 1.02 0.  ]\n",
+      " [6.04 2.09 4.03 1.03 0.  ]\n",
+      " [6.06 3.   4.04 1.04 0.  ]\n",
+      " [6.08 2.08 4.08 1.04 0.  ]\n",
+      " [6.07 3.   5.   1.07 0.  ]\n",
+      " [6.   2.09 4.05 1.05 0.  ]\n",
+      " [5.07 2.06 3.05 1.   0.  ]\n",
+      " [5.05 2.04 3.08 1.01 0.  ]\n",
+      " [5.05 2.04 3.07 1.   0.  ]\n",
+      " [5.08 2.07 3.09 1.02 0.  ]\n",
+      " [6.   2.07 5.01 1.06 0.  ]\n",
+      " [5.04 3.   4.05 1.05 0.  ]\n",
+      " [6.   3.04 4.05 1.06 0.  ]\n",
+      " [6.07 3.01 4.07 1.05 0.  ]\n",
+      " [6.03 2.03 4.04 1.03 0.  ]\n",
+      " [5.06 3.   4.01 1.03 0.  ]\n",
+      " [5.05 2.05 4.   1.03 0.  ]\n",
+      " [5.05 2.06 4.04 1.02 0.  ]\n",
+      " [6.01 3.   4.06 1.04 0.  ]\n",
+      " [5.08 2.06 4.   1.02 0.  ]\n",
+      " [5.   2.03 3.03 1.   0.  ]\n",
+      " [5.06 2.07 4.02 1.03 0.  ]\n",
+      " [5.07 3.   4.02 1.02 0.  ]\n",
+      " [5.07 2.09 4.02 1.03 0.  ]\n",
+      " [6.02 2.09 4.03 1.03 0.  ]\n",
+      " [5.01 2.05 3.   1.01 0.  ]\n",
+      " [5.07 2.08 4.01 1.03 0.  ]\n",
+      " [6.03 3.03 6.   2.05 1.  ]\n",
+      " [5.08 2.07 5.01 1.09 1.  ]\n",
+      " [7.01 3.   5.09 2.01 1.  ]\n",
+      " [6.03 2.09 5.06 1.08 1.  ]\n",
+      " [6.05 3.   5.08 2.02 1.  ]\n",
+      " [7.06 3.   6.06 2.01 1.  ]\n",
+      " [4.09 2.05 4.05 1.07 1.  ]\n",
+      " [7.03 2.09 6.03 1.08 1.  ]\n",
+      " [6.07 2.05 5.08 1.08 1.  ]\n",
+      " [7.02 3.06 6.01 2.05 1.  ]\n",
+      " [6.05 3.02 5.01 2.   1.  ]\n",
+      " [6.04 2.07 5.03 1.09 1.  ]\n",
+      " [6.08 3.   5.05 2.01 1.  ]\n",
+      " [5.07 2.05 5.   2.   1.  ]\n",
+      " [5.08 2.08 5.01 2.04 1.  ]\n",
+      " [6.04 3.02 5.03 2.03 1.  ]\n",
+      " [6.05 3.   5.05 1.08 1.  ]\n",
+      " [7.07 3.08 6.07 2.02 1.  ]\n",
+      " [7.07 2.06 6.09 2.03 1.  ]\n",
+      " [6.   2.02 5.   1.05 1.  ]\n",
+      " [6.09 3.02 5.07 2.03 1.  ]\n",
+      " [5.06 2.08 4.09 2.   1.  ]\n",
+      " [7.07 2.08 6.07 2.   1.  ]\n",
+      " [6.03 2.07 4.09 1.08 1.  ]\n",
+      " [6.07 3.03 5.07 2.01 1.  ]\n",
+      " [7.02 3.02 6.   1.08 1.  ]\n",
+      " [6.02 2.08 4.08 1.08 1.  ]\n",
+      " [6.01 3.   4.09 1.08 1.  ]\n",
+      " [6.04 2.08 5.06 2.01 1.  ]\n",
+      " [7.02 3.   5.08 1.06 1.  ]\n",
+      " [7.04 2.08 6.01 1.09 1.  ]\n",
+      " [7.09 3.08 6.04 2.   1.  ]\n",
+      " [6.04 2.08 5.06 2.02 1.  ]\n",
+      " [6.03 2.08 5.01 1.05 1.  ]\n",
+      " [6.01 2.06 5.06 1.04 1.  ]\n",
+      " [7.07 3.   6.01 2.03 1.  ]\n",
+      " [6.03 3.04 5.06 2.04 1.  ]\n",
+      " [6.04 3.01 5.05 1.08 1.  ]\n",
+      " [6.   3.   4.08 1.08 1.  ]\n",
+      " [6.09 3.01 5.04 2.01 1.  ]\n",
+      " [6.07 3.01 5.06 2.04 1.  ]\n",
+      " [6.09 3.01 5.01 2.03 1.  ]\n",
+      " [5.08 2.07 5.01 1.09 1.  ]\n",
+      " [6.08 3.02 5.09 2.03 1.  ]\n",
+      " [6.07 3.03 5.07 2.05 1.  ]\n",
+      " [6.07 3.   5.02 2.03 1.  ]\n",
+      " [6.03 2.05 5.   1.09 1.  ]\n",
+      " [6.05 3.   5.02 2.   1.  ]\n",
+      " [6.02 3.04 5.04 2.03 1.  ]\n",
+      " [5.09 3.   5.01 1.08 1.  ]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(DataIris)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "864e15c6-d610-49b6-9390-d5098f6d67af",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndexError",
+     "evalue": "only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[14], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m x \u001b[38;5;241m=\u001b[39m \u001b[43mDataIris\u001b[49m\u001b[43m[\u001b[49m\u001b[38;5;124;43m'\u001b[39;49m\u001b[38;5;124;43mdata\u001b[39;49m\u001b[38;5;124;43m'\u001b[39;49m\u001b[43m]\u001b[49m\n",
+      "\u001b[1;31mIndexError\u001b[0m: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices"
+     ]
+    }
+   ],
+   "source": [
+    "x = DataIris['data']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "54dfeb12-1d8d-48f0-87be-62c1d09962c6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
