@@ -1,0 +1,44 @@
+# import library scikit learn
+from sklearn.tree import DecisionTreeClassifier
+from sklearn import datasets
+import matplotlib.pyplot as plt
+
+# load datasets iris dari library
+iris = datasets.load_iris()
+features = iris['data']
+target = iris['target']
+# print( target)
+#len(features)
+
+# membuat object decision tree
+deicisiontree = DecisionTreeClassifier(random_state=0,
+                                       max_depth=None,
+                                       min_samples_split=2,
+                                       min_samples_leaf=1,
+                                       min_weight_fraction_leaf=0,
+                                       max_leaf_nodes=None,
+                                       min_impurity_decrease=0)
+
+# mentraining decission tree
+model = deicisiontree.fit(features,target)
+
+# mengambil sample observasi dan membuat prediksi
+# sampe berupa data dimensi kelopak
+# fungsi predict()=>memeriksa kelas yang dimilikinya
+# fungsi predict_proba =>memeriksa probabilitas kelas dari prediksi tersebut
+observation = [[5,4,3,2]]
+model.predict(observation)
+model.predict_proba(observation)
+
+# membuat grafik visualisasi
+import pydotplus
+from sklearn import tree 
+dot_data = tree.export_graphviz(deicisiontree,
+                                out_file=None,
+                                feature_names=iris['feature_names'],
+                                class_names=iris['target_names'])
+
+from IPython.display import Image
+graph = pydotplus.graph_from_dot_data(dot_data)
+Image(graph.create_png())
+graph.write_png('iris.png')

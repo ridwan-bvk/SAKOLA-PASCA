@@ -1,0 +1,4 @@
+MENDATKAN NILA KONFUSION MATRIK
+https://www.youtube.com/watch?v=4M70h8whoJM
+MENDAPATKAN LOG LOS
+https://scikit-learn.org/stable/modules/model_evaluation.html#log-loss
