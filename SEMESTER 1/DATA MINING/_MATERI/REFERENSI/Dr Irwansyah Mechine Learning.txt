@@ -1,0 +1,61 @@
+Mechine learning 
+https://www.youtube.com/watch?v=WH1SduDRL_Y
+Multinity
+Dr irwansyah
+data supervised learning (pembimbing)
+-data training=>ada atribut umum dan class label
+-ada datanya
+data Unsupervised learning (tidak dibimbing)
+-biasanya dia kumpul dengan ciri2nya (klasifikasi)
+-mencari kemiripan dalam kelompoknya
+Reinforce Learning tidak dibimbing tapi belajar sendiri
+-belajar dari kesalahan
+-terdiri dari agen,environment,reward
+-reward=0 jika salah
+-ex robot catur
+
+
+contoh mechine learning 
+optimasi
+
+Github
+https://github.com/diazzzz/Buku-Machine-Learning/tree/main
+
+DATA
+adalah fakta yg direkam
+data tidak dapat dmaknai (meaning less) sebelum diolah
+
+Bagaimana data dihasilkan
+menggunakan teknologi, IOT (sesuatu yg terhubungkan ke internet)
+sengaja/tidak jika direkam
+
+atribut=variabel=feature
+atribut data meaning
+variabel statisk
+feture mesin learning
+
+Data source ada 2
+Private
+Publik :data.gov.id,kaagle,data.gov.uk,omim data set
+
+Explotory Data Analysis (EDA)
+data set yg dihasilkan didunia nyata tak sebagus contoh2
+mengesktrasi pengetahuan dengan datmin jk datanya bersih
+data tidak bersih dibersihkan dg preprosesing
+nilai outlier,analisi univariate,bivarate,multivariet
+
+panda = > menampilkan data
+numpy => aljabar,data
+
+TYPE DATA
+Diskrit =>berdasarkan perhitungan
+cirinya
+-ga da minus/negatif
+Kontinue=>data yg bersifat numerik diperolehkan berdasarkan hasil pengukuran,
+ex tinggi badan 60,5 
+Cirinya
+ada decimalnya
+bisa minus
+
+dalam datmin itu numerik dan kategorik
+
