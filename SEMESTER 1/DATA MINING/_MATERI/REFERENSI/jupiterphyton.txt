@@ -1,1 +1,4 @@
 https://www.kaggle.com/code/prashant111/decision-tree-classifier-tutorial/notebook
+
+Naive Bayes Classifier in Python
+https://www.kaggle.com/code/prashant111/naive-bayes-classifier-in-python
