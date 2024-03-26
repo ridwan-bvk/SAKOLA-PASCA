@@ -1,0 +1,23 @@
+Tell me about Model referensi OSI & TCP/IP?
+Ijin menjawab
+
+Model referensi OSI atau Open Systems Interconnection adalah model yang digunakan untuk merancang dan menggambarkan bagaimana komunikasi jaringan komputer harus dilakukan. 
+
+Model ini terdiri dari tujuh lapisan yang mewakili fungsi-fungsi yang berbeda dalam komunikasi data:
+1. Lapisan Fisik (Physical Layer)
+2. Lapisan Data Link (Data Link Layer)
+3. Lapisan Jaringan (Network Layer)
+4. Lapisan Transportasi (Transport Layer)
+5. Lapisan Sesi (Session Layer)
+6. Lapisan Presentasi (Presentation Layer)
+7. Lapisan Aplikasi (Application Layer)
+
+Model referensi OSI membantu dalam standarisasi protokol jaringan dan memungkinkan perangkat dari berbagai vendor untuk berkomunikasi satu sama lain dengan baik dalam jaringan yang sama.
+
+
+TCP/IP Atau Transmission Control Protocol/Internet Protocol adalah kumpulan protokol komunikasi yang digunakan untuk menghubungkan perangkat-perangkat dalam jaringan komputer, terutama internet.
+TCP/IP adalah standar de facto untuk komunikasi data di internet dan banyak jaringan komputer lainnya.
+
+TCP/IP terdiri dari dua protokol utama:
+1. Transmission Control Protocol (TCP): TCP bertanggung jawab untuk memastikan pengiriman data yang andal antara perangkat-perangkat dalam jaringan. Ini memastikan bahwa data dikirimkan tanpa kesalahan, dalam urutan yang benar, dan dapat diatur kembali jika perlu.
+2. Internet Protocol (IP): IP mengatur pengiriman paket-paket data antara perangkat-perangkat dalam jaringan. Protokol ini memberikan alamat unik kepada setiap perangkat dalam jaringan (alamat IP), yang digunakan untuk mengarahkan paket data ke tujuan yang tepat. IP juga mengatur rute paket data melalui jaringan, memastikan bahwa data mencapai tujuan yang benar meskipun melalui jaringan yang kompleks.

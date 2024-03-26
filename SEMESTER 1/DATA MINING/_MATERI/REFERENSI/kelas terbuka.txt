@@ -1,0 +1,16 @@
+Prasyarat Unsuperved learning
+integral turunan
+alin
+probabilitas&statistik
+Neural Networ
+Hidden layer
+CNN,RNN
+deep learning
+
+10:12 AM 3/26/2024
+Supervising
+Regresi linear mechine learning
+https://www.youtube.com/watch?v=dUPY4CJ-lRM
+klasifikasi
+https://www.youtube.com/watch?v=rKu4Csr7lVc
+

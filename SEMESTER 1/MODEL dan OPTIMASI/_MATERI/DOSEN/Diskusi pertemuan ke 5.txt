@@ -1,0 +1,49 @@
+
+Pada pertenmuan 3 sudah dibahas pnyelesaian persamaan linier menggunakan metode eliminasi Gauss-Jordan. 
+Pada intinya untuk menyelesaikan persamaan linier menggunakan matriks (eliminasi Gauss-Jordan) adalah dengan cara mengubah matriks dari persamaan-persamaan linier tersebut menjadi matriks identitas. 
+Mohon maaf waktu dikelas saya salah mengingat. Maka saya ralat disini. Yang bisa menggunakan nilai konstan adalah pembagian atau perkalian yaitu hanya pada bagian diagonal saja (nilai 1) sedangkan nilai konstan tidak bisa digunakan untuk mengurangi ataupun menjumlah agar koefisien menjadi nol, karena hal tersebut akan mempengaruhi perubahan pada koefisien variabel yang lain. OK nanti akan dibahas ulang.
+
+Metoode simpleks digunakan untuk mencari nilai optimal dari program linier yang melibatkan banyak constraint (pembatas) dan banyak variabel. Menurut anda bagaimana metode ini menyelesaikan program linier?
+
+Jawaban
+sepengetuan yg saya baca dalam banyak kasus praktis, metode Simpleks masih menjadi algoritma yang sangat efisien untuk menyelesaikan masalah pemrograman linier.
+
+langkah-langkah umum untuk menyelesaikan masalah pemrograman linier menggunakan Metode Simplek diantaranya:
+1. Menulis fungsi tujuan dan kendala-kendala dalam bentuk persamaan 
+2. Buat Tabel Simpleks Awal
+Buat tabel simplex awal dari masalah yang telah dipersiapkan. Tabel ini terdiri dari variabel keputusan, variabel slack/surplus, dan koefisien masing-masing dalam bentuk baris dan kolom.
+3.Iterasi Simpleks:
+a. Pilih Variabel Masuk: Pilih variabel masuk berdasarkan aturan, seperti memilih variabel dengan koefisien positif terbesar di baris fungsi tujuan.
+
+b. Pilih Variabel Keluar: Pilih variabel keluar dengan memeriksa rasio positif terkecil antara kolom hasil dan kolom variabel masuk. Variabel keluar dipilih berdasarkan rasio ini.
+
+c. Perbarui Tabel Simpleks: Perbarui tabel Simpleks dengan memasukkan variabel masuk dan variabel keluar yang baru, dan hitung baris baru untuk tabel.
+
+4. Ulangi Langkah 3: Lakukan langkah-langkah 3a hingga 3c hingga tidak ada variabel masuk yang memiliki koefisien positif di baris fungsi tujuan. Ini menunjukkan bahwa solusi optimal telah ditemukan.
+
+5. Interpretasi Hasil: Setelah iterasi terakhir, hasilnya diinterpretasikan dalam konteks masalah asli. Nilai variabel keputusan memberikan solusi optimal untuk masalah pemrograman linier tersebut.
+
+beberapa kekurangannya metode simpleks ini diantaranya
+. Tidak efisien untuk masalah yang lebih besar dengan sedikit kendala atau struktur yang sederhana.
+. Tidak dapat menangani masalah nonlinier tanpa modifikasi yang signifikan.
+
+Persiapan Masalah: Ubah masalah pemrograman linier ke dalam bentuk standar. Ini melibatkan:
+
+Menulis fungsi tujuan dan kendala-kendala dalam bentuk kesetaraan.
+Menambahkan variabel slack/surplus jika diperlukan untuk mengubah kendala tidak kesetaraan menjadi kesetaraan.
+Menambahkan variabel keputusan non-negatif jika tidak disebutkan secara eksplisit.
+Buat Tabel Simplex Awal: Buat tabel simplex awal dari masalah yang telah dipersiapkan. Tabel ini terdiri dari variabel keputusan, variabel slack/surplus, dan koefisien masing-masing dalam bentuk baris dan kolom.
+
+Iterasi Simplex:
+a. Pilih Variabel Masuk: Pilih variabel masuk berdasarkan aturan, seperti memilih variabel dengan koefisien positif terbesar di baris fungsi tujuan.
+
+b. Pilih Variabel Keluar: Pilih variabel keluar dengan memeriksa rasio positif terkecil antara kolom hasil dan kolom variabel masuk. Variabel keluar dipilih berdasarkan rasio ini.
+
+c. Perbarui Tabel Simplex: Perbarui tabel simplex dengan memasukkan variabel masuk dan variabel keluar yang baru, dan hitung baris baru untuk tabel.
+
+Ulangi Langkah 3: Lakukan langkah-langkah 3a hingga 3c hingga tidak ada variabel masuk yang memiliki koefisien positif di baris fungsi tujuan. Ini menunjukkan bahwa solusi optimal telah ditemukan.
+
+Interpretasi Hasil: Setelah iterasi terakhir, hasilnya diinterpretasikan dalam konteks masalah asli. Nilai variabel keputusan memberikan solusi optimal untuk masalah pemrograman linier tersebut.
+
+Jadi, urutan penyelesaian menggunakan Metode Simplex melibatkan langkah-langkah persiapan masalah, pembuatan tabel simplex awal, dan iterasi melalui langkah-langkah pemilihan variabel masuk, pemilihan variabel keluar, dan pembaruan tabel simplex hingga solusi optimal ditemukan.
+Buat Tabel Simplex Awal:
