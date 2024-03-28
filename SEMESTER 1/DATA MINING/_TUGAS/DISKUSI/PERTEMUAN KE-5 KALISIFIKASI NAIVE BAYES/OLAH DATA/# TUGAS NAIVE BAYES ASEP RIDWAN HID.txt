@@ -1,0 +1,108 @@
+# TUGAS NAIVE BAYES ASEP RIDWAN HIDAYAT
+import numpy as np 
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix,log_loss
+from sklearn.preprocessing import RobustScaler
+from sklearn.naive_bayes import GaussianNB
+import seaborn as sns 
+%matplotlib inline
+
+# select data 
+df = pd.read_csv ("Data Set Adults.csv")
+
+# tambahkan nama kolom
+nama_kolom = ['age', 'workclass', 'fnlwgt', 'education', 'education_num', 'marital_status', 'occupation', 'relationship',
+             'race', 'sex', 'capital_gain', 'capital_loss', 'hours_per_week', 'native_country', 'income']
+
+# insert nama kolom ke dataframe
+df.columns = nama_kolom
+
+# tampilan data
+# df.head()
+
+# jadikan dataset into features dan target variable
+X = df.drop(['income'], axis=1)
+y = df['income']
+
+# jadikan X  y  training dan testing sets
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 0)
+
+# encode data supaya jadi categori
+import category_encoders as encode
+encoder = encode.OneHotEncoder(cols=['workclass', 'education', 'marital_status', 'occupation', 'relationship', 
+                                 'race', 'sex', 'native_country'])
+
+X_train = encoder.fit_transform(X_train)
+X_test = encoder.transform(X_test)
+
+# menskalakan data sesuai dengan rentang kuantil (default pada IQR: Rentang Interkuartil).agar tidak ada outlier
+cols = X_train.columns
+
+
+scaler = RobustScaler()
+
+X_train = scaler.fit_transform(X_train)
+
+X_test = scaler.transform(X_test)
+
+X_train = pd.DataFrame(X_train, columns=[cols])
+X_test = pd.DataFrame(X_test, columns=[cols])
+
+# train a Gaussian Naive Bayes classifier on the training set
+# instantiate the model
+gnb = GaussianNB()
+
+# fit the model
+gnb.fit(X_train, y_train)
+
+#prediksi hasil
+y_pred = gnb.predict(X_test)
+
+#buat koofesioen matrik
+from sklearn.metrics import confusion_matrix
+
+cm = confusion_matrix(y_test, y_pred)
+
+# Print  Confusion Matrix 
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_pred)
+
+#munculkan data
+print('\nConfusion matrix\n', cm)
+print('True Positives(TP) = ', cm[0,0])
+print('True Negatives(TN) = ', cm[1,1])
+print('False Positives(FP) = ', cm[0,1])
+print('False Negatives(FN) = ', cm[1,0])
+
+#ambil nilai dari matrik confusion diatas TP,TN,FP,FN
+TP = cm[0,0]
+TN = cm[1,1]
+FP = cm[0,1]
+FN = cm[1,0]
+
+#Ambil nilai CA
+classification_accuracy = (TP + TN) / float(TP + TN + FP + FN)
+# Ambil nilai precision 
+precision = TP / float(TP + FP)
+# Ambil nilai recall 
+recall = TP / float(TP + FN)
+#ambil nilai spesifikasi
+specificity = TN / (TN + FP)
+#Ambil nilai f1
+f1 = 2 * (precision * recall) / (precision + recall)
+#Ambil nilan MCC
+mcc = (TP * TN - FP * FN) / ((TP + FP) * (TP + FN) * (TN + FP) * (TN + FN)) ** 0.5
+
+#Munculkan nilai
+print('Classification accuracy : {0:0.4f}'.format(classification_accuracy))
+print('Precision : {0:0.4f}'.format(precision))
+print('Recall or Sensitivity : {0:0.4f}'.format(recall))
+print('Specificity : {0:0.4f}'.format(specificity))
+print('f1 : {0:0.4f}'.format(f1))
+print('mcc {0:0.4f}'.format(mcc))
+
+
+

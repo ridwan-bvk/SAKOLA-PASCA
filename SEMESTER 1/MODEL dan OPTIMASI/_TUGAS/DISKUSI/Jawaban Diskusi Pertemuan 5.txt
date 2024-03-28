@@ -1,0 +1,29 @@
+Dalam proyek ini, saya membuat model Gaussian Naïve Bayes Classifier 
+
+dalam pengolaha data kali ini, saya mengambil pekerja dg penghasilan (adult.csv) yg saya dapat dari kaagle
+Data diats saya coba plah untuk memprediksi apakah seseorang menghasilkan lebih dari 50 ribu setahun,
+dg target (y) 'income' dimana ada yg diatas >=50k dan dibawah <=50k dan feature x1 diantaranya 'age','workclass' 'education', 'education_num', 'marital_status', 'occupation', 'relationship','race', 'sex', 'capital_gain', 'capital_loss', 'hours_per_week', 'native_country'
+
+Model menghasilkan kinerja yang sangat baik yang ditunjukkan dengan klasifikasi akurasi model sebesar 0,8062.
+dengan recall 0.93 specificity 0.56, f1 0.86 dengan mcc 0.55
+dengan matriks confusion tidak terlalu bagus karena nilai prediksi positif dengan aktual negatif cukup besar 1484 
+dari diagram histagram didapat sekitar 5000 lebih observasi dengan probabilitas antara 0,0 dan 0,1 yang gajinya <=50K.
+dan Jumlah observasinya relatif kecil dengan probabilitas > 0,5.
+
+mungkin itu hal yg dapat saya pahami sejauh ini, tetap masih agak bingung/belum begitu paham tentang naive bayes ini
+
+
+dari histagram hasli probabilitas naive
+dapat dilihat bahwa histogram di atas memiliki kemiringan yang sangat positif.
+Kolom pertama memberi tahu kita bahwa ada sekitar 5700 observasi dengan probabilitas antara 0,0 dan 0,1 yang gajinya <=50K.
+Jumlah observasinya relatif kecil dengan probabilitas > 0,5.
+Jadi, sejumlah kecil pengamatan ini memperkirakan bahwa gajinya akan >50K.
+Mayoritas pengamatan memperkirakan bahwa gajinya akan <=50K.
+
+
+Skor akurasi set pelatihan sebesar 0,8067 sedangkan akurasi set tes sebesar 0,8083. Kedua nilai ini cukup sebanding. Jadi, tidak ada tanda-tanda overfitting.
+Saya telah membandingkan skor akurasi model yaitu 0,8083 dengan skor akurasi nol yaitu 0,7582. Jadi, kita dapat menyimpulkan bahwa model pengklasifikasi Gaussian Naïve Bayes bekerja dengan sangat baik dalam memprediksi label kelas.
+ROC AUC model kami mendekati 1. Jadi, kami dapat menyimpulkan bahwa pengklasifikasi kami berfungsi dengan sangat baik dalam memprediksi apakah seseorang menghasilkan lebih dari 50 ribu setahun.
+Dengan menggunakan validasi silang rata-rata, kami dapat menyimpulkan bahwa kami memperkirakan model tersebut rata-rata memiliki akurasi sekitar 80,63%.
+Jika kita melihat dari 10 skor yang dihasilkan oleh validasi silang 10 kali lipat, kita juga dapat menyimpulkan bahwa terdapat variansi akurasi yang relatif kecil antar lipatan, mulai dari akurasi 81,35% hingga akurasi 79,64%. Jadi, kita dapat menyimpulkan bahwa model tersebut tidak bergantung pada lipatan tertentu yang digunakan untuk pelatihan.
+Akurasi model asli kami adalah 0,8083, tetapi rata-rata akurasi validasi silang adalah 0,8063. Jadi, akurasi validasi silang 10 kali lipat tidak menghasilkan peningkatan performa untuk model ini.
