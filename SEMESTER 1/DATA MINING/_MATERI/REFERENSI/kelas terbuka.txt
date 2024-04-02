@@ -13,4 +13,6 @@ Regresi linear mechine learning
 https://www.youtube.com/watch?v=dUPY4CJ-lRM
 klasifikasi
 https://www.youtube.com/watch?v=rKu4Csr7lVc
+Hardcord neural network
+https://www.youtube.com/watch?v=HQ0uefXW634
 
