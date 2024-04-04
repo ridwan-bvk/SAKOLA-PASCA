@@ -4,7 +4,7 @@
 		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(26.0, 323.0)" />
 		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(242.0, 188.0)" />
 		<node id="2" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(184.0, 383.0)" />
-		<node id="3" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(427.0, 318.0)" />
+		<node id="3" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(427.0, 316.0)" />
 		<node id="4" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(599.0, 320.0)" />
 		<node id="5" name="Rank" qualified_name="Orange.widgets.data.owrank.OWRank" project_name="Orange3" version="" title="Rank" position="(271.0, 572.0)" />
 		<node id="6" name="Create Instance" qualified_name="Orange.widgets.data.owcreateinstance.OWCreateInstance" project_name="Orange3" version="" title="Create Instance" position="(421.0, 572.0)" />
@@ -12,18 +12,18 @@
 		<node id="8" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(718.0, 506.0)" />
 	</nodes>
 	<links>
-		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
-		<link id="3" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="train_data" />
-		<link id="4" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Test Data" enabled="true" source_channel_id="data" sink_channel_id="test_data" />
-		<link id="5" source_node_id="3" sink_node_id="4" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true" source_channel_id="evaluations_results" sink_channel_id="evaluation_results" />
-		<link id="6" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="7" source_node_id="2" sink_node_id="5" source_channel="Learner" sink_channel="Scorer" enabled="true" source_channel_id="learner" sink_channel_id="scorer" />
-		<link id="8" source_node_id="5" sink_node_id="6" source_channel="Reduced Data" sink_channel="Data" enabled="true" source_channel_id="reduced_data" sink_channel_id="data" />
-		<link id="9" source_node_id="2" sink_node_id="7" source_channel="Model" sink_channel="Predictors" enabled="true" source_channel_id="model" sink_channel_id="predictors" />
-		<link id="10" source_node_id="6" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="11" source_node_id="7" sink_node_id="8" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="0" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="2" sink_node_id="3" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="train_data" />
+		<link id="3" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Test Data" enabled="true" source_channel_id="data" sink_channel_id="test_data" />
+		<link id="4" source_node_id="3" sink_node_id="4" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true" source_channel_id="evaluations_results" sink_channel_id="evaluation_results" />
+		<link id="5" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="6" source_node_id="2" sink_node_id="5" source_channel="Learner" sink_channel="Scorer" enabled="true" source_channel_id="learner" sink_channel_id="scorer" />
+		<link id="7" source_node_id="5" sink_node_id="6" source_channel="Reduced Data" sink_channel="Data" enabled="true" source_channel_id="reduced_data" sink_channel_id="data" />
+		<link id="8" source_node_id="2" sink_node_id="7" source_channel="Model" sink_channel="Predictors" enabled="true" source_channel_id="model" sink_channel_id="predictors" />
+		<link id="9" source_node_id="6" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="10" source_node_id="7" sink_node_id="8" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="11" source_node_id="2" sink_node_id="1" source_channel="Coefficients" sink_channel="Data" enabled="true" source_channel_id="coefficients" sink_channel_id="data" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -83,7 +83,7 @@ Z2dhbiAoWSmUSwGGlIWUdWJhdS4=
 </properties>
 		<properties node_id="4" format="pickle">gASVmwEAAAAAAAB9lCiMEmFwcGVuZF9wcmVkaWN0aW9uc5SIjBRhcHBlbmRfcHJvYmFiaWxpdGll
 c5SJjAphdXRvY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21l
-dHJ5lENCAdnQywADAAAAAAGoAAAA4gAABJcAAAJUAAABqQAAAQAAAASWAAACUwAAAAAAAAAABgAA
+dHJ5lENCAdnQywADAAAAAAGoAAAA4QAABJcAAAJUAAABqQAAAQAAAASWAAACUwAAAAAAAAAABkAA
 AAGpAAABAAAABJYAAAJTlIwQc2VsZWN0ZWRfbGVhcm5lcpSMB2NvcHlyZWeUjA5fcmVjb25zdHJ1
 Y3RvcpSTlIwIYnVpbHRpbnOUjARsaXN0lJOUaA0ph5RSlEsAYYwRc2VsZWN0ZWRfcXVhbnRpdHmU
 SwCMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0
@@ -92,9 +92,9 @@ Y2xhc3Nlc5SMATCUjAExlIaUdWJhdS4=
 </properties>
 		<properties node_id="5" format="pickle">gASVLgIAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
 V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAe0AAADRAAAFPgAAAuQAAAHuAAAA8AAABT0AAALj
-AAAAAAAAAAAGQAAAAe4AAADwAAAFPQAAAuOUjBBzZWxlY3RlZF9tZXRob2RzlI+UKIwFQU5PVkGU
-jBVVbml2YXJpYXRlIFJlZ3Jlc3Npb26UjATPh8KylIwNR2luaSBEZWNyZWFzZZSMCFJSZWxpZWZG
-lIwWSW5mb3JtYXRpb24gR2FpbiBSYXRpb5SQjAdzb3J0aW5nlEsASwGGlIwLX192ZXJzaW9uX1+U
+AAAAAAAAAAAGQAAAAe4AAADwAAAFPQAAAuOUjBBzZWxlY3RlZF9tZXRob2RzlI+UKIwIUlJlbGll
+ZkaUjA1HaW5pIERlY3JlYXNllIwFQU5PVkGUjATPh8KylIwWSW5mb3JtYXRpb24gR2FpbiBSYXRp
+b5SMFVVuaXZhcmlhdGUgUmVncmVzc2lvbpSQjAdzb3J0aW5nlEsASwGGlIwLX192ZXJzaW9uX1+U
 SwSMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
 k5QpgZR9lCiMBnZhbHVlc5R9lCiMCW5TZWxlY3RlZJRLBUr+////hpSMDnNlbGVjdGVkX2F0dHJz
 lF2UKIwRRGF5YSBUYW5nZ2FwIChYMSmUS2aGlIwLRW1wYXRpIChYMimUS2aGlIwGUGVyc29ulEtm
