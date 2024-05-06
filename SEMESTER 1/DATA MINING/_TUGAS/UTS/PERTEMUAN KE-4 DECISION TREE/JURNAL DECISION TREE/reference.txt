@@ -1,1 +1,11 @@
 https://www.jastt.org/index.php/jasttpath/article/view/65
+Research on Chinese Public Policy Decision Model Based on Decision Tree Algorithm
+https://drpress.org/ojs/index.php/HSET/article/view/10592
+
+Optimal Tree Depth in Decision Tree Classifiers for Predicting 
+Heart Failure Mortality
+dx.doi.org/10.56578/hf010105	/ https://library.acadlore.com/HF/2023/1/1/HF_01.01_05.pdf
+A predictive analytics model for forecasting outcomes in the National
+Football League games using decision tree and logistic regression
+https://www.sciencedirect.com/science/article/pii/S2772662223001364?via%3Dihub
+	

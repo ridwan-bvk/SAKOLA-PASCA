@@ -68,11 +68,11 @@ X = df.drop(['Survived'],axis = 1)
 y = df['Survived']
 
 # buat pembagian dataset
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,random_state=101)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,random_state=500)
 
 # buat tools classifiers
 classifiers = {
-'Logistic Regression': LogisticRegression(max_iter=4000),
+'Logistic Regression': LogisticRegression(max_iter=10000),
 'Decision Tree': DecisionTreeClassifier(),
 'K-Nearest Neighbors': KNeighborsClassifier(n_neighbors=30),
 'Naive Bayes': GaussianNB()
