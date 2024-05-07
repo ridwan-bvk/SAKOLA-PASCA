@@ -8,4 +8,21 @@ dx.doi.org/10.56578/hf010105	/ https://library.acadlore.com/HF/2023/1/1/HF_01.01
 A predictive analytics model for forecasting outcomes in the National
 Football League games using decision tree and logistic regression
 https://www.sciencedirect.com/science/article/pii/S2772662223001364?via%3Dihub
+
+https://www.mdpi.com/1099-4300/26/5/403
+ANovelClassification Method: Neighborhood-Based Positive Unlabeled Learning Using Decision Tree (NPULUD)
 	
+https://journal.pubmedia.id/index.php/pjise/article/view/2327
+Komparasi Metode Decision Tree dan Deep Learning dalam Meramalkan Jumlah Mahasiswa Drop Out Berdasarkan Nilai Akademik
+
+https://journal.irpi.or.id/index.php/malcom/article/view/591
+Implementasi Algoritma Decision Tree dan Support Vector Machine untuk Klasifikasi Penyakit Kanker Paru
+
+https://ejournal.uin-suka.ac.id/saintek/cybersecurity/article/view/3951
+DETEKSI SERANGAN LOW RATE DDOS PADA JARINGAN TRADISIONAL MENGGUNAKAN MACHINE LEARNING DENGAN ALGORITMA DECISION TREE
+
+https://www.igi-global.com/gateway/article/full-text-pdf/295244&riu=true
+Online Learning Behavior Feature Mining Method Based on Decision Tree
+
+https://ojs.uma.ac.id/index.php/jite/article/view/5066
+Machine Learning Dengan Decision Tree untuk Prediksi Pembayaran Invoice, Case Study : Gramedia Jakarta

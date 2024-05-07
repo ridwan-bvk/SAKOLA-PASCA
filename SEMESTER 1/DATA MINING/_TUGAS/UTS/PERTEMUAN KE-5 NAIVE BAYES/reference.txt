@@ -1,0 +1,30 @@
+Predicting Students' Academic Performance Through Machine Learning Classifiers: A Study Employing the Naive Bayes Classifier (NBC)
+https://thesai.org/Publications/ViewPaper?Volume=15&Issue=1&Code=IJACSA&SerialNo=99
+
+Penerapan Text Mining Pada Sistem Klasifikasi Email Spam Menggunakan Naive Bayes
+https://www.neliti.com/publications/487630/penerapan-text-mining-pada-sistem-klasifikasi-email-spam-menggunakan-naive-bayes
+
+Classification of Farms for Recommendation of Rice Cultivation Using Naive Bayes and SVM
+https://www.taylorfrancis.com/chapters/edit/10.1201/9781003485179-12/classification-farms-recommendation-rice-cultivation-using-naive-bayes-svm-qurat-ul-ain-uzma-hameed-hamira-mehraj
+
+http://dx.doi.org/10.25045/jpis.v15.i1.06
+ANALYZING_CREDIT_CARD_FRAUD_CASES_WITH_SUPERVISED_MACHINE_LEARNING_METHODS_LOGISTIC_REGRESSION_AND_NAIVE_BAYES
+
+
+https://journal.irpi.or.id/index.php/malcom/article/view/1229
+Implementasi Algoritma Naïve Bayes Classifier dan K-Nearest Neighbor untuk Klasifikasi Penyakit Ginjal Kronik 
+
+https://journal.irpi.or.id/index.php/malcom/article/view/1074
+Prediksi Risiko Stunting pada Keluarga Menggunakan Naïve Bayes Classifier dan Chi-Square
+
+https://journal.fkpt.org/index.php/BIT/article/view/968
+Prediksi Dampak Pembelajaran Hybrid Learning Menggunakan Naive Bayes
+
+https://journal.irpi.or.id/index.php/malcom/article/view/610
+Komparasi Algoritma K-NN, Naive Bayes dan SVM untuk Prediksi Kelulusan Mahasiswa Tingkat Akhir
+
+https://ojs3.unpatti.ac.id/index.php/parameter/article/view/9216
+PENERAPAN METODE MACHINE LEARNING - NAIVE BAYES PADA ANALISIS SENTIMEN PEMINDAHAN IBU KOTA NEGARA BARU
+
+https://proceedings.stis.ac.id/icdsos/article/view/332
+Comparison of Naive Bayes, K-Nearest Neighbor, and Support Vector Machine Classification Methods in Semi-Supervised Learning for Sentiment Analysis of Kereta Cepat Jakarta Bandung (KCJB)

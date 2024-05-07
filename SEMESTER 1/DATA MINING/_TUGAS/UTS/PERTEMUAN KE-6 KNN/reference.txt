@@ -1,0 +1,23 @@
+An experimental comparison of the nearest-neighbor and nearest-hyperrectangle algorithms
+https://link.springer.com/article/10.1007/BF00994658
+
+Application of K-Nearest Neighbor (KNN) Approach for Predicting Economic Events: Theoretical Background 
+https://scholar.google.com/scholar?start=30&q=K-Nearest+Neighbor&hl=id&as_sdt=0,5
+
+https://journal.irpi.or.id/index.php/malcom/article/view/983
+Analisis Sentimen Ulasan Aplikasi PLN Mobile Menggunakan Algoritma Naïve Bayes Classifier dan K-Nearest Neighbor
+
+https://journal.irpi.or.id/index.php/malcom/article/view/1326
+Implementasi Algoritma K-Nearest Neighbor untuk Prediksi Penjualan Alat Kesehatan pada Media Alkes
+
+https://journal.irpi.or.id/index.php/malcom/article/view/474
+Perbandingan Algoritma K-Nearest Neighbor dan Naïve Bayes Classifier untuk Klasifikasi Status Gizi Pada Balita
+
+https://journal.irpi.or.id/index.php/malcom/article/view/1085
+Penerapan Algoritma K-Nearest Neighbor Menggunakan Wrapper Sebagai Preprocessing untuk Penentuan Keterangan Berat Badan Manusia
+
+https://journal.irpi.or.id/index.php/malcom/article/view/432
+Perbandingan Klasifikasi Antara Naive Bayes dan K-Nearest Neighbor Terhadap Resiko Diabetes pada Ibu Hamil
+
+https://ejournal.unsri.ac.id/index.php/jsi/article/view/16561
+PERBANDINGAN ALGORITMA LINEAR REGRESSION, NEURAL NETWORK, DEEP LEARNING, DAN K-NEAREST NEIGHBOR (K-NN) UNTUK PREDIKSI HARGA BITCOIN
