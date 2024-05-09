@@ -4,12 +4,11 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import RobustScaler
 from sklearn.linear_model  import LogisticRegression
-
 from sklearn.metrics import  confusion_matrix,classification_report, accuracy_score, f1_score, precision_score, recall_score, roc_auc_score, roc_curve, log_loss, matthews_corrcoef
-from sklearn import metrics
+from sklearn.naive_bayes import GaussianNB
 
 df = pd.read_csv('train.csv')
-test_data = pd.read_csv('test.csv')
+# test_data = pd.read_csv('test.csv')
 # print(df.head())
 
 # menangani data age 
@@ -42,53 +41,38 @@ train_data = pd.get_dummies(train_data,columns=['Embarked'],drop_first= True)
 
 train_data.drop(['Name','Ticket','PassengerId'],axis=1,inplace=True)
 
-
-# missing_values = df.isna().sum()
-# print(train_data.head())
-
 X = train_data.drop(['Survived'],axis = 1)
 y = train_data['Survived']
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,random_state=101)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,random_state=0)
 
+classifier = GaussianNB()
 
-cols = X_train.columns
+classifier.fit(X_train, y_train)
+y_pred = classifier.predict(X_test)
+y_proba = classifier.predict_proba(X_test)
 
-scaler = RobustScaler()
-
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
-
-X_train = pd.DataFrame(X_train,columns=cols)
-X_test = pd.DataFrame(X_test,columns=cols)
-
-LogisticRegression_model = LogisticRegression(max_iter=4000)
-LogisticRegression_model.fit(X_train,y_train)
-
-y_pred = LogisticRegression_model.predict(X_test)
-y_proba = LogisticRegression_model.predict_proba(X_test)
-# print('Nilai prediksi Y')
-# print(y_pred)
 confusion_matrix = confusion_matrix(y_test,y_pred)
-print(confusion_matrix)
+# print(confusion_matrix)
+confusion_matrix_prob =pd.crosstab(y_test,y_pred)
+print(confusion_matrix_prob)
+print('Y predi')
+print(y_pred)
 
-# plt.figure(figsize=(10, 5))
-# sns.heatmap(confusion_matrix, annot=True, fmt='d', cmap='cool')
-# plt.show()
+# ca = accuracy_score(y_test, y_pred)
+# f1 = f1_score(y_test, y_pred, average='weighted')
+# precision = precision_score(y_test, y_pred, average='weighted', zero_division=1) # Menangani kasus pembagian dengan nol
+# recall = recall_score(y_test, y_pred, average='weighted')
+# specificity = recall_score(y_test, y_pred, average='weighted')
+# logloss = log_loss(y_test, y_proba)
+# mcc = matthews_corrcoef(y_test, y_pred)
+# name_classifiers = "Naive Bayes"
+# # mencari nilai kurva roc
+# fpr, tpr, thresholds = roc_curve(y_test, y_proba[:, 1])
+# plt.plot(fpr, tpr, label=name_classifiers)
+# roc_auc = roc_auc_score(y_test, y_proba[:, 1])
 
-name_classifiers = "Regresi Linear"
-ca = accuracy_score(y_test, y_pred)
-f1 = f1_score(y_test, y_pred, average='weighted')
-precision = precision_score(y_test, y_pred, average='weighted', zero_division=1) # Menangani kasus pembagian dengan nol
-recall = recall_score(y_test, y_pred, average='weighted')
-specificity = recall_score(y_test, y_pred, average='weighted')
-logloss = log_loss(y_test, y_proba)
-mcc = matthews_corrcoef(y_test, y_pred)
-
-# mencari nilai kurva roc
-fpr, tpr, thresholds = roc_curve(y_test, y_proba[:, 1])
-plt.plot(fpr, tpr, label=name_classifiers)
-roc_auc = roc_auc_score(y_test, y_proba[:, 1])
+# # output
 
 # print(f"Model: {name_classifiers}")
 # print("Confusion Matrix:")
@@ -102,16 +86,12 @@ roc_auc = roc_auc_score(y_test, y_proba[:, 1])
 # print("mcc:", mcc)
 # print("auroc:", roc_auc)
 
-# # print(classification_report(y_test, y_pred))
-
-# # confusion_matrix
+# # confusion_matrix png
 # plt.figure(figsize=(10, 5))
 # sns.heatmap(confusion_matrix, annot=True, fmt='d', cmap='cool')
 # plt.show()
 
-confusion_matrix_prob =pd.crosstab(y_test,y_pred)
-print(confusion_matrix_prob)
-
+# ## grafik AOC
 # plt.figure()
 # plt.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % roc_auc)
 # plt.plot([0, 1], [0, 1], 'k--')
@@ -122,3 +102,4 @@ print(confusion_matrix_prob)
 # plt.title('ROC Curve - ' + name_classifiers)
 # plt.legend(loc="lower right")
 # plt.show()
+

@@ -6,11 +6,17 @@ from sklearn.preprocessing import RobustScaler
 from sklearn.linear_model  import LogisticRegression
 
 from sklearn.metrics import  confusion_matrix,classification_report, accuracy_score, f1_score, precision_score, recall_score, roc_auc_score, roc_curve, log_loss, matthews_corrcoef
+
+from sklearn.metrics import  confusion_matrix,classification_report
 from sklearn import metrics
 
 df = pd.read_csv('train.csv')
 test_data = pd.read_csv('test.csv')
-# print(df.head())
+
+# PREPROCESING DATA 
+
+# missing_values = df.isna().sum()
+# print(train_data.head())
 
 # menangani data age 
 def impute_train_age(cols):
@@ -29,28 +35,26 @@ def impute_train_age(cols):
             return 24
 
     else:
-        return Age
-    
+        return Age   
 df['Age'] = df[['Age','Pclass']].apply(impute_train_age,axis=1)
 
+# menangani data cabin 
 train_data = df
 train_data.drop(['Cabin'],axis=1,inplace=True)
 train_data.dropna(inplace=True)
 
+# menangani data dummy untuk variable sex dan embarked
 train_data = pd.get_dummies(train_data, columns = ['Sex'], drop_first=True)
 train_data = pd.get_dummies(train_data,columns=['Embarked'],drop_first= True)
 
+# Drop kolom yang tidak diikut sertakan
 train_data.drop(['Name','Ticket','PassengerId'],axis=1,inplace=True)
 
-
-# missing_values = df.isna().sum()
-# print(train_data.head())
-
+# prosess pengolahan data
 X = train_data.drop(['Survived'],axis = 1)
 y = train_data['Survived']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,random_state=101)
-
 
 cols = X_train.columns
 
@@ -67,16 +71,15 @@ LogisticRegression_model.fit(X_train,y_train)
 
 y_pred = LogisticRegression_model.predict(X_test)
 y_proba = LogisticRegression_model.predict_proba(X_test)
-# print('Nilai prediksi Y')
-# print(y_pred)
+
 confusion_matrix = confusion_matrix(y_test,y_pred)
-print(confusion_matrix)
+# print(confusion_matrix)
 
-# plt.figure(figsize=(10, 5))
-# sns.heatmap(confusion_matrix, annot=True, fmt='d', cmap='cool')
-# plt.show()
+plt.figure(figsize=(10, 5))
+sns.heatmap(confusion_matrix, annot=True, fmt='d', cmap='cool')
+plt.show()
 
-name_classifiers = "Regresi Linear"
+
 ca = accuracy_score(y_test, y_pred)
 f1 = f1_score(y_test, y_pred, average='weighted')
 precision = precision_score(y_test, y_pred, average='weighted', zero_division=1) # Menangani kasus pembagian dengan nol
@@ -90,35 +93,35 @@ fpr, tpr, thresholds = roc_curve(y_test, y_proba[:, 1])
 plt.plot(fpr, tpr, label=name_classifiers)
 roc_auc = roc_auc_score(y_test, y_proba[:, 1])
 
-# print(f"Model: {name_classifiers}")
-# print("Confusion Matrix:")
-# print(confusion_matrix)
-# print("Accuracy:", accuracy_score)
-# print("f1:",f1)
-# print("precision:", precision)
-# print("recall:", recall)
-# print("specificity:", specificity)
-# print("logloss:", logloss)
-# print("mcc:", mcc)
-# print("auroc:", roc_auc)
+# output
+name_classifiers = "Regresi Linear"
+print(f"Model: {name_classifiers}")
+print("Confusion Matrix:")
+print(confusion_matrix)
+print("Accuracy:", accuracy_score)
+print("f1:",f1)
+print("precision:", precision)
+print("recall:", recall)
+print("specificity:", specificity)
+print("logloss:", logloss)
+print("mcc:", mcc)
+print("auroc:", roc_auc)
 
-# # print(classification_report(y_test, y_pred))
+# print(classification_report(y_test, y_pred))
 
-# # confusion_matrix
-# plt.figure(figsize=(10, 5))
-# sns.heatmap(confusion_matrix, annot=True, fmt='d', cmap='cool')
-# plt.show()
+# confusion_matrix png
+plt.figure(figsize=(10, 5))
+sns.heatmap(confusion_matrix, annot=True, fmt='d', cmap='cool')
+plt.show()
 
-confusion_matrix_prob =pd.crosstab(y_test,y_pred)
-print(confusion_matrix_prob)
-
-# plt.figure()
-# plt.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % roc_auc)
-# plt.plot([0, 1], [0, 1], 'k--')
-# plt.xlim([0.0, 1.0])
-# plt.ylim([0.0, 1.05])
-# plt.xlabel('False Positive Rate')
-# plt.ylabel('True Positive Rate')
-# plt.title('ROC Curve - ' + name_classifiers)
-# plt.legend(loc="lower right")
-# plt.show()
+# grafik AOC
+plt.figure()
+plt.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % roc_auc)
+plt.plot([0, 1], [0, 1], 'k--')
+plt.xlim([0.0, 1.0])
+plt.ylim([0.0, 1.05])
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('ROC Curve - ' + name_classifiers)
+plt.legend(loc="lower right")
+plt.show()
