@@ -81,7 +81,7 @@ roc_auc = roc_auc_score(y_test, y_proba[:, 1])
 # print("precision:", precision)
 # print("recall:", recall)
 # print("specificity:", specificity)
-# print("logloss:", logloss)
+print("logloss:", logloss)
 # print("mcc:", mcc)
 # print("auroc:", roc_auc)
 
