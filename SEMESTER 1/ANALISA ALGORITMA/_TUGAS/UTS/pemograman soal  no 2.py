@@ -5,7 +5,7 @@ def Induksi_Matematika(n):
     for i in range(1, int(n)+1):
         if (3**n) % 8 != 0 or (5**n) % 8 != 0:
             print("Pernyataan tidak berlaku untuk n =\n")
-            print(i)
+            print(n)
             return
     else:
         print("Pernyataan benar untuk semua bilangan bulat positif hingga",n)
