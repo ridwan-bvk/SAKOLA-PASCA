@@ -1,0 +1,89 @@
+
+ijin menjawab pak , di sini saya mengunakan data sheet heart disease dan berikut hasil implementasi menggunakan algoritma k-means pada program python
+####################
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.decomposition import PCA
+from sklearn.metrics import silhouette_score
+import seaborn as sns
+
+# Membaca data dari file Excel
+df = pd.read_excel("D:/doc/data mining/Program/data/heart_disease.xlsx")
+
+# Inisialisasi LabelEncoder
+label_encoder = LabelEncoder()
+
+# Mengonversi kolom kategori menjadi angka
+categorical_columns = ['gender', 'thal', 'rest ECG', 'slope peak exc ST', 'chest pain']
+for column in categorical_columns:
+df[column] = label_encoder.fit_transform(df[column])
+
+# Menampilkan beberapa baris pertama dari data
+print(df.head())
+
+# Menghapus baris yang memiliki nilai yang hilang
+df.dropna(inplace=True)
+
+# Memilih fitur-fitur yang relevan untuk klastering
+features = ['thal', 'age', 'gender', 'chest pain', 'rest SBP', 'cholesterol',
+'fasting blood sugar > 120', 'rest ECG', 'max HR', 'exerc ind ang',
+'ST by exercise', 'slope peak exc ST', 'major vessels colored', 'diameter narrowing']
+X = df[features]
+
+# Normalisasi fitur-fitur
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# Metode Elbow untuk menentukan jumlah klaster optimal
+inertia = []
+K = range(1, 11)
+for k in K:
+kmeans = KMeans(n_clusters=k, random_state=0)
+kmeans.fit(X_scaled)
+inertia.append(kmeans.inertia_)
+
+# Plot inertia vs. jumlah klaster
+plt.plot(K, inertia, 'bo-')
+plt.xlabel('Jumlah Klaster')
+plt.ylabel('Inertia')
+plt.title('Metode Elbow untuk Menentukan Jumlah Klaster Optimal')
+plt.show()
+
+# Menggunakan PCA untuk reduksi dimensi
+pca = PCA(2)
+X_pca = pca.fit_transform(X_scaled)
+
+# Menerapkan K-Means dengan jumlah klaster yang dipilih (misalnya 4)
+kmeans = KMeans(n_clusters=4, random_state=0)
+y_kmeans = kmeans.fit_predict(X_scaled)
+
+# Plot hasil klastering
+plt.scatter(X_pca[:, 0], X_pca[:, 1], c=y_kmeans, s=50, cmap='viridis')
+centers = pca.transform(kmeans.cluster_centers_)
+plt.scatter(centers[:, 0], centers[:, 1], c='red', s=200, alpha=0.75, marker='X')
+plt.title('Hasil Klastering dengan K-Means setelah PCA')
+plt.xlabel('Komponen Utama 1')
+plt.ylabel('Komponen Utama 2')
+plt.show()
+
+# Menampilkan jumlah data dalam setiap klaster
+unique, counts = np.unique(y_kmeans, return_counts=True)
+print(f'Jumlah data dalam setiap klaster: {dict(zip(unique, counts))}')
+
+# Menambahkan hasil klastering ke dataframe asli
+df['Cluster'] = y_kmeans
+
+# Membuat plot distribusi fitur berdasarkan klaster
+for feature in features:
+plt.figure(figsize=(10, 6))
+sns.boxplot(x='Cluster', y=feature, data=df)
+plt.title(f'Distribusi {feature} berdasarkan Klaster')
+plt.show()
+
+# Menghitung dan menampilkan Silhouette Score
+silhouette_avg = silhouette_score(X_scaled, y_kmeans)
+print(f'Silhouette Score untuk klastering: {silhouette_avg}')
+#######################

@@ -1,0 +1,24 @@
+Sub-jaringan, atau subnetting adalah pembagian dari IP jaringan,Praktik membagi jaringan menjadi dua atau lebih jaringan disebut subnetting.
+
+Tujuan Subnetting
+Penggunaan Efisien Alamat IP
+Dengan membagi jaringan besar menjadi beberapa subnet, kita dapat menghindari pemborosan alamat IP yang tidak terpakai
+
+Isolasi Jaringan
+Subnetting memungkinkan pemisahan segmen jaringan untuk mengisolasi lalu lintas dan meningkatkan keamanan. Misalnya, jaringan departemen yang berbeda dalam sebuah organisasi dapat diisolasi satu sama lain
+
+Mengurangi Broadcast Domain
+Dengan membagi jaringan besar menjadi subnet-subnet yang lebih kecil, ukuran broadcast domain berkurang, yang pada gilirannya mengurangi lalu lintas yang tidak perlu di jaringan.
+
+Meningkatkan Kinerja Jaringan
+Dengan mengurangi jumlah perangkat dalam satu subnet, beban kerja pada router dan switch berkurang, sehingga meningkatkan kinerja jaringan.
+
+contoh
+Berikut adalah pembagian visual dari jaringan 192.168.10.0/24 menjadi 4 subnet dengan subnet mask /26:
+
+Subnet 1: Alamat jaringannya adalah 192.168.10.0, dengan IP yang dapat digunakan dari 192.168.10.1 hingga 192.168.10.62, dan alamat broadcastnya adalah 192.168.10.63.
+Subnet 2: Alamat jaringannya adalah 192.168.10.64, dengan IP yang dapat digunakan dari 192.168.10.65 hingga 192.168.10.126, dan alamat broadcastnya adalah 192.168.10.127.
+Subnet 3: Alamat jaringannya adalah 192.168.10.128, dengan IP yang dapat digunakan dari 192.168.10.129 hingga 192.168.10.190, dan alamat broadcastnya adalah 192.168.10.191.
+Subnet 4: Alamat jaringannya adalah 192.168.10.192, dengan IP yang dapat digunakan dari 192.168.10.193 hingga 192.168.10.254, dan alamat broadcastnya adalah 192.168.10.255.
+
+Misalnya, kita memiliki jaringan dengan alamat IP 192.168.1.0/24 dan ingin membaginya menjadi 4 subnet.
