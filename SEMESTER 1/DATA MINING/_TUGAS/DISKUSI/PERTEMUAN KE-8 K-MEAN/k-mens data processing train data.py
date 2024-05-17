@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
 # Load dataset from local folder in Colab
-df = pd.read_csv('train.csv') # Ubah 'filename.csv' sesuai dengan nama file Anda
+df = pd.read_csv('passanger titanic train data.csv') # Ubah 'filename.csv' sesuai dengan nama file Anda
 
 # hilangkan data yang tidak dipakai
 df = df.drop(['Name','Ticket','PassengerId','Cabin','Survived','SibSp','Parch','Sex'],axis=1)
@@ -59,10 +59,12 @@ for column in data_column:
 # features = df.columns
 
 # df = df.drop(['survived'], 1).astype(float)
-features = df
+
 # df.columns.format()
 # print(df.dtypes)
-print(df.head())
+print(df)
+
+features = df
 # Normalisasi fitur-fitur
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(features)
@@ -80,7 +82,7 @@ for k in K:
 plt.plot(K, inertia, 'bo-')
 plt.xlabel('Jumlah Klaster')
 plt.ylabel('Inertia')
-plt.title('Metode Elbow untuk Menentukan Jumlah Klaster Optimal')
+plt.title('Metode Elbow')
 plt.show()
 
 # # Menggunakan PCA untuk reduksi dimensi
@@ -95,9 +97,9 @@ y_kmeans = kmeans.fit_predict(X_scaled)
 plt.scatter(X_pca[:, 0], X_pca[:, 1], c=y_kmeans, s=50, cmap='viridis')
 centers = pca.transform(kmeans.cluster_centers_)
 plt.scatter(centers[:, 0], centers[:, 1], c='red', s=200, alpha=0.75, marker='X')
-plt.title('Hasil Klastering dengan K-Means setelah PCA')
-plt.xlabel('Komponen Utama 1')
-plt.ylabel('Komponen Utama 2')
+plt.title('Hasil Klastering dengan K-Means')
+# plt.xlabel('Komponen Utama 1')
+# plt.ylabel('Komponen Utama 2')
 plt.show()
 
 # # Menampilkan jumlah data dalam setiap klaster
@@ -111,12 +113,12 @@ df['Cluster'] = y_kmeans
 for feature in features:
     plt.figure(figsize=(10, 6))
     sns.boxplot(x='Cluster', y=feature, data=df)
-    plt.title(f'Distribusi {feature} berdasarkan Klaster')
+    plt.title(f'Distribusi {feature}')
     plt.show()
 
 # # Menghitung dan menampilkan Silhouette Score
-    silhouette_avg = silhouette_score(X_scaled, y_kmeans)
-    print(f'Silhouette Score untuk klastering: {silhouette_avg}')
+silhouette_avg = silhouette_score(X_scaled, y_kmeans)
+print(f'Silhouette Score untuk klastering: {silhouette_avg}')
 
 # range_n_clusters = list(range(2, 11))
 
