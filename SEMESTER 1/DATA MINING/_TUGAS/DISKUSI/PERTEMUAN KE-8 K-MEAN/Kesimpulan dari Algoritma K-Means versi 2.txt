@@ -1,0 +1,20 @@
+Kesimpulan :
+Analisis Data :
+Dataset terdiri dari berbagai jenis status di media sosial, seperti video dan foto, dengan atribut jumlah reaksi (reactions), komentar (comments), dan berbagi (shares).
+
+Pemilihan Fitur :
+Pada pengujian ini, fitur yang digunakan untuk clustering adalah jumlah reaksi, komentar, dan berbagi.
+
+Penentuan Jumlah Klaster Optimal:
+Metode Elbow :
+Dari plot Elbow, bahwa elbow (siku) terletak di sekitar jumlah klaster 3 atau 4. Oleh karena itu, dapat memilih jumlah klaster 3 atau 4 sebagai jumlah klaster optimal.
+Metode Silhouette: Dari plot Silhouette Score, dapat melihat bahwa nilai silhouette score tertinggi diperoleh saat jumlah klaster 2. Namun, karena nilai silhouette score tidak terlalu tinggi, untuk mempertimbangkan hasil dari metode Elbow.
+
+Penerapan Algoritma K-Means :
+K-Means diterapkan dengan jumlah klaster 3 sesuai dengan hasil dari metode Elbow. Data kemudian diberikan label klaster (ClustID) berdasarkan hasil clustering.
+
+Visualisasi Hasil Clustering :
+Hasil clustering divisualisasikan dalam scatter plot, di mana titik-titik mewakili data dengan warna yang berbeda sesuai dengan klaster yang ditentukan.
+
+Kesimpulan :
+Dengan menggunakan algoritma K-Means, berhasil melakukan clustering pada data status media sosial. Hasil clustering dapat membantu untuk memahami pola dan karakteristik dari data, serta memberikan wawasan yang berguna untuk analisis lebih lanjut.

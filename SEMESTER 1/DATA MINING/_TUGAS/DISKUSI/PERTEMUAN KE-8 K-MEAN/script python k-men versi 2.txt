@@ -1,0 +1,66 @@
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Memuat dataset CSV ke dalam dataframe
+df = pd.read_csv("Live.csv") # Ganti 'nama_file.csv' dengan nama file CSV yang sudah ada di Google Colab
+
+# Menampilkan lima baris pertama dari dataframe
+print("Lima Baris Pertama Data:")
+print(df.head())
+
+# Memilih fitur yang akan digunakan untuk clustering
+X = df[['num_reactions', 'num_comments', 'num_shares']]
+
+# Mencari jumlah klaster yang optimal menggunakan metode Elbow
+wcss = []
+for i in range(1, 11):
+kmeans = KMeans(n_clusters=i, init='k-means++', max_iter=300, n_init=10, random_state=0)
+kmeans.fit(X)
+wcss.append(kmeans.inertia_)
+plt.plot(range(1, 11), wcss)
+plt.title('Metode Elbow untuk Menentukan Jumlah Klaster Optimal')
+plt.xlabel('Jumlah Klaster')
+plt.ylabel('WCSS (Within-Cluster Sum of Squares)')
+plt.show()
+
+# Mencari jumlah klaster yang optimal menggunakan metode Silhouette
+silhouette_scores = []
+for n_cluster in range(2, 11):
+silhouette_scores.append(
+silhouette_score(X, KMeans(n_clusters = n_cluster).fit_predict(X)))
+
+# Plotting Silhouette Score
+k = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+plt.bar(k, silhouette_scores)
+plt.xlabel('Jumlah Klaster')
+plt.ylabel('Silhouette Score')
+plt.title('Metode Silhouette untuk Menentukan Jumlah Klaster Optimal')
+plt.show()
+
+# Menentukan jumlah klaster optimal berdasarkan hasil Elbow atau Silhouette
+# Misalnya, kita pilih jumlah klaster = 3
+n_clusters = 3
+
+# Menerapkan algoritma K-Means dengan jumlah klaster optimal
+kmeans = KMeans(n_clusters=n_clusters)
+kmeans.fit(X)
+y_kmeans = kmeans.predict(X)
+
+# Menambahkan kolom ClustID ke dalam dataframe
+df['ClustID'] = y_kmeans
+
+# Visualisasi hasil clustering
+plt.scatter(X['num_reactions'], X['num_comments'], c=y_kmeans, s=50, cmap='viridis')
+centers = kmeans.cluster_centers_
+plt.scatter(centers[:, 0], centers[:, 1], c='red', s=200, alpha=0.75)
+plt.xlabel('Number of Reactions')
+plt.ylabel('Number of Comments')
+plt.title('K-Means Clustering')
+plt.show()
+
+# Menampilkan hasil klaster K-Means
+print("\nHasil Klaster K-Means:")
+print(df)
