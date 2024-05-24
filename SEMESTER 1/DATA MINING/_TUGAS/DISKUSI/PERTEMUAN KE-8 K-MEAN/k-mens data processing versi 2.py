@@ -6,7 +6,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # Memuat dataset CSV ke dalam dataframe
-df = pd.read_csv("train.csv") # Ganti 'nama_file.csv' dengan nama file CSV yang sudah ada di Google Colab
+df = pd.read_csv("passanger titanic train data.csv") # Ganti 'nama_file.csv' dengan nama file CSV yang sudah ada di Google Colab
 
 
 # hilangkan data yang tidak dipakai
