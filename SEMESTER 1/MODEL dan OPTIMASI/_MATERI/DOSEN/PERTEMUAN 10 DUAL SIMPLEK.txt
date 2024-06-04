@@ -1,0 +1,37 @@
+Pertanyaan :
+Metode dual simplex digunakan untuk menyelesaikan masalah program linier dengan kendala yang mempunyai pertidaksamaan 
+
+≤ dan ≥ serta tidak mempunyai tanda =.
+
+Silahkan jelaskan apa yang anda ketahui mengendai metode dual simplex
+
+Jawab:
+Metode Dual Simplex adalah salah satu teknik dalam optimasi linear yang digunakan untuk menyelesaikan masalah pemrograman linear (linear programming) yang berada dalam bentuk dual dan memerlukan solusi yang layak (feasible) tetapi tidak optimal
+Metode ini sering digunakan ketika solusi primal (awal) tidak memenuhi syarat kelayakan tetapi memenuhi syarat optimalitas. 
+Berbeda dengan metode Simplex standar yang mencari solusi dari feasible ke optimal, metode Dual Simplex bekerja dari solusi yang optimal tetapi tidak feasible menuju solusi yang feasible.
+
+Berikut adalah langkah-langkah dasar dalam Metode Dual Simplex:
+
+Membentuk Dual dari Masalah Primal:
+ Mulai dengan menuliskan bentuk dual dari masalah primal (asli). Biasanya, jika masalah primal adalah memaksimalkan fungsi tujuan, masalah dual akan meminimalkan fungsi tujuan, atau sebaliknya.
+
+Inisialisasi: 
+Menentukan solusi awal yang optimal tetapi tidak feasible untuk masalah dual.
+
+Pemeriksaan Kelayakan: 
+Memeriksa apakah solusi saat ini feasible. Jika tidak, pilih variabel dasar yang keluar (basis keluar) berdasarkan kriteria kelayakan.
+
+Pilih Variabel Masuk: 
+Tentukan variabel yang akan masuk ke dalam basis untuk memperbaiki solusi menuju kelayakan.
+
+Pembaruan Basis: 
+Lakukan pembaruan basis dengan metode pivoting untuk memperoleh solusi baru.
+
+Iterasi: 
+Ulangi proses ini sampai solusi yang diperoleh feasible dan optimal untuk masalah dual, yang berarti juga optimal untuk masalah primal.
+
+
+Keuntungan Metode Dual Simplex
+Mengatasi Keterbatasan Simplex Biasa: Berguna ketika solusi awal yang feasible sulit ditemukan tetapi solusi yang optimal lebih mudah diperoleh.
+Efisiensi: Dalam beberapa kasus, metode ini lebih cepat dari metode Simplex standar.
+Fleksibilitas: Dapat digunakan dalam masalah optimasi yang melibatkan pembatasan tidak equality (persamaan tidak sama).
