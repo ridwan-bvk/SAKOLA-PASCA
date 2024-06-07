@@ -1,0 +1,72 @@
+import numpy as np
+import pandas as pd
+import re
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
+from wordcloud import WordCloud
+
+# Load dataset Bahasa Indonesia
+df_id = pd.read_csv("sentiment_id.csv")
+
+# Load dataset Bahasa Inggris
+df_en = pd.read_csv("sentiment_en.csv")
+
+def preprocess_text(text):
+# Ubah teks menjadi huruf kecil
+text = text.lower()
+# Hapus karakter khusus
+text = re.sub(r'\W', ' ', text)
+# Hapus angka
+text = re.sub(r'\d+', '', text)
+return text
+
+def sentiment_analysis(df, language):
+# Praproses teks
+df['Text'] = df['Text'].apply(preprocess_text)
+
+# Membersihkan data dari nilai NaN
+df.dropna(inplace=True)
+
+# Bag of Words representation
+vectorizer = CountVectorizer()
+X_vec = vectorizer.fit_transform(df['Text'])
+
+# Naive Bayes classifier
+nb_classifier = MultinomialNB()
+nb_classifier.fit(X_vec, df['Sentiment'])
+
+# Predictions
+predictions = nb_classifier.predict(X_vec)
+
+# Evaluation
+accuracy = accuracy_score(df['Sentiment'], predictions)
+print(f"\nAccuracy ({language}):", accuracy)
+print(f"\nClassification Report ({language}):\n", classification_report(df['Sentiment'], predictions))
+
+# Confusion Matrix
+cm = confusion_matrix(df['Sentiment'], predictions)
+cm_df = pd.DataFrame(cm, index=['Negative', 'Positive'], columns=['Negative', 'Positive'])
+print(f"\nConfusion Matrix ({language}):\n", cm_df)
+
+# Plot Confusion Matrix
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm_df, annot=True, fmt='d', cmap='Blues')
+plt.title(f'Confusion Matrix ({language})')
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.show()
+
+# Generate Word Cloud
+all_text = ' '.join(df['Text'])
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(all_text)
+plt.figure(figsize=(10, 5))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.title(f'Word Cloud ({language})')
+plt.show()
+
+sentiment_analysis(df_id, "Bahasa Indonesia")
+sentiment_analysis(df_en, "English")

@@ -1,0 +1,111 @@
+#####
+import pandas as pd
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+from transformers import pipeline
+
+# Unduh sumber daya NLTK yang diperlukan
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+
+# Muat data dari Excel
+data = pd.read_excel("D:/doc/data mining/Program/data/book-excerpts.xlsx")
+
+# Asumsikan data teks ada dalam kolom bernama 'Text'
+teks_data = data['Text']
+
+# Fungsi-fungsi preprocessing
+stop_words = set(stopwords.words('english'))
+lemmatizer = WordNetLemmatizer()
+
+def preprocess(teks):
+    # Transformasi: Ubah menjadi huruf kecil
+    teks = teks.lower()
+    # Tokenisasi
+    kata_kata = word_tokenize(teks)
+    # POS Tagging
+    pos_tags = nltk.pos_tag(kata_kata)
+    # Normalisasi: Lematisasi
+    kata_kata = [lemmatizer.lemmatize(kata, pos=get_wordnet_pos(pos)) for kata, pos in pos_tags if kata.isalnum()]
+    # Penyaringan: Hapus stopwords
+    kata_kata = [kata for kata in kata_kata if kata not in stop_words]
+
+    # Periksa panjang token teks setelah preprocessing
+    if len(kata_kata) > 512:
+        kata_kata = kata_kata[:512]  # Ambil 512 token pertama
+
+    return ' '.join(kata_kata)
+
+
+def get_wordnet_pos(treebank_tag):
+    if treebank_tag.startswith('J'):
+        return nltk.corpus.wordnet.ADJ
+    elif treebank_tag.startswith('V'):
+        return nltk.corpus.wordnet.VERB
+    elif treebank_tag.startswith('N'):
+        return nltk.corpus.wordnet.NOUN
+    elif treebank_tag.startswith('R'):
+        return nltk.corpus.wordnet.ADV
+    else:
+        return nltk.corpus.wordnet.NOUN
+
+# Terapkan preprocessing pada data teks
+data['processed_text'] = teks_data.apply(preprocess)
+
+# Vektorisasi data teks menggunakan TF-IDF dengan max_features
+tfidf_vectorizer = TfidfVectorizer(ngram_range=(1, 1), max_features=16384)  # Menggunakan n-gram range (1,2) dan max_features=16384
+X_tfidf = tfidf_vectorizer.fit_transform(data['processed_text'])
+
+# Konversi matriks TF-IDF menjadi DataFrame untuk keterbacaan yang lebih baik
+tfidf_df = pd.DataFrame(X_tfidf.toarray(), columns=tfidf_vectorizer.get_feature_names_out())
+
+# Tampilkan beberapa baris pertama dari DataFrame TF-IDF
+print(tfidf_df.head())
+
+# Simpan data yang sudah diproses dan DataFrame TF-IDF ke Excel
+data.to_excel("D:/doc/data mining/Program/data/processed_book_excerpts_similarity.xlsx", index=False)
+tfidf_df.to_excel("D:/doc/data mining/Program/data/tfidf_book_excerpts_similarity.xlsx", index=False)
+
+# Gabungkan semua kata-kata dari data yang telah diproses untuk Word Cloud
+all_words = ' '.join(data['processed_text'])
+
+# Buat Word Cloud
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(all_words)
+
+# Tampilkan Word Cloud
+plt.figure(figsize=(10, 5))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')  # Hilangkan sumbu
+plt.show()
+
+# Hitung similarity antar dokumen menggunakan cosine similarity
+cosine_sim = cosine_similarity(X_tfidf)
+
+# Konversi matriks similarity menjadi DataFrame untuk keterbacaan yang lebih baik
+cosine_sim_df = pd.DataFrame(cosine_sim, index=data.index, columns=data.index)
+
+# Tampilkan beberapa baris pertama dari DataFrame cosine similarity
+print(cosine_sim_df.head())
+
+# Simpan DataFrame cosine similarity ke Excel
+cosine_sim_df.to_excel("D:/doc/data mining/Program/data/cosine_similarity_book_excerpts_similarity.xlsx", index=True)
+
+# Sentimen Analisis Bahasa Indonesia
+try:
+    sentiment_pipeline = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+    data['sentiment'] = data['processed_text'].apply(lambda x: sentiment_pipeline(x[:512])[0]['label'])
+    # Tampilkan beberapa baris pertama dari DataFrame dengan hasil sentimen
+    print(data[['processed_text', 'sentiment']].head())
+    # Simpan DataFrame dengan hasil sentimen ke Excel
+    data.to_excel("D:/doc/data mining/Program/data/book_excerpts_with_sentiment.xlsx", index=False)
+except Exception as e:
+    print("Error:", e)
+    print("Gagal melakukan sentiment analysis.")

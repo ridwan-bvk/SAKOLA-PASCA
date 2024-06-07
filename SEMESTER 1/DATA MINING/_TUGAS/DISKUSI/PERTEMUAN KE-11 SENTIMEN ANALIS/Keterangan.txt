@@ -1,0 +1,5 @@
+Tugas data set berbahasa indonesia, 
+berikut ini data set yang digunakan dari tweeter pilkada 2017 putaran pertama  menggunakan orange 
+
+
+berikut ini data berita Saham dari Berbagai akun twitter mengenai berita Ekonomi yang dibagi menjadi dua bagian : Negatif (-1) dan positif (1) bersumber dari kaagle

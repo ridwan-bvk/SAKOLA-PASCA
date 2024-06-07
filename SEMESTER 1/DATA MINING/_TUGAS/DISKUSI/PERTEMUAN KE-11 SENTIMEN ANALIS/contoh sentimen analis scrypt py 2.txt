@@ -1,0 +1,51 @@
+import pandas as pd
+import re
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
+# Muat data
+file_path = 'dataset_komentar_instagram_cyberbullying.csv'  # Sesuaikan dengan path file Anda
+data = pd.read_csv(file_path)
+
+# Daftar stopwords manual
+stopwords_list = list(ENGLISH_STOP_WORDS)
+
+# Fungsi pembersihan teks
+def clean_text_alternative(text):
+    text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE)
+    text = re.sub(r'\@\w+|\#','', text)
+    text = text.lower()
+    text = re.sub(r'[^a-zA-Z]', ' ', text)
+    text = text.split()
+    text = [word for word in text if word not in stopwords_list]
+    text = ' '.join(text)
+    return text
+
+# Terapkan fungsi pembersihan teks ke data
+data['cleaned_text'] = data['Instagram Comment Text'].apply(clean_text_alternative)
+
+# Gabungkan semua teks asli
+text_before = ' '.join(data['Instagram Comment Text'])
+
+# Gabungkan semua teks yang telah dibersihkan
+text_after = ' '.join(data['cleaned_text'])
+
+# Buat Word Cloud untuk teks asli
+wordcloud_before = WordCloud(width=800, height=400, random_state=21, max_font_size=110).generate(text_before)
+
+# Buat Word Cloud untuk teks yang telah dibersihkan
+wordcloud_after = WordCloud(width=800, height=400, random_state=21, max_font_size=110, stopwords=stopwords_list).generate(text_after)
+
+# Tampilkan Word Cloud sebelum dan sesudah pembersihan teks
+fig, axes = plt.subplots(1, 2, figsize=(20, 10))
+
+# Word Cloud sebelum pembersihan
+axes[0].imshow(wordcloud_before, interpolation='bilinear')
+axes[0].set_title('Word Cloud Sebelum Pembersihan Teks')
+axes[0].axis('on')
+
+# Word Cloud sesudah pembersihan
+axes[1].imshow(wordcloud_after, interpolation='bilinear')
+axes[1].set_title('Word Cloud Sesudah Pembersihan Teks')
+axes[1].axis('on')
