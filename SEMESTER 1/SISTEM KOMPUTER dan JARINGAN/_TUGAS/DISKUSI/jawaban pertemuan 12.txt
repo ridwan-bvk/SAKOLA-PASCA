@@ -1,5 +1,7 @@
 Internet Control Message Protocol (ICMP)
-adalah salah satu protokol utama dalam suite protokol Internet Protocol (IP). ICMP terutama digunakan oleh sistem operasi jaringan untuk mengirim pesan kesalahan yang menunjukkan bahwa layanan yang diminta tidak tersedia atau bahwa rute tidak dapat dijangkau. Berikut ini adalah beberapa poin penting tentang ICMP
+adalah salah satu protokol utama dalam suite protokol Internet Protocol (IP). ICMP terutama digunakan oleh sistem operasi jaringan untuk mengirim pesan kesalahan yang menunjukkan bahwa layanan yang diminta tidak tersedia atau bahwa rute tidak dapat dijangkau. 
+
+Berikut ini adalah beberapa poin penting tentang ICMP
 
 Fungsi ICMP
 1. Diagnosis dan Pelaporan Kesalahan:
