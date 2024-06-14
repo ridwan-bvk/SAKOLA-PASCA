@@ -1,0 +1,18 @@
+Kelebihan:
+Redundansi tinggi, karena setiap perangkat terhubung ke beberapa perangkat lain.
+Kinerja optimal karena banyak jalur yang dapat digunakan untuk transmisi data.
+Tahan terhadap kegagalan; jika satu jalur rusak, data dapat dialihkan ke jalur lain.
+Kekurangan:
+Implementasi kompleks dan mahal karena membutuhkan banyak kabel dan perangkat.
+Memerlukan manajemen yang lebih rumit.
+
+Untuk jaringan kecil atau sementara dengan anggaran terbatas, topologi bus mungkin menjadi pilihan yang baik.
+Untuk jaringan kantor atau rumah yang membutuhkan stabilitas dan mudah dalam pemeliharaan, topologi star seringkali menjadi pilihan yang optimal.
+Untuk jaringan besar dengan kebutuhan reliabilitas tinggi dan toleransi terhadap kegagalan, topologi mesh adalah yang paling cocok meskipun lebih mahal dan kompleks dalam implementasi.
+
+[1] Astuti Indah Kusuma, “Jaringan Komputer”, 2020.
+[2] M. Y. M. Simargolang, A. S. M. Widarma And M. D. S. M. Irawan, “Jaringan Komputer”, Yayasan Kita Menulis,
+2021.
+
+m3ntari123tv
+08:38
