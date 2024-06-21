@@ -13,8 +13,10 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 data = pd.read_excel("dataBerita.xlsx")
-# print(data.head)
+data = pd.DataFrame(data)
+data = data.drop(columns=["articlename"])
 
+# print(df_imp_wcount)
 # pre-processing
 # bikin jadi lower semua data
 data["textdata"]= data["textdata"].str.lower()
@@ -202,6 +204,48 @@ out = []
 for i, topic in topics:
     for word, weight in topic:
         out.append([word, i , weight, counter[word]])
+# print("data\n")
+# print(doc_clean)
+# df_imp_wcount = pd.DataFrame(out, columns=['word', 'topic_id', 'importance', 'word_count']) 
+# print(df_imp_wcount)
 
-df_imp_wcount = pd.DataFrame(out, columns=['word', 'topic_id', 'importance', 'word_count']) 
-print(df_imp_wcount)
+# from wordcloud import WordCloud, STOPWORDS
+# import matplotlib.pyplot as plt
+
+# text = " ".join(doc_clean)
+
+# def get_word_cloud(df, c):
+#     cm = ' '
+#     s_word = set(STOPWORDS)
+    
+#     for sent in df[c]:
+#         # ''' converting sent into string '''
+#         sent = str(sent)
+#         # ''' spiltting every sent from (" ") '''
+#         tokens = sent.split()
+        
+#         for i in range(len(tokens)):
+#             tokens[i] = tokens[i].lower()
+        
+#         # ''' joining all tokesn '''
+#         cm += " ".join(tokens)
+    
+#     word_cloud = WordCloud(width=800, height=400, background_color='black', stopwords=s_word,
+#                            min_font_size=10).generate(cm)
+    
+#     plt.figure(figsize = (10, 10), facecolor = None) 
+#     plt.imshow(word_cloud) 
+#     plt.axis("off")
+#     plt.tight_layout(pad = 0) 
+#     plt.show()
+
+# get_word_cloud(doc_clean,'text')
+
+# Membuat WordCloud
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+
+# Menampilkan WordCloud
+plt.figure(figsize=(10, 5))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.show()
