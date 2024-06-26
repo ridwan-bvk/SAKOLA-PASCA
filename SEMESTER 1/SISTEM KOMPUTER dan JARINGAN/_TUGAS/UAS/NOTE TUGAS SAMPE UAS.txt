@@ -3,3 +3,5 @@ Perangkat  Jaringan Dan Tipe Pengkabelan
 Pengalamatan Internet Protocol (IP)
 
 bikin jurnal dan publish
+
+reference : https://www.youtube.com/watch?v=rN256XWf_Ww
