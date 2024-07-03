@@ -1,0 +1,33 @@
+Buat Model untuk K-Means
+Kelebihan dan Kekurangan K-Means
+Cari 10 Jurnal terkait pemanfaatan K-Means
+Diskusikan dalam Forum
+Tuliskan dalam laporan (dikumpulkan saat UAS
+
+Install Plugin
+Ujicoba fitur widget Text Mining
+Diskusikan Perkembangan & Hasil Kesimpulan Jurnal yang telah disubmit ke panitia Semnas
+Diskusikan di Forum Diskusi Pertemuan 9
+
+Buatlah Perhitungan Manual untuk TF-IDF
+Buatlah Preprocessing Text & Bag of Words
+Buatlah Similarity dengan memanfaatkan Widget Score Documents
+Tampilkan dalam bentuk Word Cloud
+Cari 10 Jurnal terkait TF-IDF maupun Similarity (VSM)
+Diskusikan di Forum Diskusi Pertemuan 10
+
+Buatlah Sentiment Analysis (Kasus di Indonesia, bahasa Indonesia)
+Buatlah Sentiment Analysis (Kasus di Luar Negeri, bahasa Inggris)
+Cari 10 Jurnal terkait pemanfaatan Sentiment Analysis
+Diskusikan dalam Forum
+Tuliskan dalam laporan (dikumpulkan saat UAS)
+
+Buatlah Model LDA (Dataset bahasa Indonesia&Inggris)
+Cari 10 Jurnal terkait pemanfaatan Topic Model (LDA dan turunannya/related work)
+Diskusikan dalam Forum
+Tuliskan dalam laporan (dikumpulkan saat UAS)
+
+Buatlah Model BTM (Dataset bahasa Indonesia&Inggris)
+Cari 10 Jurnal terkait pemanfaatan Topic Model (BTM dan turunannya/related work)
+Diskusikan dalam Forum
+Tuliskan dalam laporan (dikumpulkan saat UAS)
