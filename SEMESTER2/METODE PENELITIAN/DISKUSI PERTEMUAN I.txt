@@ -1,0 +1,55 @@
+1. Apa yang saudara pahami tentang penelitian dasar dan penelitian terapan. Jelaskan berikan contoh dalam bidang teknik informatika.
+Jawaban:
+Peneletian dasar
+peneletian dasar mengacu pada sepenuhnya teori, artinya penelitian ini berfokus pada peningkatan atau perluasa teori pada suatu penelitian
+
+Penelitian Terapan
+Penelitian ini merupakan kelanjutan dari penelitian dasar yang diatas dengan memeliki tujuan untuk memberikan solusi untuk masalah-masalah tertentu.
+
+secara sederhana perbedaan yang antara tipe kedua penelitan diatas adalah:
+Penelitian dasar
+Tujuan : memperluas pengetahuan secara umun,mengembangkan teori baru dan memahami fenomena alam
+Fokus : menjawab pertanyaan mengapa dan bagaimana
+Hasil : produk,proses, atau layanan apapun yang dapat diterapkan langsung
+
+Penelitian Terapan
+Tujuan : menyelesaikan masalah praktis, mengembangkan produk, meningkatkan efisiensi
+Fokus : menjawab pertanyaan "bagaimana cara" menyelesaikan masalah tertentu
+Hasil : pengetahuan baru, teori, prinsip atau model
+
+contoh penelitian dasar
+-studi literatur terhadap kebijakan penerapan UUD ITE
+contoh penelitian Terapan
+-Pembuatan Jamu Beras Kencur Menggunakan Beras Jenis Sosok
+dalam Teknik Informatika
+Contoh Penelitian Dasar 
+Algoritma dan Struktur Data
+misalnya, algoritma pengurutan yang lebih cepat
+Teori Komputasi
+Menyelidiki batas-batas komputasi (misalnya, masalah yang dapat dipecahkan oleh komputer dalam waktu polinomial)
+Kecerdasan Buatan
+Mengembangkan model neural network yang lebih kompleks untuk tugas-tugas seperti pengenalan gambar dan pemrosesan bahasa alami.
+
+Penelitian Terapan dalam Teknik Informatika
+Pengembangan Sistem Informasi:
+Merancang dan mengembangkan sistem informasi untuk mengelola data perusahaan (misalnya, sistem ERP, CRM).
+Membuat aplikasi mobile untuk berbagai keperluan (misalnya, e-commerce, transportasi online).
+
+Keamanan Siber:
+Mengembangkan metode enkripsi yang lebih kuat untuk melindungi data sensitif.
+Mendesain sistem deteksi intrusi untuk mencegah serangan siber.
+
+refrensi : 
+https://uptjurnal.umsu.ac.id/taukah-kamu-tkk-perbedaan-penelitian-dasar-dan-penelitian-terapan/
+https://lp2m.uma.ac.id/2022/05/20/penelitian-dasar-vs-terapan-definisi-dan-perbedaannya/#:~:text=Apa%20itu%20Riset%20Dasar?,dan%20tidak%20memecahkan%20masalah%20tertentu.
+
+2. Apa yang dimaksud dengan metode penelitian dan Apa peran penting metode penelitian dalam pengembangan ilmu pengetahuan dan teknologi
+metode penelitian secara sederhana adalah cara, prosedur atau proses untuk menyelesaikan masalah dalam sebuah penelitian.
+
+apa peran penting metode penelitian dalam pengembangan ilmu pegetahuan dan teknologi?
+metode peneletian yang tepat dapat mempermudah proses penelitian
+metode peneletian bisa Menghindari Bias dan Kesalahan
+metode penelitian Mendukung Keputusan Berbasis Bukti
+metode peneletian bertindak sebagai kerangka kerja yang sistematis dan terstruktur untuk menggali informasi baru, menguji hipotesis, dan membangun pemahaman yang lebih mendalam tentang dunia di sekitar kita
+penelitian yang menggunakan metodologi penelitian dapat menghasilkan penelitian yang bermanfaat bagi pembaca atau peneliti
+metode penelitian merupakan upaya ilmiah yang menyangkut cara kerja untuk memahami dan mengkritis objek penelitian 
