@@ -1,0 +1,9 @@
+Menurut anda apa audit dan tata kelola Teknologi Informasi (TI) ? dan Mengapa Organisasi perlu menerapkan audit dan tata kelola TI? Jelaskan 
+Audit adalah pemeriksaan pembukuan yang meliputi pemeriksaan apapun dengan bertujuan untuk memastikan suatu departemen dalam organisasi atau perusahaan telah mengikuti sistem pencatatan, prosedur,peraturan  yang ditetapkan
+
+Tata kelola TI  merupakan suatu proses untuk memastikan penggunaan TI berjalan secara efektif dan efisien.
+
+Memastikan harapan Organisasi itu terpenuhi
+mengidentifikasi dan mengurangi resiko TI
+Agar bisa menyelaraskan dengan operasi buisnis atau kegiatan organisasi
+membantu memanfaatkan peluang dan memaksimalkan manfaat TI
