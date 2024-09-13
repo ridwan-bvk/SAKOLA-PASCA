@@ -1,0 +1,42 @@
+Apa yang saudara pahami tentang konsep dasar statistik. Dalam statistik terdapat statistik dekriptif dan inferensial jelaskan?
+Konsep Dasar Statistik diantaranya terdapat :
+1. Populasi dan Sampel
+Populasi adalah seluruh kumpulan objek yang diteliti
+Sampel adalah sebagian dari populasi yang dipilih
+2. Data
+data terdiri dari
+Data Kualitatif, data ini bersifat deskriptif dan tidak dapat diukur secara numerik. semisal warna dan jenis kelamin
+Data Kuantitatif, data ini bersifat numerik dan dapat diukur. semisal tinggi bada,usia
+3. Variabel
+Variabel Bebas, Variabel yang mempengaruhi
+Variabel terikat, Variabel yang dipengaruhi 
+4. Tingkatan Pengukuran
+ada pengukuran 
+nominal, data berupa label atau kategori. misalnya jenis kelamin, golongan darah.
+ordinal,data memiliki uratan dan peringkat. misalnya tingkat kepuasan, peringkat kelas
+interval, data memiliki interval yang sama antara setiap nilai,tetapi tidak memiliki titik nol absolut. misalnya suhu berupa celcius
+rasio, data memiliki interval yang sama dan memiliki titik nol yang absolut. misalnya tinggi badan,berat badan.
+5. Distribusi Data
+Distribusi Frekuensi: Tabel atau grafik yang menunjukkan sebaran data.
+Ukuran Pemusatan: Menunjukkan nilai tengah dari data (misalnya: mean, median, modus).
+Ukuran Penyebaran: Menunjukkan seberapa menyebar data (misalnya: range, varians, standar deviasi).
+
+statistik dekriptif dan inferensial jelaskan?
+statistik dekriptif 
+secara sederhanya adalah cabang ilmu statistik yang memberikan gambaran yang jelas dan ringkas tentang suatu kumpulan data
+
+Statistik Infernsial
+Cabang ilmu statistik yang berfokus pada pengambilan kesimpulan tentang suatu populasi berdasarkan data yang diperoleh dari sampel. sederhanya statistik inferensial adalah membuat kesimpulan tentang populasi berdasarkan data sampel.
+
+perbedaannya :
+Statistik Deskriptif 
+tujuannya: menggambarkan data
+data:data sampel yang diambil
+metode : Tabel, Grafik, ukuran pemusatan atau ukuran penyebaran
+Hasil: bisa berupa deskripsi data
+
+Statistik Inferensial 
+tujuannya: membuat kesimpulan pada populasi
+data:populasi 
+metode : uji hipotesis, interval kepercayaan
+Hasil: bisa berupa generalisasi,prediksi
