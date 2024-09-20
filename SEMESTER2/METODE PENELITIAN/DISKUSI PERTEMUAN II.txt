@@ -1,0 +1,30 @@
+diskusikan:
+
+Apa Itu Masalah Penelitian dan Hipotesis. Bagaimana cara merumuskan masalah dan hipotesis penelitian. berikan contoh
+
+Masalah penelitian adalah pertanyaan atau pernyataan yang ingin dijawab atau dibuktikan melalui suatu penelitian.
+Hipotesis adalah jawaban sementara atau dugaan terhadap masalah penelitian.  
+Hipotesis Ini merupakan jawaban yang belum terbukti kebenarannya dan perlu diuji melalui data yang terkumpul dalam penelitian.
+
+Jenis-jenis hipotesis:
+
+Hipotesis nol (H0): Menyatakan tidak ada perbedaan atau hubungan antara variabel.
+Hipotesis alternatif (H1): Menyatakan ada perbedaan atau hubungan antara variabel.
+
+Contoh masalah penelitian:
+
+Pendidikan: Apakah penggunaan metode pembelajaran online meningkatkan motivasi belajar siswa?
+Kesehatan: Apakah konsumsi makanan organik dapat menurunkan risiko terkena penyakit jantung?
+Sosial: Apakah tingkat partisipasi masyarakat dalam kegiatan sosial meningkat setelah adanya program pemberdayaan masyarakat?
+
+Contoh hipotesis:
+Masalah: Apakah penggunaan metode pembelajaran online meningkatkan motivasi belajar siswa?
+H0: Tidak ada perbedaan motivasi belajar antara siswa yang menggunakan metode pembelajaran online dan konvensional.
+H1: Siswa yang menggunakan metode pembelajaran online memiliki motivasi belajar yang lebih tinggi dibandingkan siswa yang menggunakan metode konvensional.
+
+Cara Merumuskan Masalah Penelitian
+Identifikasi Topik, seperti Tentukan bidang minat atau isu yang ingin Anda teliti
+Tinjau Literatur, seperti Baca berbagai sumber seperti jurnal ilmiah, buku, artikel, dan laporan penelitian terkait topik yang dipilih.
+Fokus pada Pertanyaan, Ubah topik umum menjadi pertanyaan spesifik yang ingin Anda jawab.Gunakan kata tanya seperti "apa", "mengapa", "bagaimana", dan "seberapa"
+Buat Rumusan yang Jelas dan Terukur: 
+Rumusan masalah harus jelas, singkat, dan mudah dipahami.
