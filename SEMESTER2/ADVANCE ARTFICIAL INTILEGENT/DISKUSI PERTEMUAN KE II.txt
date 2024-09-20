@@ -1,0 +1,41 @@
+Assalamualaikum Dear All...
+
+Uraikan Fuzzy Logic yang Sdr
+
+jawaban
+Fuzzy Logic peningkatan dari logika Boolean yang mengenalkan konsep kebenaran sebagian. Di mana logika klasik menyatakan bahwa segala hal dapat diekspresikan dalam istilah binary (0 atau 1, hitam atau putih, ya atau tidak),
+logika fuzzy memperkenalkan konsep "ketidakpastian" atau "kekaburan". Konsep ini lebih mirip dengan cara berpikir manusia yang sering kali tidak hitam-putih, melainkan memiliki nuansa keabu-abuan.
+
+Logika fuzzy bukanlah logika yang tidak jelas (kabur), tetapi logika yang digunakan untuk menggambarkan ketidakjelasan. Logika fuzzy adalah teori himpunan fuzzy Himpunan yang mengkalibrasi ketidakjelasan
+
+Contoh Sederhana:
+Bayangkan kita ingin mengklasifikasikan suhu ruangan. Dalam logika klasik, kita mungkin akan mengatakan:
+
+Jika suhu di bawah 20 derajat Celsius, maka ruangan dingin.
+Jika suhu di atas 20 derajat Celsius, maka ruangan hangat.
+Namun, dalam kehidupan nyata, suhu 20 derajat Celsius mungkin terasa sejuk bagi sebagian orang, namun normal bagi orang lain. Logika fuzzy memungkinkan kita untuk membuat definisi yang lebih fleksibel:
+
+Suhu "dingin" memiliki nilai kebenaran antara 0 dan 1, tergantung pada seberapa jauh suhu tersebut dari 20 derajat Celsius.
+Suhu "hangat" juga memiliki nilai kebenaran antara 0 dan 1, tergantung pada seberapa jauh suhu tersebut dari 20 derajat Celsius.
+Dengan cara ini, kita dapat membuat model yang lebih akurat untuk menggambarkan kondisi suhu ruangan yang sebenarnya
+
+contoh kegunaan fuzzy logic:
+
+pada Pengendalian Sistem Logika fuzzy digunakan untuk mengontrol sistem yang kompleks seperti mesin cuci, AC, dan mobil. Sistem ini dapat merespon perubahan kondisi dengan lebih halus dan adaptif.
+
+Pada Pengambilan Keputusan: Logika fuzzy dapat digunakan untuk membuat sistem pendukung keputusan, misalnya dalam bidang medis, keuangan, dan manajemen. Sistem ini dapat membantu pengambil keputusan dalam menghadapi situasi yang kompleks dan tidak pasti.
+
+
+
+Contoh Sederhana:
+jika kita ingin mengklasifikasikan Sistem Pengendalian Cahaya Lampu. Dalam logika klasik seperti ini 
+
+Jika malam maka lampu harus terang.
+jika siang maka lampu biasanya mati/gelap
+
+Dalam Logika fuzzy memungkinkan kita untuk membuat definisi yang lebih fleksibel:
+
+Jika cahaya redup dan waktu malam, maka kecerahan lampu tinggi.
+Jika cahaya terang dan waktu siang, maka kecerahan lampu rendah
+
+dengan model fuzzy logic bisa lebih akurat untuk menggambarkan kondisi cahaya ruangan yang sebenarnya

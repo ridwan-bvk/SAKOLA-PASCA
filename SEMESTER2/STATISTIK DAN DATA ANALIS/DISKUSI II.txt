@@ -1,0 +1,20 @@
+Jelaskan tentang Distribusi Frekwensi? Dan apa peran distribusi frekwensi dalam analisis data?
+Distribusi Frekuensi
+
+Distribusi frekuensi adalah cara untuk menyajikan data kuantitatif dalam bentuk yang lebih mudah dipahami.
+
+Tujuan Membuat Distribusi Frekuensi
+Memudahkan Pemahaman: Data yang kompleks menjadi lebih sederhana dan mudah dibaca.
+Menunjukkan Pola: Kita bisa melihat pola distribusi data, seperti apakah data menyebar merata atau cenderung berkumpul di nilai tertentu.
+Mempermudah Perhitungan Statistik: Distribusi frekuensi menjadi dasar untuk menghitung berbagai ukuran statistik seperti mean, median, modus, dan standar deviasi.
+Visualisasi Data: Data dapat disajikan dalam bentuk grafik seperti histogram atau poligon frekuensi, sehingga lebih mudah untuk melihat gambaran keseluruhan.
+
+
+Peran Distribusi Frekuensi dalam Analisis Data
+Eksplorasi Data: Membantu memahami karakteristik dasar dari data, seperti pusat kecenderungan (mean, median, modus), penyebaran data (range, varian, standar deviasi), dan bentuk distribusi (simetris, miring).
+Visualisasi Data: Memungkinkan kita membuat visualisasi yang efektif untuk mengkomunikasikan temuan analisis.
+Perbandingan Data: Memungkinkan kita membandingkan distribusi data dari kelompok yang berbeda.
+Pengambilan Keputusan: Hasil analisis distribusi frekuensi dapat digunakan sebagai dasar untuk mengambil keputusan yang lebih baik.
+
+Contoh Penggunaan
+Pendidikan: Menganalisis distribusi nilai ujian untuk mengetahui tingkat pemahaman siswa.

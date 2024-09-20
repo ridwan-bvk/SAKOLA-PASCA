@@ -1,0 +1,58 @@
+Bagaimana kerangka kerja audit dan tatakelola yang anda ketahuai?
+
+
+Berfungsi untuk mengidentifikasi praktik yang baik dan yang perlu ditingkatkan. Kerangka kerja audit juga memberikan jaminan kepada manajemen senior mengenai kualitas pekerjaan yang dilakukan. 
+Kerangka tata kelola
+Berfungsi untuk membantu manajemen senior dan tingkat operasional memahami dan menyelaraskan praktik manajemen dengan tujuan, kinerja, dan persyaratan organisasi. Kerangka tata kelola juga menentukan tanggung jawab pemangku kepentingan utama, seperti dewan direksi dan manajemen senior.
+
+
+
+Kerangka kerja audit dan tata kelola adalah sistem yang digunakan untuk membantu manajemen memahami dan menyelaraskan praktik manajemen dengan tujuan, kinerja, dan persyaratan organisasi:
+Kerangka kerja audit (generate by AI)
+
+pendifinisian di atas secara simple bisa dipahami sebagai berikut:
+Kerangka kerja audit dan tata kelola sisten untuk membantu management menyelaraskan tujuan organisasi.
+
+Dari segi fungsi
+Kerangka kerja audit
+Berfungsi untuk mengidentifikasi praktik yang baik dan yang perlu ditingkatkan. Kerangka kerja audit juga memberikan jaminan kepada manajemen senior mengenai kualitas pekerjaan yang dilakukan. 
+
+Kerangka tata kelola
+Berfungsi untuk membantu manajemen senior dan tingkat operasional memahami dan menyelaraskan praktik manajemen dengan tujuan, kinerja, dan persyaratan organisasi. Kerangka tata kelola juga menentukan tanggung jawab pemangku kepentingan utama, seperti dewan direksi dan manajemen senior.
+
+sumber https://repository.ub.ac.id/id/eprint/1862/3/BAB.II.pdf
+
+Contoh beberapa tahapan kerangka kerja audit tata kelola, jika semisal kita terapkan pada organisasi kecil, seperti toko buku kecil
+1. tata kelola 
+kebijakan : Buat kebijakan dasar seperti jam kerja, prosedur pengembalian barang, dan penanganan keluhan pelanggan.
+2. pengelolaan resiko (Risk Management)
+Identifikasi Risiko :
+Kehilangan barang dagangan akibat pencurian.
+Kerusakan barang akibat bencana alam.
+Perubahan tren baca yang mempengaruhi penjualan.
+
+Penilaian Risiko:
+Tingkat kemungkinan terjadinya risiko dan dampaknya terhadap bisnis.
+Tindakan Mitigasi:
+Pasang CCTV, asuransi, diversifikasi jenis buku.
+3.  Control (Pengendalian)
+Prosedur kas yang jelas untuk menghindari penyalahgunaan.
+Sistem pencatatan persediaan yang akurat.
+Pemisahan tugas antara kasir dan penanggung jawab persediaan.
+
+4. Monitoring
+Laporan Keuangan: Buat laporan keuangan sederhana secara berkala.
+Evaluasi Kinerja: Tinjau penjualan, biaya operasional, dan kepuasan pelanggan secara rutin.
+Audit Internal: Lakukan pemeriksaan internal secara berkala untuk memastikan semua prosedur berjalan sesuai.
+
+
+PERTANYAAN KE 2
+Apa yang anda ketahui tentang cobit
+dari beberapa refrensi yang saya baca:
+
+COBIT adalah singkatan dari Control Objectives for Information and Related Technologies. Pada umumnya COBIT adalah kerangka kerja atau framework tata kelola TI yang mendefinisikan cara dan metode untuk suatu organisasi. 
+Dasar-dasar kerangka kerja Cobit,  Siklus pelaksanaan Tata Kelola TI dalam Organisasi terdiri atas dua hal yaitu:
+1. Design. Mendefinisikan aturan atau panduan dalam menjalankan tata kelola TI di organisasi yaitu diantaranya Prosedur, Praktik, Kebijakan, dan Struktur Organisasi TI yang dirancang untuk menjamin bahwa tujuan bisnis dapat terpenuhi dengan baik.
+2. Implementation. Mendefinisikan hasil yang dapat dicapai dengan menerapkan prosedur pengendalian untuk setiap aktivitas-aktivitas TI tertentu serta menghasilkan produk kerja yang dipersyaratkan. Hasil produk kerja tersebut akan menjadi evidence dalam mengevaluasi kinerja di Organisasi TI. 
+
+(https://www.altha.co.id/insights/Apa-itu-COBIT-dan-Bagaimana-Perannya-dalam-Tata-Kelola-TI-di-Organisasi)
