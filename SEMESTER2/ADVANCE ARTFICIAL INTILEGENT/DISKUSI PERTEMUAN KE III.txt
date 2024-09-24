@@ -1,0 +1,19 @@
+
+Assalamualaikum Dear All....
+
+Untuk Tugas 03 AIS:
+
+Coba diterangkan dengan ringkas, Cepat dan tepat apa ytang disebut dengan Jaringan Syaraf Tiruan (JST) dalam Tejnik Informatika. Jawaban dapat langsung dalam FD 3 ini.
+Sebutkan 2 contoh dalam kehidupan sehari-hari dari aplikasi JST
+Deadline, Sabtu, 28 September 2024 JAM 12.00 WIB.
+Good Luck and Thanks a Lot.
+
+Jaringan Syaraf Tiruan (JST) adalah sistem komputer yang meniru cara kerja otak manusia untuk memproses informasi.
+
+Secara sederhana, JST membantu komputer "belajar" dan "berpikir" seperti otak manusia, meskipun dalam bentuk yang lebih sederhana dan terbatas
+
+Berikut beberapa contoh penerapan Jaringan Syaraf Tiruan (JST) dalam kehidupan sehari-hari:
+
+JST digunakan dalam aplikasi keamanan, seperti sistem pengenalan wajah di smartphone atau kamera pengawas.
+Asisten virtual seperti Siri, Google Assistant, dan Alexa menggunakan JST untuk mengenali perintah suara, memproses pertanyaan, dan memberikan jawaban atau melakukan tugas tertentu berdasarkan input yang diterima.
+JST digunakan oleh platform seperti Netflix, YouTube, dan Spotify untuk memberikan rekomendasi konten. 
