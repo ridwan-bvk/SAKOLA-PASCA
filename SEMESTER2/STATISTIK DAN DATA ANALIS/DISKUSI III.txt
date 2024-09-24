@@ -1,0 +1,21 @@
+
+salam jumpa lagi salam sehat semuanya,,,, semangat belajar
+
+Apa yang Sudara ketahui tentang Pemusatan Data dan Penyebaran Data. 
+Mengapa ini perlu diplajari dalam statistik.
+Coba diskusikan dengan kawan kawan. Atau mahasiswa boleh menyampaikan permasalahan yang dibahas secaa bersama sama mahasiswa. Selamat belajar dan sukses selalu
+
+salam Dosen Pengampu
+
+
+pemusatan data adalah nilai yang menunjukkan pusat atau kecenderungan sentral dari suatu himpunan data, seperti rata-rata (mean), median
+Penyebaran data adalah ukuran seberapa jauh angka-angka dalam kumpulan data menjauh dari nilai rata-rata atau median. 
+Penyebaran data dapat menunjukkan seberapa banyak variasi yang ada dalam nilai-nilai kumpulan data.
+
+Mengapa ini perlu diplajari dalam statistik
+
+Pentingnya pemusatan data membantu kita mengetahui di mana sebagian besar data terletak dan memberikan gambaran mengenai tipikal nilai dalam kumpulan data. 
+Misalnya, jika kita ingin tahu pendapatan rata-rata suatu populasi, pemusatan data bisa memberikan informasi yang berguna.
+Pentingnya penyebaran data 
+Penyebaran data menunjukkan variasi dalam data. Jika penyebarannya besar, berarti ada perbedaan signifikan antara data. Sebaliknya, penyebaran yang kecil menunjukkan data lebih seragam atau konsisten. 
+Contohnya, dua kelompok dengan rata-rata pendapatan yang sama mungkin memiliki penyebaran yang berbeda, sehingga satu kelompok memiliki pendapatan yang lebih bervariasi daripada yang lain.
