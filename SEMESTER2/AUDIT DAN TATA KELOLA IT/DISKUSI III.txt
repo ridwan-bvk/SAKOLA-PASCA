@@ -1,0 +1,41 @@
+Apa yang anda ketahui tentang Balanced Scorecard?
+Apa fungsi balaced scorecard dalam tatakelola TI?
+
+Balanced Scorecard adalah sebuah sistem manajemen kinerja yang digunakan untuk mengukur dan mengendalikan kinerja organisasi secara komprehensif. Sistem ini menggabungkan perspektif keuangan, pelanggan, proses bisnis internal, dan pembelajaran dan pertumbuhan untuk memberikan pandangan holistik tentang kinerja organisasi.
+
+Balanced Scorecard adalah sebuah sistem manajemen kinerja yang digunakan untuk mengukur dan mengendalikan kinerja organisasi secara komprehensif. Sistem ini menggabungkan perspektif keuangan, pelanggan, proses bisnis internal, dan pembelajaran dan pertumbuhan untuk memberikan pandangan holistik tentang kinerja organisasi.
+
+Berikut adalah beberapa komponen utama Balanced Scorecard:
+
+Perspektif keuangan: Fokus pada kinerja keuangan tradisional, seperti profitabilitas, pertumbuhan pendapatan, dan pengembalian investasi.
+Perspektif pelanggan: Fokus pada kepuasan pelanggan, loyalitas, dan nilai yang diberikan kepada pelanggan.
+Perspektif proses bisnis internal: Fokus pada efisiensi, efektivitas, dan kualitas proses bisnis inti organisasi.
+Perspektif pembelajaran dan pertumbuhan: Fokus pada kemampuan organisasi untuk belajar, tumbuh, dan berinovasi.
+
+-----------------------------
+https://www.jurnal.id/id/blog/balanced-scorecard/
+Balanced scorecard (BSC) adalah metode pengukuran hasil kerja yang digunakan perusahaan untuk meningkatkan kinerja eksekutif sehingga perusahaan jadi lebih tahu sejauh mana pergerakan dan perkembangan yang telah dicapai.
+
+Kerangka kerja ini dituangkan dalam makalah yang diterbitkan Harvard Business Review oleh Robert S. Kaplan dan David P. Norton pada tahun 1992.
+
+Balanced scorecard memberi perusahaan elemen yang dibutuhkan untuk berpindah dari paradigma ‘selalu tentang finansial’ menuju model baru yang mana hasilnya menjadi titik awal untuk review, mempertanyakan, dan belajar tentang strategi yang dimiliki.
+
+
+bisa dibuat kesimpulan bsc ini metode untuk meningkatkan kinerja sebuah perusahaan/oraganisasi dengan  dari berbagai sudut pandang, tidak hanya dari perspektif  keuangan, tetapi dari empat perspektif diatas
+keuangan
+SDM 
+Konsumen
+Internal perushaan 
+--------------------------------------
+jawaban ke 2
+
+Fungsi Balanced Scorecard dalam Tatakelola TI
+
+
+
+Dalam konteks TI, BSC biasanya diadaptasi dengan menggunakan empat perspektif berikut:
+
+Perspektif Keuangan: Mengukur kontribusi TI terhadap kinerja keuangan organisasi, seperti penurunan biaya, peningkatan pendapatan, dan peningkatan return on investment (ROI).
+Perspektif Pelanggan: Mengukur kepuasan pelanggan terhadap layanan TI, seperti kecepatan respon, kualitas layanan, dan ketersediaan sistem.
+Perspektif Proses Internal: Mengukur efisiensi dan efektivitas proses bisnis TI, seperti waktu siklus, tingkat kesalahan, dan kepatuhan terhadap standar.
+Perspektif Pembelajaran dan Pertumbuhan: Mengukur kemampuan TI untuk berinovasi, meningkatkan kompetensi karyawan, dan mengembangkan infrastruktur TI.
