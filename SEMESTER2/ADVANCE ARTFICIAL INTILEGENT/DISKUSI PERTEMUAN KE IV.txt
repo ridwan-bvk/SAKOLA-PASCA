@@ -1,0 +1,28 @@
+Assalamualaikum Dear All....
+
+1. Terangkan dengan cukup seksama dan tepat serta berikan contoh
+
+dalam kehidupan sehari-hari tentang Forward Chaining dalam Sistem Pakar
+
+2. Jawaban Langsung dalam FD 4 ini
+
+3. Deadline Sabtu, 05 Oktober 2024 Jam 12.00 WIB.
+
+4. Thanks a lot dan Good Luck....
+
+jawab
+Forward Chaining dalam Sistem Pakar adalah metode penalaran yang dimulai dari fakta-fakta yang ada untuk menarik kesimpulan. Proses ini bekerja dengan mencocokkan fakta-fakta tersebut dengan aturan-aturan yang sudah ditentukan, lalu mengeksekusi aturan yang sesuai untuk menghasilkan kesimpulan.
+
+
+
+Contoh sederhananya, jika dalam sistem diketahui fakta "A adalah benar" dan ada aturan yang mengatakan "Jika A benar, maka B juga benar", sistem akan menyimpulkan bahwa B benar.
+
+ misalnya kita mencoba mencari tahu kenapa mobil tidak mau menyala:
+
+Fakta pertama: Mobil tidak mau menyala.
+Anda memeriksa apakah lampu menyala.
+Fakta kedua: Lampu tidak menyala.
+Berdasarkan aturan, jika lampu tidak menyala, mungkin masalahnya di baterai. Jadi, Anda memeriksa baterai.
+Fakta ketiga: Baterai kosong.
+Berdasarkan aturan lain, jika baterai kosong, mobil tidak akan menyala.
+Dengan menggunakan Forward Chaining, Anda mulai dari fakta-fakta (mobil tidak menyala, lampu tidak menyala, baterai kosong) dan menarik kesimpulan bahwa masalahnya adalah baterai yang habis.

@@ -1,0 +1,21 @@
+apa yang saudara ketahui tentang disktribusi diskrit? coba jelaskan dan kegunaan dalam analisis data
+
+selamat belajar
+
+Distribusi diskrit adalah distribusi probabilitas yang menggambarkan kemungkinan munculnya hasil diskrit yang dapat dihitung secara terpisah. Nilai-nilai diskrit yang dimaksud adalah bilangan bulat yang terbatas, tidak negatif, dan dapat dihitung, seperti 1, 10, 15, dan sebagainya.
+
+Distribusi diskrit adalah jenis distribusi probabilitas yang digunakan untuk menghitung peluang dari suatu kejadian yang hanya bisa menghasilkan nilai-nilai tertentu, biasanya berupa angka bulat. Misalnya, jumlah mobil yang lewat di jalan dalam satu jam, hasil lemparan dadu, atau jumlah anak dalam keluarga.
+Contoh sederhana dari distribusi diskrit adalah:
+
+Distribusi Binomial: Menghitung peluang berapa kali kita mendapatkan "kepala" saat melempar koin beberapa kali.
+
+Distribusi Poisson: Mengukur berapa banyak pelanggan yang mungkin datang ke sebuah toko dalam satu jam.
+
+Kegunaan dalam analisis data:
+Pemodelan kejadian: Digunakan untuk memprediksi kejadian yang terhitung, seperti jumlah panggilan telepon yang masuk dalam sehari.
+
+Membantu pengambilan keputusan: Bisnis bisa menggunakannya untuk merencanakan stok barang, misalnya, dengan memperkirakan berapa banyak produk yang terjual dalam sehari.
+
+Simulasi: Memungkinkan kita membuat prediksi tentang kejadian di masa depan, seperti memprediksi jumlah kecelakaan di jalan dalam satu bulan.
+
+Distribusi diskrit sangat berguna saat kita berurusan dengan data yang berupa jumlah atau hitungan yang terbatas.
