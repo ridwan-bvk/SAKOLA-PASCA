@@ -1,0 +1,28 @@
+Bagaimana Tahapan Implementasi Framework COBIT 2019? 
+Cara Praktis Implementasi COBIT 2019
+Cara Implementasi Framework COBIT 2019 yang paling praktis adalah dengan tahapan sebagai berikut: 
+Mengunduh Design Faktor COBIT 2019
+Sangat disarankan agar pengguna mengunduh Perangkat Panduan Desain COBIT 2019 
+Menyesuaikan Desain Faktor dengan Konteks Perusahaan
+Selanjutnya, tidak perlu menggunakan semua faktor desain, hanya apa yang dibutuhkan oleh perusahaan tertentu. Faktor desain tidak bersifat preskriptif tetapi berlaku umum.
+Oleh karena itu, praktisi dapat menggunakan faktor desain dan pendekatannya untuk memahami perspektif dan menyesuaikannya dengan mempertimbangkan konteks dan tujuan perusahaan.
+sumber :https://it.proxsisgroup.com/cara-praktis-implementasi-framework-cobit-2019/
+
+dari artikel diatas itu secara gambaran umum, untuk versi yang lebih detail mungkin bisa mengiluti tips berikut ini
+Penyelarasan dengan Strategi Bisnis
+Pastikan COBIT 2019 Selaras dengan Strategi dan Tujuan Bisnis
+Identifikasi Kebutuhan dan Ekspektasi Stakeholder
+
+Pembangunan Struktur dan Proses
+Tetapkan Struktur Tata Kelola TI yang Jelas (dewan TI, komite, dll.)
+Definisikan Peran, Tanggung Jawab, Kebijakan, dan Prosedur TI
+
+Penerapan Praktik Manajemen TI Terbaik
+Implementasikan Praktik Terbaik COBIT 2019 untuk Manajemen Risiko, Kontrol Akses, Keamanan TI, Kesinambungan Bisnis, dll.
+
+Assurance dan Pemantauan
+Lakukan Audit Internal dan Review Secara Berkala
+Pantau dan Evaluasi Efektivitas Tata Kelola dan Manajemen TI
+
+sumber: 
+https://itgid.org/insight/artikel-it/tips-dan-trik-sukses-implementasi-cobit-2019/
