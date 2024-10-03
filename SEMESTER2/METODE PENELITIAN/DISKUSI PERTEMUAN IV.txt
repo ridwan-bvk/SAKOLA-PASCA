@@ -1,0 +1,16 @@
+
+Berikan uraian tentang apa itu Tahapan penelitian dan bagaimana tahapan penelitian Saudara, uraikan dengan singkat
+
+Tahapan penelitian adalah serangkaian langkah yang dilakukan dalam proses penelitian, mulai dari awal hingga akhir. dari mulai
+Perencanaan: Peneliti mengidentifikasi masalah yang akan diteliti, merumuskan masalah, dan menentukan ruang lingkup masalah.
+Pelaksanaan: Peneliti mengumpulkan data yang relevan dengan masalah yang diteliti.
+Laporan: Peneliti melaporkan hasil penelitian kepada pihak-pihak yang berkepentingan. Laporan penelitian dapat berupa artikel ilmiah, skripsi, thesis, atau disertasi
+
+kalau dari judul yang saya ajukan dimatku ini adalah analisis komparasi topik model terjemah hadist bukhori dengan Bertopik dan LDA bisa dibuat tahap penelitiannya seperti dibawah ini:
+Identifikasi Masalah: Saya ingin menganalisis pola topik yang terbentuk pada hadsit bukhori dengan dua metode text mining (BERTopik dan LDA)
+Kajian Literatur: Mengkaji metode LDA dan BERTopic serta penelitian topik modeling dari literatur jurnal.
+Desain Penelitian: Saya menggunakan algoritma LDA dan BERTopic untuk memodelkan topik dataset.
+Pengumpulan Data: Mengambil dataset terjemah hadist bukhori dari beberapa sumber.
+Analisis Data: Menggunakan LDA dan BERTopic untuk menemukan pola model topik yang terbentuk, dan mengkomparasi sekaligus anlasi model yang paling akurat dari LDA dan BERTOPIK.
+Penarikan Kesimpulan: memberikan pelabelan pada topik yang terbentuk dan menganalisa akurasi topik dari kedua model.
+Publikasi Hasil: Menyusun laporan hasil analisis dan visualisasi topik.
