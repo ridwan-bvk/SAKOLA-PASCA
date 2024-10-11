@@ -1,0 +1,22 @@
+Apa yang Saudara ketahui tentang Distribusi Normal dan karakteristiknya. Diksusikan Konsep dasar distribusi normal. Apa yang membuat distribusi ini sangat penting dalam statistik?
+
+selamat belajar
+
+Distribusi Normal adalah cara untuk memahami bagaimana data tersebar. Ini seperti kurva berbentuk lonceng, yang simetris, di mana kebanyakan nilai berada di sekitar rata-rata (pusat), dan semakin sedikit data yang ada saat kita menjauh dari rata-rata. Contoh sederhana bisa dilihat dari tinggi badan orang-orang dalam sebuah populasi.
+
+Karakteristik Distribusi Normal
+Bentuk Simetris: Distribusi ini simetris terhadap rata-rata (mean). Ini berarti setengah dari nilai-nilai data berada di sisi kiri rata-rata, dan setengah lainnya berada di sisi kanan.
+
+Rata-rata, Median, dan Modus Sama: Dalam distribusi normal, rata-rata (mean), median, dan modus (nilai yang paling sering muncul) berada di titik yang sama, yaitu di pusat distribusi.
+
+Asimptotik: Grafik distribusi normal tidak pernah benar-benar mencapai sumbu x. Kurva ini semakin mendekati sumbu x seiring jarak dari rata-rata bertambah, tetapi tidak pernah menyentuhnya.
+
+Lebar Kurva dan Standar Deviasi: Standar deviasi menunjukkan seberapa lebar atau sempit penyebaran data. 
+
+
+Konsep Dasar
+Konsep dasar dari distribusi normal adalah bahwa data sering kali tersebar di sekitar suatu nilai tengah (rata-rata), dan semakin jauh suatu nilai dari rata-rata, semakin jarang nilai itu muncul.
+
+Apa yang membuat distribusi ini sangat penting dalam statistik
+
+Distribusi normal sangat penting dalam statistik karena memiliki beberapa sifat yang memungkinkan penggunaan berbagai teknik analisis statistik. Banyak fenomena di dunia nyata mendekati distribusi normal, dan ini memudahkan pemodelan, prediksi, serta penarikan kesimpulan dari data

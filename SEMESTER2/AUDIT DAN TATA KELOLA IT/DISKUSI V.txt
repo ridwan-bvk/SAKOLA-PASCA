@@ -1,0 +1,31 @@
+Menurut anda apa tingkat capability dan maturity pada tatakelola TI? 
+
+Pengukuran capability level adalah pengukuran mengenai kondisi organisasi saat ini serta tujuan bisnis proses yang akan dicapai.
+
+Konsep Dasar
+capability
+Merujuk pada kapasitas atau keterampilan suatu organisasi dalam melaksanakan suatu aktivitas tertentu, dalam hal ini adalah aktivitas tata kelola TI.
+maturity
+Menggambarkan tingkat perkembangan atau evolusi suatu proses atau aktivitas. Semakin matang suatu proses, semakin terdefinisi, terukur, dan terkendali proses tersebut.
+
+sumber
+Jurnal : Pengukuran Capability Level Tata Kelola Teknologi Informasi Menggunakan Framework Cobit 5 (Studi Kasus: Pusat Data Dan Informasi Kementerian Kesehatan Ri)
+Generate AI
+
+
+Model maturity Tata Kelola TI
+COBIT 
+COBIT membagi tingkat kematangan menjadi lima level:
+0 (Non-existent): Proses tidak ada atau tidak dikenal.
+1 (Initial): Proses dilakukan secara ad-hoc.
+2 (Repeatable): Proses sudah terdefinisi dan dilakukan secara berulang.
+3 (Defined): Proses sudah didokumentasikan secara formal.
+4 (Managed): Proses diukur dan dikendalikan.
+5 (Optimized): Proses terus-menerus ditingkatkan.
+
+ITIL (Information Technology Infrastructure Library)
+Model ini fokus pada manajemen layanan TI dan juga memiliki level kematangan yang serupa dengan COBIT.
+
+sumber
+COBIT Framework: https://www.isaca.org/resources/cobit
+Generate AI
