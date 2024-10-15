@@ -1,83 +1,21 @@
----------------------------
-Blank Media Not Yet Departement
----------------------------
-Datawindow Parameter : d_select_period_not_rep_212    |    Datawindow Report : d_blanktape_notyetret_byuser_rep_new
----------------------------
-media type
----------------------------
-Datawindow Parameter : d_select_period_not_rep_212    |    Datawindow Report : d_blanktape_notyetret_byuser_rep_new
----------------------------
----------------------------
-Program
----------------------------
-Datawindow Parameter : d_select_period_not_rep_212    |    Datawindow Report : d_blanktape_notyetret_byuser_rep_new
----------------------------
----------------------------
-Media User
----------------------------
-Datawindow Parameter : d_select_period_not_rep_212    |    Datawindow Report : d_blanktape_notyetret_byuser_rep_new
----------------------------
+judul
+abstrak 
+daftar isi
+daftar tabel 
+gaftar gambar
 
-
-Blank Media Out Going
----------------------------
-Departement
----------------------------
-Datawindow Parameter : d_select_period_uptodate_rep_outto    |    Datawindow Report : d_blanktape_outbyuser_rep_new
----------------------------
----------------------------
-Media Type
----------------------------
-Datawindow Parameter : d_select_period_uptodate_rep_outto    |    Datawindow Report : d_blanktape_outbyuser_rep_new
----------------------------
----------------------------
-Program
----------------------------
-Datawindow Parameter : d_select_period_uptodate_rep_outto    |    Datawindow Report : d_blanktape_outbyuser_rep_new
----------------------------
----------------------------
-User
----------------------------
-Datawindow Parameter : d_select_period_uptodate_rep_outto    |    Datawindow Report : d_blanktape_outbyuser_rep_new
----------------------------
-
----------------------------
-Blank media receipt report
----------------------------
-Datawindow Parameter : d_select_period_stockblank_rep_okto    |    Datawindow Report : d_blnktape_recieve_rep
----------------------------
-
-
----------------------------
-blank media returned report
----------------------------
-Datawindow Parameter : d_select_period_uptodate_rep_new    |    Datawindow Report : d_blanktape_retndbyuser_rep_new
----------------------------
----------------------------
-Datawindow Report
----------------------------
-Datawindow Parameter : d_select_period_uptodate_rep_new    |    Datawindow Report : d_blanktape_retndbyuser_rep_new
----------------------------
-
-blank status report
----------------------------
-Datawindow Report
----------------------------
-Datawindow Parameter : d_select_period_uptodate_rep_new    |    Datawindow Report : d_blank_out_report21
----------------------------
-OK
----------------------------
-
-LIBRARY CHECKOUT REPORT
----------------------------
-Datawindow Report
----------------------------
-Datawindow Parameter : d_input_lib_checkout_rep_zoom    |    Datawindow Report : d_lib_chkout_rep_grid_zoom
-
-
-
-
-
-
-
-
+BAB I 
+Pendahuluan
+-latar belakang
+-permasalahan penelitian
+-identifikasi masalah
+-Ruang lingkup masalah
+-rumusan masalah
+-tujuan dan manfaat penelitian
+BAB II
+landasan teori dan kerangka pemikiran
+BAB III
+metode penelitian
+BAB IV 
+hasil dan pembahasan
+Bab V keseimpulan dan saran
