@@ -19,3 +19,10 @@ metode penelitian
 BAB IV 
 hasil dan pembahasan
 Bab V keseimpulan dan saran
+
+abstract
+Penelitian ini bertujuan untuk menganalisis dan membandingkan performa tiga metode pemodelan topik, yaitu **BerTopic**, **Latent Semantic Analysis (LSA)**, dan **Latent Dirichlet Allocation (LDA)**, dalam mengelompokkan dan mengidentifikasi topik-topik dari terjemahan Indonesia Hadis Bukhari. Pemodelan topik merupakan salah satu pendekatan penting dalam pemrosesan bahasa alami yang memungkinkan pemahaman lebih mendalam terhadap konten teks dengan mengekstraksi tema-tema utama. 
+
+BerTopic adalah metode yang memanfaatkan representasi teks berbasis transformer dan clustering hierarkis untuk menghasilkan topik yang lebih akurat dan interpretatif. LSA, sebagai teknik berbasis dekomposisi matriks, mengidentifikasi hubungan laten antar kata dan dokumen dengan mengurangi dimensi data. Sementara itu, LDA merupakan model probabilistik yang memodelkan dokumen sebagai campuran dari beberapa topik dan mengasumsikan distribusi kata pada topik tertentu.
+
+Dalam penelitian ini, ketiga metode tersebut diterapkan pada dataset terjemahan Hadis Bukhari, dan hasilnya dibandingkan berdasarkan beberapa metrik seperti **koherensi topik**, **akurasi klasifikasi**, dan **kemudahan interpretasi**. Hasil analisis menunjukkan bahwa setiap metode memiliki kelebihan dan kekurangan yang berbeda, di mana BerTopic unggul dalam hal presisi topik, LSA memberikan dimensi laten yang abstrak, sementara LDA menghasilkan topik yang lebih terstruktur. Kesimpulan dari penelitian ini memberikan wawasan tentang metode terbaik untuk pemodelan topik teks religius dengan bahasa yang kompleks.

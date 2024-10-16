@@ -1,0 +1,25 @@
+Please make a summary regarding the application of AI to Solve Social Problems. 
+The answer can be written directly on this Forum Discussion 6.
+
+permission to answer pak.
+
+Some AI applications that are used to solve social problems include the application of Google applications, including:
+
+1. Forecasting floods and helping people stay safe through early warning systems
+One example of an app is Google FloodHub
+This is an app that displays weather forecast information in Search and Maps, and sends alerts to mobile devices to let people know who is in a dangerous location.
+It displays detailed flood maps so people can see exactly what to expect in their location.
+
+2. Detecting real-time wildfire boundaries to aid in firefighting
+google use satellite imagery to create AI models that can detect wildfire boundaries in real time, and we show their location in Search and Maps. Last year, we applied our models to more than 30 wildfires in the U.S. and Canada, which helped inform local residents and firefighters. We’ve now expanded to Mexico and parts of Australia as well.
+
+3. Monitoring prenatal health
+Google are working with Northwestern Medicine to develop and test AI models to enable lightly trained ultrasound operators in low-resource settings to accurately identify potential problems and risks, such as fetal positioning.
+
+4. Detecting genetic variations that cause disease
+Google partnership with PacBio, researchers are using our deep learning technology, DeepConsensus, to quickly and accurately identify genetic variants that cause diseases. 
+
+5. Helping people with non-standard speech connect and be understood.
+for example is Google Assistant
+
+Source : https://blog.google/technology/ai/7-ways-google-is-using-ai-to-help-solve-societys-challenges/
