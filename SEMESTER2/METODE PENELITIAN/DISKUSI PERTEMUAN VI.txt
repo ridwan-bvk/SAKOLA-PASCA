@@ -1,0 +1,20 @@
+Apa yang  saudara pahami tentang metode pengumpulan data. Berikan uraikan metode pengumpulan data dari proposal Saudara
+
+selamat berdiskusi
+
+salam sukses semuanya
+
+
+Metode pengumpulan data adalah cara yang digunakan untuk mengumpulkan dan menganalisis data dalam penelitian
+
+Beberapa contoh metode pengumpulan data
+Observasi, yaitu mengamati secara langsung objek tertentu. 
+Wawancara, yaitu teknik pengumpulan data yang menggunakan pertanyaan secara lisan kepada subjek penelitian. 
+Studi dokumen, yaitu metode pengumpulan data yang meneliti berbagai macam dokumen yang berguna untuk bahan analisis. 
+Metode kuantitatif, yaitu teknik kuantitatif untuk riset pasar dan peramalan permintaan biasanya menggunakan alat statistic
+
+Dalam proposal ini, saya menggunakan dua metode pengumpulan data
+Studi dokumen
+mengkaji literatut-literatur dan refresnsi yang terkait.
+Metode kuantitatif
+menganalisa dan mengolah dari data yang didapat dengan pemodelan algoritma nlp yang akan digunakan (BERT LDA dan LSA)
