@@ -1,0 +1,22 @@
+Apa yang saudara ketahui  tentang pendugaan parameter dan mengapa perlu dilakukan pendugaan parameter dalam analisis data
+
+diskusikan dengan kawan kawan
+
+selamat belajar
+
+Penduga parameter adalah sebuah nilai yang digunakan untuk memperkirakan nilai sebenarnya (parameter) dari suatu populasi berdasarkan data sampel.
+
+Karena seringkali tidak mungkin untuk mendapatkan seluruh data populasi, penduga digunakan untuk memberikan gambaran atau perkiraan terbaik dari parameter populasi tersebut.
+Penduga parameter umumnya berasal dari statistik sampel, seperti rata-rata sampel atau proporsi sampel, yang kemudian digunakan untuk menduga nilai sebenarnya dari rata-rata populasi atau proporsi populasi.
+
+
+karena beberapa alasan utama pendugaan parameter sangat penting
+ukuran data populasi sangat besar atau sulit diakses
+Misalnya, jika  ingin mengetahui rata-rata pendapatan seluruh penduduk di suatu negara, mengumpulkan data dari setiap orang akan memakan waktu dan biaya yang sangat besar. Oleh karena itu, pendugaan parameter dilakukan berdasarkan sampel, yang lebih kecil dan lebih mudah dianalisis.
+Efisiensi Waktu dan Biaya
+Mengumpulkan data dari seluruh populasi akan membutuhkan banyak sumber daya. pendugaan parameter memungkinkan kita mendapatkan informasi yang berguna dengan waktu dan biaya yang jauh lebih sedikit
+membuat kesimpulan yang lebih umum tentang populasi berdasarkan sampel yang diambil.
+Pendugaan parameter memungkinkan kita membuat kesimpulan yang lebih umum tentang populasi berdasarkan sampel yang diambil.
+Dasar untuk Pengujian Hipotesis
+Misalnya, jika kita ingin mengetahui apakah rata-rata pendapatan suatu kelompok lebih tinggi dibandingkan dengan rata-rata nasional, kita perlu terlebih dahulu melakukan pendugaan parameter untuk kelompok tersebut dan membandingkannya dengan data populasi.
+
