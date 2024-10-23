@@ -5,3 +5,22 @@ Apa perbedaan antara hipotesis nol (H₀) dan hipotesis alternatif (H₁)?
 
 Silahkan didiskusikan  dalam Forum
 
+Hipotesis berasal dari penggalan kata ”hypo” yang artinya ”di bawah” dan thesa” yang artinya ”kebenaran”, jadi  hipotesis adalah suatu dugaan yang perlu diketahui 
+kebenarannya yang berarti dugaan itu mungkin benar mungkin salah.
+Uji Hipotesis adalah metode pengambilan keputusan yang didasarkan dari analisa data. 
+sumber : http://sutrisno.blog.uma.ac.id/
+
+Perbedaan utama antara hipotesis nol (H₀) dan hipotesis alternatif (H₁) adalah bahwa hipotesis nol mengasumsikan tidak ada pengaruh atau perbedaan, sedangkan hipotesis alternatif menunjukkan adanya pengaruh atau hubungan yang signifikan.
+dari segi Pernyataan
+Hipotesis nol (H₀) : Tidak ada pengaruh dalam populasi
+Hipotesis alternatif (H₁) : Ada pengaruh dalam populasi
+dari segi Tujuan
+Hipotesis nol (H₀) : Pernyataan yang coba dibantah oleh peneliti
+Hipotesis alternatif (H₁) : Pernyataan yang coba dibuktikan oleh peneliti
+Hasil penelitian
+Hipotesis nol (H₀) : Jika diterima, hasil penelitian dianggap tidak signifikan
+Hipotesis alternatif (H₁) : Jika diterima, hasil penelitian dianggap signifikan
+
+Contoh hipotesis nol dan alternatif:
+Hipotesis nol: “Berat rata-rata apel adalah antara 150 gram dan 200 gram”.
+Hipotesis alternatif: “Berat rata-rata buah apel tidak berada pada kisaran 150 gram sampai 200 gram”
