@@ -1,0 +1,59 @@
+
+Berikan contoh artikel jurnal dalam design, pengukuran maturity  dan implementasi dengan menggunakan COBIT 2019.
+
+tolong berikan review dan resume terhadap artikel tersebut.
+
+Baik bu terimakasih, ijin menjawab:
+Reveiw paper
+Judul : Enhancing IT maturity in the Devops focus area: A comprehensive assessment with COBIT 2019
+Penulis :Febby Febrianti,Ditdit Nugeraha Utama
+Sumber:
+https://learning-gate.com/index.php/2576-8484/article/view/1472
+
+1. Fokus Penelitian
+Studi ini bertujuan untuk menilai tingkat kematangan DevOps dalam sebuah organisasi menggunakan kerangka kerja COBIT 2019 serta untuk memberikan rekomendasi dalam peningkatan. 
+
+Tujuan spesifiknya adalah:
+Menilai tingkat kematangan DevOps dalam perusahaan.
+Menyusun saran perbaikan berdasarkan penilaian kematangan.
+
+2. Metodologi
+Penelitian ini menggunakan pendekatan Design Science Research Methodology (DSRM), yang menekankan pada pembuatan model (dalam hal ini, model penilaian kematangan) untuk meningkatkan sistem informasi. Peneliti mengadakan lokakarya bersama pemangku kepentingan utama, termasuk tim pengembangan dan operasi, untuk mengumpulkan data.
+
+3. Konsep Utama
+COBIT 2019: Kerangka kerja yang digunakan untuk tata kelola dan manajemen TI. Kerangka ini mendefinisikan proses, aktivitas, dan tingkat kematangan (dari 0 hingga 5) untuk menilai seberapa baik organisasi menerapkan strategi tata kelola TI mereka.
+
+maturity DevOps: Fokus pada peningkatan kolaborasi antara tim pengembangan dan operasi. Model kematangan membantu mengevaluasi apakah proses DevOps dilakukan secara ad-hoc, terdefinisi, terkelola, atau dioptimalkan.
+
+4. Penilaian maturity DevOps
+Penelitian ini mengidentifikasi 26 proses yang relevan dengan DevOps dari kerangka kerja COBIT. Hasil penilaian maturity untuk proses-proses ini di PT XYZ, sebuah perusahaan pertambangan, dirangkum sebagai berikut:
+
+Tingkat maturity DevOps secara keseluruhan adalah 3,15, yang masuk dalam kategori “Terdefinisi”. Ini menunjukkan bahwa proses-proses telah diterapkan secara konsisten.
+
+Tingkat kapabilitas untuk proses individu bervariasi:
+4 proses berada di tingkat 2 (Terkelola).
+13 proses berada di tingkat 3 (Terdefinisi).
+9 proses berada di tingkat 4 (Kuantitatif).
+
+5. Rekomendasi untuk Peningkatan
+
+Dokumen ini menyarankan beberapa strategi perbaikan:
+
+Arsitektur Perusahaan (EA): Mengembangkan dan mengintegrasikan EA tingkat tinggi untuk membimbing strategi TI di masa depan.
+Manajemen Inovasi: Mendefinisikan proses untuk mengelola inovasi, memastikan kolaborasi lintas fungsi.
+Manajemen Program: Membedakan antara program dan proyek, serta menerapkan prosedur yang jelas.
+Manajemen Masalah: Meningkatkan alat ITSM untuk memperbaiki manajemen masalah dibandingkan dengan insiden.
+Pengukuran Kinerja: Memperluas KPI di luar SLA untuk memantau dan meningkatkan kinerja proses secara lebih efektif.
+Peningkatan Berkelanjutan: Menerapkan proses peningkatan berkelanjutan secara formal di seluruh area terkait DevOps.
+6. Kesimpulan
+Studi kasus ini berhasil mencapai tujuannya:
+
+Tingkat kematangan dinilai menggunakan Model Penilaian Proses (PAM) COBIT 2019.
+Kesenjangan antara tingkat kematangan saat ini dan yang diinginkan telah diidentifikasi.
+Rekomendasi disusun untuk meningkatkan tingkat kematangan DevOps.
+Pengamatan Kritis
+Penelitian ini menawarkan kerangka kerja yang solid untuk menilai kematangan TI, terutama dalam konteks DevOps.
+Pendekatan praktis menggunakan lokakarya untuk pengumpulan data memastikan relevansi dunia nyata, meskipun penting untuk memastikan penerapan yang konsisten di seluruh organisasi.
+Studi ini menekankan pentingnya budaya organisasi, menunjukkan bahwa mengubah budaya perusahaan untuk mendukung DevOps sama pentingnya dengan optimalisasi proses.
+
+Berdasarkan penilaian dan hasil analisis ini, penelitian memberikan rekomendasi perbaikan yang spesifik di berbagai area DevOps. Penerapan rekomendasi ini diharapkan dapat meningkatkan kolaborasi antara tim pengembangan dan operasi, memperbaiki efisiensi layanan TI, dan meningkatkan tingkat kematangan DevOps perusahaan ke level yang lebih tinggi (Kuantitatif dan Mengoptimalkan).
