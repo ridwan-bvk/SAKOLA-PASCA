@@ -1,0 +1,20 @@
+from scipy.stats import norm
+
+#pengujian rata rata
+# diketahui
+mu = 13.17         #hipotesis rata-rata populasi
+X_bar = 11.39      #rata-rata sampel
+s = 2.09           #standar deviasi sampel
+n = 36             #Jumlah sampel
+alpha = 0.05       #taraf nyata
+
+#menghitung nilai z
+
+Z = (X_bar-mu)/(s/ (n** 0.5))
+
+#menentukan nilai kritis untuk uji dua sisis
+Z_critical = norm.ppf(1 - alpha /2 )
+
+#menampilakn hasil
+print("nilai Z:",Z,"\n")
+print("nilai kritis Z:",Z_critical,"\n")
