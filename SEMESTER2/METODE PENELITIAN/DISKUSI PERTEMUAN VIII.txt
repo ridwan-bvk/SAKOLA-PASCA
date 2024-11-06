@@ -1,0 +1,42 @@
+salam jumpa lagi di LMS Unpam, prodi TI S-2
+
+apa yang saudara pahami tentang instrumen penelitian? jelaskan dan cari sumber literasinya. Mengapa data perlu dilakukan uji Validitas dan Reliabilitas?
+
+silahkan dapat didiskusikan di forum
+
+terima kasih, salam sehat dan sukses semuanya
+
+Menurut Suharsimi Arikunto, instrumen penelitian adalah alat dan fasilitas yang memudahkan peneliti dalam proses pengumpulan data, sehingga hasilnya dapat lebih baik dan konsisten[1]
+
+Jenis-Jenis Instrumen Penelitian
+Instrumen penelitian dapat dibedakan menjadi beberapa jenis, antara lain:
+Kuesioner: Daftar pertanyaan yang disusun untuk mendapatkan informasi dari responden.
+Wawancara: Proses pengumpulan data melalui tanya jawab langsung dengan responden.
+Observasi: Pengamatan langsung terhadap fenomena atau perilaku yang diteliti.
+Alat Rekam: Digunakan untuk merekam wawancara atau observasi, baik dalam bentuk suara maupun video [2]
+
+sumber
+[1] https://www.detik.com/jabar/berita/d-6230758/pengertian-instrumen-penelitian-jenis-dan-contohnya
+[2] https://penerbitdeepublish.com/instrumen-penelitian-kualitatif/
+
+Melakukan uji validitas dan reliabilitas adalah langkah penting dalam proses penelitian untuk memastikan bahwa data yang dikumpulkan akurat dan konsisten
+
+Pentingnya Validitas
+Pengukuran yang Akurat
+Validitas mengacu pada sejauh mana instrumen penelitian benar-benar mengukur apa yang dimaksudkan untuk diukur. Tanpa validitas, hasil penelitian tidak dapat dianggap akurat, sehingga kesimpulan yang diambil bisa menyesatkan.[3]
+Kredibilitas Penelitian
+Validitas meningkatkan kredibilitas temuan penelitian. Ketika hasilnya valid, peneliti dapat yakin bahwa kesimpulan yang diambil mencerminkan fenomena yang sebenarnya, membuat penelitian lebih dapat dipercaya [4].
+Pengambilan Keputusan yang Tepat
+Penelitian yang valid memungkinkan para peneliti dan pengambil keputusan untuk membuat keputusan berdasarkan bukti yang dapat diandalkan. Tanpa validitas, keputusan mungkin didasarkan pada informasi yang cacat atau menyesatkan [3].
+
+Pentingnya Reliabilitas
+Konsistensi Hasil
+Reliabilitas mengukur konsistensi dan stabilitas hasil penelitian dari waktu ke waktu. Jika instrumen menghasilkan hasil yang konsisten, maka data tersebut dapat diandalkan untuk analisis lebih lanjut[5].
+Pengurangan Kesalahan Pengukuran
+Reliabilitas yang tinggi membantu meminimalkan kesalahan acak dalam pengumpulan data, memastikan bahwa variasi dalam hasil disebabkan oleh perbedaan nyata dan bukan oleh inkonsistensi dalam metode pengukuran[2].
+Hubungan dengan Validitas
+Meskipun reliabilitas tidak menjamin validitas, sebuah instrumen harus reliabel agar dapat dianggap valid. Jika suatu pengukuran tidak konsisten, maka tidak mungkin ia juga valid[5].
+sumber:
+[3] https://www.entropik.io/blogs/validity-in-research-definitions-types-significance-and-its-relationship-with-reliability
+[4] https://sago.com/en/resources/blog/the-significance-of-validity-and-reliability-in-quantitative-research/
+[5] https://www.linkedin.com/pulse/importance-validity-reliability-michael-c-loyal-phd

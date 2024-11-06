@@ -1,0 +1,25 @@
+apa yang saudara ketahui tentang korelasi dan regresi? dimana perbedaan dari kedua konsep tersebut dan berikan contohnya. Diskusikan dengan kawan kawan
+
+Pengertian Korelasi
+Korelasi adalah teknik statistik yang digunakan untuk mengukur kekuatan dan arah hubungan antara dua variabel. Koefisien korelasi, seperti koefisien Pearson, memberikan nilai antara -1 dan 1:
+1 menunjukkan hubungan positif sempurna.
+0 menunjukkan tidak ada hubungan.
+-1 menunjukkan hubungan negatif sempurna [1]
+
+
+Pengertian Regresi
+Regresi, di sisi lain, digunakan untuk memprediksi nilai dari satu variabel (variabel dependen) berdasarkan nilai variabel lain (variabel independen). Analisis regresi sering kali menghasilkan persamaan matematis yang menggambarkan hubungan tersebut. Regresi linear sederhana adalah bentuk paling umum, di mana persamaan umumnya ditulis sebagai:
+
+di mana:
+y adalah variabel dependen,
+x adalah variabel independen,
+a adalah intercept,
+b adalah slope (kemiringan) [2]
+sumber :
+[1] https://ascarya.or.id/regresi-dan-korelasi/
+[2] https://www.statistikian.com/2012/08/analisis-regresi-korelasi.html
+
+Perbedaan Antara Korelasi dan Regresi
+
+
+Jika kita mengukur hubungan antara tinggi badan dan berat badan seseorang, kita dapat menggunakan korelasi Pearson untuk menentukan apakah ada hubungan antara kedua variabel tersebut. Misalnya, jika hasilnya menunjukkan koefisien korelasi sebesar 0.8, ini berarti ada hubungan positif yang kuat; semakin tinggi seseorang, semakin besar kemungkinan berat badannya juga tinggi

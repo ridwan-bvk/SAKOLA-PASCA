@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <records>
+    <record>
+      <ref-type name="Book"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Novia Ariyanti, Oleh
+          </author>
+          <author>
+            Lutvi Azizah Diterbitkan oleh, Nuril
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Buku Ajar Mata Kuliah Teknik Optimasi</title>
+      </titles>
+      <dates>
+        <year>2019</year>
+      </dates>
+      <isbn>9786025914829</isbn>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Cecchi, Lorenzo
+          </author>
+          <author>
+            Parenti, Alessandro
+          </author>
+          <author>
+            Bellumori, Maria
+          </author>
+          <author>
+            Migliorini, Marzia
+          </author>
+          <author>
+            Mulinacci, Nadia
+          </author>
+          <author>
+            Guerrini, Lorenzo
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Clustering Monovarietal Extra Virgin Olive Oil According to Sensory Profile, Volatile Compounds, and k-Mean Algorithm</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+          <pub-dates>
+            <date>11</date>
+          </pub-dates>
+      </dates>
+      <volume>124</volume>
+      <issue>11</issue>
+      <electronic-resource-num>10.1002&#x2F;ejlt.202200038</electronic-resource-num>
+      <abstract>A real valorization of monovarietal extra virgin olive oils (EVOOs) through diverse sensory profiles is missing, hindering different uses of samples with different sensory profiles and leading to negative impacts on EVOO competitions and consumer choices. The aim of this research is to group monovarietal EVOOs according to similar sensory and chemical profiles. The volatile and phenolic composition and the sensory profile of 46 monovarietal EVOOs are analyzed by head space-solid phase micro extraction-gas chromatography-mass spectrometry, HPLC-DAD, and Panel Test; the data are used to feed a k-mean algorithm aimed at samples clustering. A group of non-monovarietal samples is also included. It is hypothesized that samples of a cultivar are located in a cluster, while non-monovarietal samples are randomly located in different clusters. Two clusters of samples are identified; all samples belonging to a specific cultivar are in the same cluster and the non-monovarietal ones randomly placed in the two clusters. The significant attributes in differentiating between the two clusters belong to sensory descriptors and volatile compounds; phenolic compounds do not give significant differentiation. All sensory descriptors result in prevalence in one cluster. The two clusters are differentiated by volatile organic compounds (VOCs) originating by different branches of the lipoxygenase-pathway. Practical Applications: The results of this research will help toward a real valorization of extra virgin olive oils (EVOOs), and particularly, the monovarietal ones. In this sense, the results clearly suggest the use of an adequate profile sheet for the definition of the sensory profile of monovarietal EVOOs. By this way, during EVOO competitions, samples with a certain type of sensory profile will compete against samples with the same type of sensory profile, just as it happens for other types of products.</abstract>
+      <publisher>John Wiley and Sons Inc</publisher>
+      <periodical><full-title>European Journal of Lipid Science and Technology</full-title></periodical>
+      <keywords>
+        <keyword>(E)-2-hexenal</keyword>
+        <keyword>LOX pathway</keyword>
+        <keyword>clusters</keyword>
+        <keyword>monocultivar</keyword>
+        <keyword>olive oil competitions</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Text Clustering using K-MEAN</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <volume>10</volume>
+      <pages>2892-2897</pages>
+      <issue>4</issue>
+      <electronic-resource-num>10.30534&#x2F;ijatcse&#x2F;2021&#x2F;371042021</electronic-resource-num>
+      <abstract>Document clustering allows the user to add similar documents to a group. For many years, it has been a fascinating research topic, developed various methods and techniques. However, the study focuses mostly on English and high-resource languages. About Pakistan national anthems, this research gives an experimental estimation of clustering techniques. Because of its short length, thematically clustering Anthem is a difficult task. This paper extracted various characteristics, including stop-words, stemming, corpus tokenization, noise removal, and TF-IDF features from the anthem, and the clustering was conducted using the K-Means algorithm. The results show that a clustering strategy paired with a K-mean clustering algorithm with TF-IDF features has already been used. The dataset is available on GitHub (https:&#x2F;&#x2F;www.kaggle.com&#x2F;lucasturtle&#x2F;national-anthems-of- the-world )</abstract>
+      <publisher>The World Academy of Research in Science and Engineering</publisher>
+      <periodical><full-title>International Journal of Advanced Trends in Computer Science and Engineering</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Baji, Faiq Sabbar
+          </author>
+          <author>
+            Abdullah, Saleema Baji
+          </author>
+          <author>
+            Abdulsattar, Fatimah S.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>K-mean clustering and local binary pattern techniques for automatic brain tumor detection</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>6</date>
+          </pub-dates>
+      </dates>
+      <volume>12</volume>
+      <pages>1586-1594</pages>
+      <issue>3</issue>
+      <electronic-resource-num>10.11591&#x2F;eei.v12i3.4404</electronic-resource-num>
+      <abstract>Tumors in brains are caused by the unregulated emergence of tissue cells inside the brain. The early diagnosis and determining the precise location of the tumor in magnetic resonance imaging (MRI) and its size are essential for the teams of physicians. Image segmentation is often considered a preliminary step in medical image analyses. K-means clustering has been widely adopted for brain tumor detection. The result of this technique is a list of cluster images. The challenge of this method is the difficulty of selecting the appropriate cluster section that depicts the tumor. In this work, we analyze the influence of different image clusters. Each cluster is then split into the left and right parts. After that, the texture features are depicted in each part. Furthermore, the bilateral symmetry measure is applied to estimate the cluster that contains the tumor. Finally, the connected component labeling is employed to determine the target cluster for brain tumor detection. The developed technique is applied to 30 MRI images. The encouraging accuracy of 87% is obtained.</abstract>
+      <publisher>Institute of Advanced Engineering and Science</publisher>
+      <periodical><full-title>Bulletin of Electrical Engineering and Informatics</full-title></periodical>
+      <keywords>
+        <keyword>Connected component labeling</keyword>
+        <keyword>K-means clustering</keyword>
+        <keyword>Local texture feature</keyword>
+        <keyword>Symmetry analysis</keyword>
+        <keyword>Tumor detection</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Aqil Burney, S M
+          </author>
+          <author>
+            Karachi, Management
+          </author>
+          <author>
+            Humera Tariq, Pakistan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>K-Means Cluster Analysis for Image Segmentation</title>
+      </titles>
+      <dates>
+        <year>2014</year>
+      </dates>
+      <volume>96</volume>
+      <pages>975-8887</pages>
+      <issue>4</issue>
+      <abstract>Does K-Means reasonably divides the data into k groups is an important question that arises when one works on Image Segmentation? Which color space one should choose and how to ascertain that the k we determine is valid? The purpose of this study was to explore the answers to aforementioned questions. We perform K-Means on a number of 2-cluster, 3-cluster and k-cluster color images (k&gt;3) in RGB and L*a*b* feature space. Ground truth (GT) images have been used to accomplish validation task. Silhouette analysis supports the peaks for given k-cluster image. Model accuracy in RGB space falls between 30% and 55% while in L*a*b* color space it ranges from 30% to 65%. Though few images used, but experimentation proves that K-Means significantly segment images much better in L*a*b* color space as compared to RGB feature space.</abstract>
+      <periodical><full-title>International Journal of Computer Applications</full-title></periodical>
+      <keywords>
+        <keyword>Cluster evaluation</keyword>
+        <keyword>Image Segmentation</keyword>
+        <keyword>L*a*b* Color Space</keyword>
+        <keyword>Precision Recall Graph</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Bisen, Dhananjay
+          </author>
+          <author>
+            Lilhore, Umesh Kumar
+          </author>
+          <author>
+            Manoharan, Poongodi
+          </author>
+          <author>
+            Dahan, Fadl
+          </author>
+          <author>
+            Mzoughi, Olfa
+          </author>
+          <author>
+            Hajjej, Fahima
+          </author>
+          <author>
+            Saurabh, Praneet
+          </author>
+          <author>
+            Raahemifar, Kaamran
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A Hybrid Deep Learning Model Using CNN and K-Mean Clustering for Energy Efficient Modelling in Mobile EdgeIoT</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>3</date>
+          </pub-dates>
+      </dates>
+      <volume>12</volume>
+      <issue>6</issue>
+      <electronic-resource-num>10.3390&#x2F;electronics12061384</electronic-resource-num>
+      <abstract>In mobile edge computing (MEC), it is difficult to recognise an optimum solution that can perform in limited energy by selecting the best communication path and components. This research proposed a hybrid model for energy-efficient cluster formation and a head selection (E-CFSA) algorithm based on convolutional neural networks (CNNs) and a modified k-mean clustering (MKM) method for MEC. We utilised a CNN to determine the best-transferring strategy and the most efficient partitioning of a specific task. The MKM method has more than one cluster head in each cluster to lead. It also reduces the number of reclustering cycles, which helps to overcome the energy consumption and delay during the reclustering process. The proposed model determines a training dataset by covering all the aspects of cost function calculation. This training dataset helps to train the model, which allows for efficient decision-making in optimum energy usage. In MEC, clusters have a dynamic nature and frequently change their location. Sometimes, this creates hurdles for the clusters to form a cluster head and, finally, abandons the cluster. The selected cluster heads must be recognised correctly and applied to maintain and supervise the clusters. The proposed pairing of the modified k-means method with a CNN fulfils this objective. The proposed method, existing weighted clustering algorithm (WCA), and agent-based secure enhanced performance approach (AB-SEP) are tested over the network dataset. The findings of our experiment demonstrate that the proposed hybrid model is promising in aspects of CD energy consumption, overhead, packet loss rate, packet delivery ratio, and throughput compared to existing approaches.</abstract>
+      <publisher>MDPI</publisher>
+      <periodical><full-title>Electronics (Switzerland)</full-title></periodical>
+      <keywords>
+        <keyword>IoT</keyword>
+        <keyword>K-means</keyword>
+        <keyword>cluster head</keyword>
+        <keyword>deep learning</keyword>
+        <keyword>energy efficient algorithm</keyword>
+        <keyword>mobile edge computing</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Naeem, Sajid
+          </author>
+          <author>
+            Wumaier, Aishan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Study and Implementing K-mean Clustering Algorithm on English Text and Techniques to Find the Optimal Value of K</title>
+      </titles>
+      <dates>
+        <year>2018</year>
+          <pub-dates>
+            <date>12</date>
+          </pub-dates>
+      </dates>
+      <volume>182</volume>
+      <pages>7-14</pages>
+      <issue>31</issue>
+      <electronic-resource-num>10.5120&#x2F;ijca2018918234</electronic-resource-num>
+      <abstract>In the field of data mining, the approach of assigning a set of items to one similar class called cluster and the process termed as Clustering. Document clustering is one of the rapidly developing, research area for decades and considered a vital task for text mining due to exceptional expansion of document on cyberspace. It provides the opportunity to organize a large amount of scattered text, in meaningful clusters and laydown the foundation for smooth descriptive browsing and navigation systems. One of the more often useable partitioning algorithm is k-means, which is frequently use for text clustering due to its ability of converging to local optimum even though it is for enormous sparse matrix. Its objective is to make the distance of items or data-points belonging to same class as short as possible. This paper, exploring method of how a partitioned (K-mean) clustering works for text document clustering and particularly to explore one of the basic disadvantage of K-mean, which explain the true value of K. The true K value is understandable mostly while automatically selecting the suited value for k is a tough algorithmic problem. The true K exhibits to us how many cluster should make in our dataset but this K is often ambiguous there is no particular answer for this question while many variants for k-means are presented to estimate its value. Beside these variants, range of different probing techniques proposed by multiple researchers to conclude it. The study of this paper will explain how to apply some of these techniques for finding true value of K in a text dataset.</abstract>
+      <publisher>Foundation of Computer Science</publisher>
+      <periodical><full-title>International Journal of Computer Applications</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Darwis, Muhammad
+          </author>
+          <author>
+            Tri Pranoto, Gatot
+          </author>
+          <author>
+            Eka Wicaksana, Yusuf
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Implementation of TF-IDF Algorithm and K-mean Clustering Method to Predict Words or Topics on Twitter</title>
+      </titles>
+      <dates>
+        <year>2020</year>
+      </dates>
+      <volume>03</volume>
+      <pages>2614-8404</pages>
+      <issue>02</issue>
+      <abstract>The social media time line, especially Twitter, is still interesting to follow. Various tweets delivered by the public are very informative and varied. This information should be able to be used further by utilizing the topic of conversation trends at one time. In this paper, the authors cluster the tweet data with the TF-IDF algorithm and the K-Mean method using the python programming language. The results of the tweet data clustering show predictions or possible topics of conversation that are being widely discussed by netizens. Finally, the data can be used to make decisions that utilize community sentiment towards an event through social media like Twitter.</abstract>
+      <periodical><full-title>Jurnal Informatika dan Sains) e-ISSN</full-title></periodical>
+      <keywords>
+        <keyword>K-mean Method</keyword>
+        <keyword>TF-IDF algorithm</keyword>
+        <keyword>clustering</keyword>
+        <keyword>data mining</keyword>
+        <keyword>prediction</keyword>
+        <keyword>twitter</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Data Hiding by Unsupervised Machine Learning Using Clustering K-mean Technique</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>12</date>
+          </pub-dates>
+      </dates>
+      <pages>37-49</pages>
+      <electronic-resource-num>10.33103&#x2F;uot.ijccce.21.4.4</electronic-resource-num>
+      <abstract>Steganography includes hiding text, image, or any sentient information inside another image, video, or audio. It aims to increase individuals’ use of social media, the internet and web networks to securely transmit information between sender and receiver and an attacker will not be able to detect its information. The current article deals with steganography that can be used as machine learning method, it suggests a new method to hide data by using unsupervised machine learning (clustering k-mean algorithm). This system uses hidden data into the cover image, it consists of three steps: the first step divides the cover image into three clusterings that more contrast by using k-means cluster, the selects a text or image to be converted to binary by using ASCII code, the third step hides a binary message or binary image in the cover image by using sequential LSB method. After that, the system is implemented. The objective of the suggested system is obtained, using Unsupervised Machine Learning (K-mean technique) to securely send sensitive information without worrying about man-in-the-middle attack was proposed. Such a method is characterized by high security and capacity. Through evaluation, the system uses PSNR, MSE, Entropy, and Histogram to hide the secret message and secret image in the spatial domain in the cover image. Index Terms— Steganography, (LSB), K-mean, Cluster, Machine learning.</abstract>
+      <publisher>University of Technology, Baghdad</publisher>
+      <periodical><full-title>Iraqi Journal of Computer, Communication, Control and System Engineering</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Aqil Burney, S M
+          </author>
+          <author>
+            Karachi, Management
+          </author>
+          <author>
+            Humera Tariq, Pakistan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>K-Means Cluster Analysis for Image Segmentation</title>
+      </titles>
+      <dates>
+        <year>2014</year>
+      </dates>
+      <volume>96</volume>
+      <pages>975-8887</pages>
+      <issue>4</issue>
+      <abstract>Does K-Means reasonably divides the data into k groups is an important question that arises when one works on Image Segmentation? Which color space one should choose and how to ascertain that the k we determine is valid? The purpose of this study was to explore the answers to aforementioned questions. We perform K-Means on a number of 2-cluster, 3-cluster and k-cluster color images (k&gt;3) in RGB and L*a*b* feature space. Ground truth (GT) images have been used to accomplish validation task. Silhouette analysis supports the peaks for given k-cluster image. Model accuracy in RGB space falls between 30% and 55% while in L*a*b* color space it ranges from 30% to 65%. Though few images used, but experimentation proves that K-Means significantly segment images much better in L*a*b* color space as compared to RGB feature space.</abstract>
+      <periodical><full-title>International Journal of Computer Applications</full-title></periodical>
+      <keywords>
+        <keyword>Cluster evaluation</keyword>
+        <keyword>Image Segmentation</keyword>
+        <keyword>L*a*b* Color Space</keyword>
+        <keyword>Precision Recall Graph</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Moradpour, Samareh
+          </author>
+          <author>
+            Long, Suzanna
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>K-MEAN CLUSTERING IN TRANSPORTATION: A WORK ZONE SIMULATOR CASE STUDY</title>
+      </titles>
+      <abstract>Transportation engineering considers many different categories such as accident management, infrastructure management, driver behavior, and traffic management and generates large amount of data. Data mining methods are a common engineering approach to understand data-intensive scenarios and use techniques to extract patterns, correlations, and information from large amounts of data. This research uses a simulator to compare driver patterns and behaviors when comparing reactions to the Missouri Department of Transportation (MoDOT) alternate sign with the Manual on Uniform Traffic Control Devices (MUTCD) current sign. K-mean clustering method is used to cluster driver response to work zone sign configurations presented in the simulator environment and uncover patterns that can assist engineers with usability of work zone signage. Key findings of this research will help the transportation engineering manager make data-driven decisions regarding work zone safety and design.</abstract>
+      <keywords>
+        <keyword>Data mining</keyword>
+        <keyword>Decision analytics</keyword>
+        <keyword>Pattern recognition</keyword>
+        <keyword>Transportation</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Mahdi Elsiddig Haroun, Fathi
+          </author>
+          <author>
+            Deros, Siti Noratiqah Mohamad
+          </author>
+          <author>
+            Din, Norashidah Md
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Detection and Monitoring of Power Line Corridor From Satellite Imagery Using RetinaNet and K-Mean Clustering</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+      </dates>
+      <volume>9</volume>
+      <pages>116720-116730</pages>
+      <electronic-resource-num>10.1109&#x2F;ACCESS.2021.3106550</electronic-resource-num>
+      <abstract>Monitoring of electrical transmission towers (TTs) is required to maintain the integrity of power lines. One major challenge is monitoring vegetation encroachment that can cause power interruption. Most of the current monitoring techniques use unmanned aerial vehicles (UAV) and airborne photography as an observation medium. However, these methods are expensive and not practical for monitoring wide areas. In this paper, we introduced a new method for monitoring the power line corridor from satellite imagery. The proposed method consists of two stages. In the first stage, we used the existing state-of-the-art RetinaNet deep learning (DL) model to detect the locations of the TTs from satellite imagery. A routing algorithm has been developed to create a path between every adjacent detected TT. In addition to the routing algorithm, a corridor identification algorithm has been established for extracting the power line corridor area. In the second stage, the k-mean clustering algorithm has been used to highlight the VE regions within the power line corridor area after converting the target satellite image into hue, saturation, and value (HSV) color space. The proposed monitoring system was able to detect TTs from satellite imagery with a mean average precision (mAP) of 72.45% for an Intersection of Union (IoU) threshold of 0.5 and 85.21% for IoU threshold of 0.3. Also, the monitoring system was able to successfully discriminate high- and low-density vegetation regions within the power line corridor area.</abstract>
+      <publisher>Institute of Electrical and Electronics Engineers Inc.</publisher>
+      <periodical><full-title>IEEE Access</full-title></periodical>
+      <keywords>
+        <keyword>Deep learning</keyword>
+        <keyword>K-mean</keyword>
+        <keyword>satellite images</keyword>
+        <keyword>transmission tower detection</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Atikah, Luthfi
+          </author>
+          <author>
+            Hasanah, Novrindah Alvi
+          </author>
+          <author>
+            Arifin, Agus Zainal
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Topic Modelling Using VSM-LDA For Document Summarization</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+      </dates>
+      <volume>14</volume>
+      <pages>91</pages>
+      <issue>2</issue>
+      <abstract>Summarization is a process to simplify the contents of a document by eliminating elements that are considered unimportant but do not reduce the core meaning the document wants to convey. However, as is known, a document will contain more than one topic. So it is necessary to identify the topic so that the summarization process is more effective. Latent Dirichlet Allocation (LDA) is a commonly used method of identifying topics. However, when running a program on a different dataset, LDA experiences &quot;order effects&quot;, that is, the resulting topic will be different if the train data sequence is changed. In the same document input, LDA will provide inconsistent topics resulting in low coherence values. Therefore, this paper proposes a topic modelling method using a combination of LDA and VSM (Vector Space Model) for automatic summarization. The proposed method can overcome order effects and identify document topics that are calculated based on the TF-IDF weight on VSM generated by LDA. The results of the proposed topic modeling method on the 1300 Twitter data resulted in the highest coherence value reaching 0.72. The summary results obtained Rouge 1 is 0.78, Rouge 2 is 0.67 dan Rouge L is 0.80.</abstract>
+      <periodical><full-title>Ultimatics : Jurnal Teknik Informatika</full-title></periodical>
+      <keywords>
+        <keyword>Index Terms-LDA</keyword>
+        <keyword>Order Effects</keyword>
+        <keyword>Summarization</keyword>
+        <keyword>Topic Modelling</keyword>
+        <keyword>VSM-LDA</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;t.co&#x2F;fpjmEgrHfC</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Hasyim, Fayyaz Mubarak
+          </author>
+          <author>
+            Fahmi, Faisal
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Literatify : Trends in Library Developments A Literature Review: the Importance of Term Normalization in Vector Space Model</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+      </dates>
+      <electronic-resource-num>10.24252&#x2F;literatify.v5i1.44458</electronic-resource-num>
+      <abstract>Abstrak Article Info In today&#39;s digitally inundated era, accessing information is more accessible yet challenging due to the sheer volume available. This article underscores the pivotal role of VSM in managing vast data and enhancing retrieval accuracy by ranking documents based on query similarity. Term normalization, a part of VSM development, standardizes words for indexing, improving accuracy by addressing word variations. The study&#39;s methodology involved a systematic literature review, data collection via electronic databases, and thematic analysis. The research findings highlight vital aspects: the fundamentals of information retrieval systems, the working principle of VSM in document sorting, and the process of term normalization. Various methods within term normalization, such as tokenizing, filtering, stemming, and term weighting (e.g., TF, IDF, Cosine Similarity), are elucidated for refining document relevance. Discussions underscore the impact of term normalization on information retrieval, emphasizing heightened accuracy, efficiency, and reduced error rates. In the research paper, five studies that showcased successful applications of VSM across diverse domains were referenced. These domains included karaoke song searches, thesis examiner selection, pest identification in rice plants, hadith interpretation, and library material searches. Each study demonstrated the effectiveness and versatility of VSM in solving various problems in different fields. In conclusion, VSM emerges as a potent tool in managing information overload, particularly when coupled with normalization techniques. The studies reviewed illustrate VSM&#39;s efficacy in delivering precise results, affirming its status as a preferred method in information retrieval systems due to its accuracy and effectiveness. A. Introduction In the era of massively moving digital information, accessibility to obtain information is easy and has many variations compared to before. This phenomenon directly illustrates the rapid development of information technology, information, and more and more digital sources. As a result of these developments, the bar&#39;s information capacity inevitably continues to increase, leading to unlimited access to knowledge. However, this also raises considerable obstacles. With so much</abstract>
+      <keywords>
+        <keyword>Information Retrieval</keyword>
+        <keyword>Information Technology</keyword>
+        <keyword>Term Normalization</keyword>
+        <keyword>Vector Space Model (VSM)</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;doi.org&#x2F;10.24252&#x2F;literat</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Xiang, Lin
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Application of an Improved TF-IDF Method in Literary Text Classification</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+      </dates>
+      <volume>2022</volume>
+      <electronic-resource-num>10.1155&#x2F;2022&#x2F;9285324</electronic-resource-num>
+      <abstract>Literature is extremely important in the advancement of human civilization. Every day, many literary texts of various genres are produced, dating back to ancient times. An urgent concern for managers in the current literary activity is how to classify and save the expanding mass of literary text data for easy access by readers. In the realm of text classification, the TF-IDF algorithm is a widely used classification algorithm. However, there are significant issues with utilizing this approach, including a lack of distribution information inside categories, a lack of distribution information between categories, and an inability to adjust to skewed datasets. It is possible to improve classification accuracy by using the TF-IDF algorithm in this paper&#39;s application situation by exploiting the association between feature words and the quantity of texts in which they appear, while ignoring the variation in feature word distribution across categories. With the purpose of classifying the literary texts in this study, this work proposes an improved IDF method for the problem of feature words appearing several times and having diverse meanings in different fields. The meanings of feature words in distinct domains are separated to increase the trust in the TF-IDF algorithm&#39;s output. Using the improved TF-IDF method suggested in this research with the random forest (RF) classifier, the experimental results show that the classifier has a good classification impact, which can meet the actual work needs, based on comparative experiments on feature dimension selection, feature selection algorithm, feature weight algorithm, and classifier. It has a fair amount of historical significance.</abstract>
+      <publisher>Hindawi Limited</publisher>
+      <periodical><full-title>Advances in Multimedia</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Nuzul Hikmah
+          </author>
+          <author>
+            Dyah Ariyanti
+          </author>
+          <author>
+            Ferry Agus Pratama
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Implementasi Chatbot Sebagai Virtual Assistant di Universitas Panca Marga Probolinggo menggunakan Metode TF-IDF</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <volume>4</volume>
+      <pages>133-148</pages>
+      <issue>2</issue>
+      <electronic-resource-num>10.35746&#x2F;jtim.v4i2.225</electronic-resource-num>
+      <abstract>This research is to implement a chatbot as a virtual assistant that can be used as an academic information service for the general public as well as for the academic community of the Panca Marga University Probolinggo campus. The stages of developing this chatbot using the waterfall method include analysis, design, code, testing and maintenance. The method used for learning chatbots uses Tf-Idf and VSM for word weighting in documents and queries and Cosine similarity to calculate similarity (similarity) between documents and queries. The final result of this research is a chatbot application that can be used as a virtual assistant as customer service in serving and providing information about academics at Panca Marga University Probolinggo. Based on the results of the accuracy and UAT testing, the accuracy rate obtained by the chatbot reached 85.7% and the UAT test in the first test reached 84.1% with a total of 30 respondents, in the second test it reached 82.1% with a total of 92 respondents.</abstract>
+      <publisher>Sekawan Institute</publisher>
+      <periodical><full-title>JTIM : Jurnal Teknologi Informasi dan Multimedia</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Akbar, M
+          </author>
+          <author>
+            Shiddiqi, As
+          </author>
+          <author>
+            Sanmarino, A
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Vector Space Model-based Information Retrieval Systems at South Sumatera Regional Libraries A R T I C L E I N F O</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+      </dates>
+      <volume>1</volume>
+      <pages>49-53</pages>
+      <issue>2</issue>
+      <abstract>This study presents an overview of the research aimed at optimizing library information retrieval through the utilization of the Vector Space Model (VSM) method in a computer science context. Libraries, as publicly financed collections, provide extensive knowledge resources, eliminating the need for individual book purchases. However, the challenge lies in efficiently navigating the expanding library collections. To tackle this issue, the study employs information retrieval techniques, particularly the VSM method, which assesses term similarity by assigning weights to terms, enabling document and query representation as vectors. The relevance between documents and queries is measured through vector similarity. This approach, integrated with indexing, streamlines collection retrieval in libraries. Employing the Waterfall model for system development, the research outlines phases like analysis, design, coding, testing, and implementation. While effective, the model&#39;s rigidity in accommodating evolving requirements poses limitations. The VSM method&#39;s numerical representation of text documents facilitates precise similarity calculations, supported by TF-IDF values indicating term importance in documents relative to the corpus. The study further extends to system design using UML diagrams and a visitor interface, integrating VSM for efficient search functionality. Black-box testing confirms the robustness of the system components and interfaces. Overall, this research presents a systematic approach to enhance information retrieval in libraries, emphasizing the VSM&#39;s pivotal role in optimizing document searches within expansive collections.</abstract>
+      <periodical><full-title>JOURNAL OF COMPUTER SCIENCE APPLICATION AND ENGINEERING</full-title></periodical>
+      <keywords>
+        <keyword>Calculation</keyword>
+        <keyword>Collections TF-IDF</keyword>
+        <keyword>Document</keyword>
+        <keyword>Information</keyword>
+        <keyword>Library</keyword>
+        <keyword>Model (VSM)</keyword>
+        <keyword>Representation</keyword>
+        <keyword>Retrieval</keyword>
+        <keyword>Space</keyword>
+        <keyword>Vector</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;journal.lenterailmu.com&#x2F;index.php&#x2F;josapen</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Zen, Bita Parga
+          </author>
+          <author>
+            Susanto, Irwan
+          </author>
+          <author>
+            Finaliamartha, Dian
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>TF-IDF Method and Vector Space Model Regarding the Covid-19 Vaccine on Online News</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>10</date>
+          </pub-dates>
+      </dates>
+      <volume>6</volume>
+      <pages>69-79</pages>
+      <issue>1</issue>
+      <electronic-resource-num>10.33395&#x2F;sinkron.v6i1.11179</electronic-resource-num>
+      <abstract>Advances in information and technology have caused the use of the internet to be a concern of the general public. Online news sites are one of the technologies that have developed as a means of disseminating the latest information in the world. When viewed in terms of numbers, newsreaders are very sufficient to get the desired information. However, with this, the amount of information collected will result in an explosion of information and the possibility of information redundancy. The search system is one of the solutions which expected to help in finding the desired or relevant information by the input query. The methods commonly used in this case are TF-IDF and VSM (Vector Space Model) which are used in weighting to measure statistics from a collection of documents on the search for some information about the Covid 19 vaccine on kompas.com news then tokenizing it to separate the text, stopword removal or filtering to remove unnecessary words which usually consist of conjunctions and others. The next step is sentence stemming which aims to eliminate word inflection to its basic form. Then the TF-IDF and VSM calculations were carried out and the final result are news documents 3 (DOC 3) with a weight of 5.914226424; news documents 2 (DOC 2) with a weight of 1.767692186; news documents 5 (DOC 5) with weights 1.550165096; news document 4 (DOC 4) with a weight of 1.17141223;, and the last is news document 1 (DOC 1) with a weight of 0.5244103739.</abstract>
+      <publisher>Politeknik Ganesha</publisher>
+      <periodical><full-title>SinkrOn</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Xun, Guangxu
+          </author>
+          <author>
+            Li, Yaliang
+          </author>
+          <author>
+            Zhao, Wayne Xin
+          </author>
+          <author>
+            Gao, Jing
+          </author>
+          <author>
+            Zhang, Aidong
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A Correlated Topic Model Using Word Embeddings</title>
+      </titles>
+      <dates>
+        <year>2017</year>
+      </dates>
+      <abstract>Conventional correlated topic models are able to capture correlation structure among latent topics by replacing the Dirichlet prior with the logistic normal distribution. Word embeddings have been proven to be able to capture semantic regularities in language. Therefore, the semantic relatedness and correlations between words can be directly calculated in the word embedding space, for example , via cosine values. In this paper, we propose a novel correlated topic model using word embed-dings. The proposed model enables us to exploit the additional word-level correlation information in word embeddings and directly model topic correlation in the continuous word embedding space. In the model, words in documents are replaced with meaningful word embeddings, topics are mod-eled as multivariate Gaussian distributions over the word embeddings and topic correlations are learned among the continuous Gaussian topics. A Gibbs sampling solution with data augmentation is given to perform inference. We evaluate our model on the 20 Newsgroups dataset and the Reuters-21578 dataset qualitatively and quantitatively. The experimental results show the effectiveness of our proposed model.</abstract>
+      <keywords>
+        <keyword>Natural Language Processing: Natural Language Generation</keyword>
+        <keyword>Natural Language Processing: Natural Language Semantics</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>19106050025_BAB-I_IV-atau-V_DAFTAR-PUSTAKA</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Pavithra
+          </author>
+          <author>
+            Savitha
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Topic Modeling for Evolving Textual Data Using LDA, HDP, NMF, BERTOPIC, and DTM With a Focus on Research Papers</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>4</date>
+          </pub-dates>
+      </dates>
+      <volume>5</volume>
+      <pages>53-63</pages>
+      <issue>2</issue>
+      <electronic-resource-num>10.37802&#x2F;joti.v5i2.618</electronic-resource-num>
+      <abstract>As the volume of academic literature continues to burgeon, the necessity for advanced tools to decipher evolving research trends becomes increasingly apparent. This study delves into the utilization of topic modeling techniques—specifically Latent Dirichlet Allocation (LDA), Hierarchical Dirichlet Process (HDP), Non-negative Matrix Factorization (NMF), BERTopic, and Dynamic Topic Modeling (DTM)—applied to a dynamic corpus of research papers. Our research endeavors to confront the challenges posed by capturing temporal dynamics, evolving terminology, and interdisciplinary themes within academic literature. Through a comprehensive comparative investigation of these models, we assess their efficacy in extracting and tracking research topics over time. While DTM exhibited the highest term topic probability, its inclusion of non-meaningful words proved to be a hindrance to its suitability. Conversely, NMF, HDP, LDA, and BERTopic demonstrated comparable performance in topic extraction. Surprisingly, DTM emerged as the most effective model in our research, showcasing its prowess in navigating the intricacies of evolving research trends.</abstract>
+      <publisher>Universitas Dinamika</publisher>
+      <periodical><full-title>Journal of Technology and Informatics (JoTI)</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Rizky Pribadi, Muhammad
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Analisis Interaksi Pengguna Sosial Media Sekolah di Palembang Berdasarkan Topik dengan hLDA dan SVM</title>
+      </titles>
+      <publisher>JUTIKOMP</publisher>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Rashif, Faza
+          </author>
+          <author>
+            Ihza Perwira Nirvana, Goldio
+          </author>
+          <author>
+            Alif Noor, Muhammad
+          </author>
+          <author>
+            Aini Rakhmawati, Nur
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Implementasi LDA untuk Pengelompokan Topik Cuitan Akun Bot Twitter bertagar #Covid-19 LDA Implementation for Topic of Bot&#39;s Tweets with #Covid-19 Hashtag</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+      </dates>
+      <volume>7</volume>
+      <issue>1</issue>
+      <abstract>Twitter is a social media that is experiencing rapid development, because users can rely on each other using computers or mobile devices. Trending hashtag that change rapidly according to the intensity of the user talking about a certain thing. So that twitter is suitable for chatting about the latest things, one of them is the Covid-19 topic. There is a possibility that there are people who use this predicate to lead public opinion about Covid-19 regarding good news or news that cannot be trusted which can spread quickly. In this study, the authors wanted to know the kinds of topics discussed by bot accounts for information dissemination using the covid19 hasthag. This research was conducted using the Latent Dirichlet Allocation (LDA) method. The analysis was carried out after text mining on 162 tweets from 62 Twitter bot accounts. To determine the optimal number of topics, namely by looking at the value of perplexity and topic coherence. The results obtained are the top lima topics, including the condition and impact of the</abstract>
+      <periodical><full-title>Cogito Smart Journal |</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Brawijaya, Universitas
+          </author>
+          <author>
+            Raditya, Bagas
+          </author>
+          <author>
+            Listyawan, Nur
+          </author>
+          <author>
+            Setiawan, Nanang Yudi
+          </author>
+          <author>
+            Saputra, Mochamad Chandra
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Fakultas Ilmu Komputer Topic Modelling Pada Aktivitas Pengembangan Perangkat Lunak Menggunakan BERTopic</title>
+      </titles>
+      <dates>
+        <year>2017</year>
+      </dates>
+      <volume>1</volume>
+      <pages>2548-964</pages>
+      <issue>1</issue>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>http:&#x2F;&#x2F;j-ptiik.ub.ac.id</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Sebagai Syarat Untuk Menyelesaikan, Diajukan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>PEMODELAN TOPIK MENGGUNAKAN BERTopic DENGAN KeyBERT UNTUK EKSTRAKSI KATA KUNCI SEBAGAI TOPIC REPRESENTATION TUNING</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Raihan, Muhammad
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>DYNAMIC TOPIC MODELLING MENGGUNAKAN BERTOPIC DALAM PEMILIHAN PRESIDEN TAHUN 2019 Disusun Oleh</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Oktafiandi, Hery
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Implementasi LDA untuk Pengelompokan Topik Twitter Bertagar #Mypertamina</title>
+      </titles>
+      <abstract>Twitter social media is widely used by users as a medium of communication and information. Apart from being a communication tool, Twitter is used to obtain the required research data. The use of the twitter hashtag becomes a reference for trending news or issues that are developing in the community. The trend that is currently being discussed is the Mypertamina application. This study takes data from twitter with the hashtag #Mypertamina with a lot of twitter data as many as 149 tweets, from the data obtained it will be clustered using topic modeling with the Latent Dirichlet Allocation (LDA) method. The advantage of the LDA method is that it can cluster, summarize, and link large amounts of data. This study resulted in 3 data clusters with the largest coherence value of 0.4618</abstract>
+      <keywords>
+        <keyword>LDA</keyword>
+        <keyword>Mypertamina</keyword>
+        <keyword>Twitter</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Analisis Trending Topik untuk Percakapan Media Sosial dengan Menggunakan Topic Modelling Berbasis Algoritme LDA1</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Pengaruh Penggunaan Model Pembelajaran Kooperatif Tipe Stad(student Team Achievement Division)</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Setiawan, Gede Herdian
+          </author>
+          <author>
+            Made, I
+          </author>
+          <author>
+            Adnyana, Budi
+          </author>
+          <author>
+            Rai, Gusti
+          </author>
+          <author>
+            Sugiartha, Agung
+          </author>
+          <author>
+            Budiarta, Komang
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Ekstraksi Topik Pada Aduan Mahasiswa Dengan Pendeketan Model Latent Dirichlet Allocation (LDA)</title>
+      </titles>
+      <abstract>Student complaints need to be properly managed and analyzed and used as a valuable source of information for universities in developing a better education system and meeting student expectations. In managing student complaints, tertiary institutions often experience problems such as not having enough resources to collect, store, and analyze all student complaints effectively. This research applies the Latent Dirichlet Allocation (LDA) model which aims to classify incoming complaint topics based on the key words contained in student complaints. This is expected to facilitate the process of dealing with student complaints, so that problems faced by students can be resolved more quickly and accurately. Student complaint data will be collected from the existing student complaint management system. Furthermore, the data will be processed using the LDA model technique to identify the topic of the incoming complaint. Testing the extraction of the four topics in the LDA model obtained a perplexity value of-6.8026282, this indicates that the LDA model has a low perplexity and shows good performance. The coherence test using the u_mass method decreases in value as the number of topics increases, indicating a change in topic coherence in the LDA model. It can be concluded that in the dataset and LDA model built in this study, the higher the number of topics, the worse the topic formation performance. In order to get the ideal number of topics, it is necessary to make some adjustments to the number of topics, datasets and cohorrence testing with other methods.</abstract>
+      <keywords>
+        <keyword>Classification</keyword>
+        <keyword>LDA</keyword>
+        <keyword>Student complaints</keyword>
+        <keyword>Text Mining</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Rizky Pribadi, Muhammad
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Analisis Interaksi Pengguna Sosial Media Sekolah di Palembang Berdasarkan Topik dengan hLDA dan SVM</title>
+      </titles>
+      <publisher>JUTIKOMP</publisher>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Setiawan, Gede Herdian
+          </author>
+          <author>
+            Made, I
+          </author>
+          <author>
+            Adnyana, Budi
+          </author>
+          <author>
+            Rai, Gusti
+          </author>
+          <author>
+            Sugiartha, Agung
+          </author>
+          <author>
+            Budiarta, Komang
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Ekstraksi Topik Pada Aduan Mahasiswa Dengan Pendeketan Model Latent Dirichlet Allocation (LDA)</title>
+      </titles>
+      <abstract>Student complaints need to be properly managed and analyzed and used as a valuable source of information for universities in developing a better education system and meeting student expectations. In managing student complaints, tertiary institutions often experience problems such as not having enough resources to collect, store, and analyze all student complaints effectively. This research applies the Latent Dirichlet Allocation (LDA) model which aims to classify incoming complaint topics based on the key words contained in student complaints. This is expected to facilitate the process of dealing with student complaints, so that problems faced by students can be resolved more quickly and accurately. Student complaint data will be collected from the existing student complaint management system. Furthermore, the data will be processed using the LDA model technique to identify the topic of the incoming complaint. Testing the extraction of the four topics in the LDA model obtained a perplexity value of-6.8026282, this indicates that the LDA model has a low perplexity and shows good performance. The coherence test using the u_mass method decreases in value as the number of topics increases, indicating a change in topic coherence in the LDA model. It can be concluded that in the dataset and LDA model built in this study, the higher the number of topics, the worse the topic formation performance. In order to get the ideal number of topics, it is necessary to make some adjustments to the number of topics, datasets and cohorrence testing with other methods.</abstract>
+      <keywords>
+        <keyword>Classification</keyword>
+        <keyword>LDA</keyword>
+        <keyword>Student complaints</keyword>
+        <keyword>Text Mining</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Rashif, Faza
+          </author>
+          <author>
+            Ihza Perwira Nirvana, Goldio
+          </author>
+          <author>
+            Alif Noor, Muhammad
+          </author>
+          <author>
+            Aini Rakhmawati, Nur
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Implementasi LDA untuk Pengelompokan Topik Cuitan Akun Bot Twitter bertagar #Covid-19 LDA Implementation for Topic of Bot&#39;s Tweets with #Covid-19 Hashtag</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+      </dates>
+      <volume>7</volume>
+      <issue>1</issue>
+      <abstract>Twitter is a social media that is experiencing rapid development, because users can rely on each other using computers or mobile devices. Trending hashtag that change rapidly according to the intensity of the user talking about a certain thing. So that twitter is suitable for chatting about the latest things, one of them is the Covid-19 topic. There is a possibility that there are people who use this predicate to lead public opinion about Covid-19 regarding good news or news that cannot be trusted which can spread quickly. In this study, the authors wanted to know the kinds of topics discussed by bot accounts for information dissemination using the covid19 hasthag. This research was conducted using the Latent Dirichlet Allocation (LDA) method. The analysis was carried out after text mining on 162 tweets from 62 Twitter bot accounts. To determine the optimal number of topics, namely by looking at the value of perplexity and topic coherence. The results obtained are the top lima topics, including the condition and impact of the</abstract>
+      <periodical><full-title>Cogito Smart Journal |</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Raihan, Muhammad
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>DYNAMIC TOPIC MODELLING MENGGUNAKAN BERTOPIC DALAM PEMILIHAN PRESIDEN TAHUN 2019 Disusun Oleh</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Sains, Herwinsyah Fakultas
+          </author>
+          <author>
+            Teknologi, Dan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>PEMODELAN TOPIK DALAM AL-QUR&#39;AN MENGGUNAKAN LIBRARY BERTOPIC PADA MODEL BAHASA BERT</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+      </dates>
+      <volume>14</volume>
+      <issue>2</issue>
+      <periodical><full-title>Jurnal SIMETRIS</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Oktafiandi, Hery
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Implementasi LDA untuk Pengelompokan Topik Twitter Bertagar #Mypertamina</title>
+      </titles>
+      <abstract>Twitter social media is widely used by users as a medium of communication and information. Apart from being a communication tool, Twitter is used to obtain the required research data. The use of the twitter hashtag becomes a reference for trending news or issues that are developing in the community. The trend that is currently being discussed is the Mypertamina application. This study takes data from twitter with the hashtag #Mypertamina with a lot of twitter data as many as 149 tweets, from the data obtained it will be clustered using topic modeling with the Latent Dirichlet Allocation (LDA) method. The advantage of the LDA method is that it can cluster, summarize, and link large amounts of data. This study resulted in 3 data clusters with the largest coherence value of 0.4618</abstract>
+      <keywords>
+        <keyword>LDA</keyword>
+        <keyword>Mypertamina</keyword>
+        <keyword>Twitter</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Pengaruh Penggunaan Model Pembelajaran Kooperatif Tipe Stad(student Team Achievement Division)</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Sebagai Syarat Untuk Menyelesaikan, Diajukan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>PEMODELAN TOPIK MENGGUNAKAN BERTopic DENGAN KeyBERT UNTUK EKSTRAKSI KATA KUNCI SEBAGAI TOPIC REPRESENTATION TUNING</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Report"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Brawijaya, Universitas
+          </author>
+          <author>
+            Raditya, Bagas
+          </author>
+          <author>
+            Listyawan, Nur
+          </author>
+          <author>
+            Setiawan, Nanang Yudi
+          </author>
+          <author>
+            Saputra, Mochamad Chandra
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Fakultas Ilmu Komputer Topic Modelling Pada Aktivitas Pengembangan Perangkat Lunak Menggunakan BERTopic</title>
+      </titles>
+      <dates>
+        <year>2017</year>
+      </dates>
+      <volume>1</volume>
+      <pages>2548-964</pages>
+      <issue>1</issue>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>http:&#x2F;&#x2F;j-ptiik.ub.ac.id</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Analisis Trending Topik untuk Percakapan Media Sosial dengan Menggunakan Topic Modelling Berbasis Algoritme LDA1</title>
+      </titles>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Malihatin S, Ulfah
+          </author>
+          <author>
+            Findawati, Yulian
+          </author>
+          <author>
+            Indahyanti, Uce
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>TOPIC MODELING IN COVID-19 VACCINATION REFUSAL CASES USING LATENT DIRICHLET ALLOCATION AND LATENT SEMANTIC ANALYSIS</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>10</date>
+          </pub-dates>
+      </dates>
+      <volume>4</volume>
+      <pages>1063-1074</pages>
+      <issue>5</issue>
+      <electronic-resource-num>10.52436&#x2F;1.jutif.2023.4.5.951</electronic-resource-num>
+      <abstract>COVID -19 vaccination is a program provided by the Indonesian government to minimize the spread of the virus. The COVID-19 vaccination program in Indonesia goes hand in hand with issues that are circulating, causing controversy and rejection of vaccination on social media, especially Twitter. There are many factors that influence vaccine rejection on Twitter, to summarize frequently discussed topics and find out hidden topics, this study uses the Latent Dirichlet Allocation (LDA) and Latent Semantic Analysis (LSA) methods from 1797 Twitter scrapping data. Both models require a set of words that have been converted into a matrix, so before conducting LDA topic modeling, the dataset will undergo a bag of word (BOW) calculation. Meanwhile, in LSA topic modeling, the existing dataset will undergo word weighting of frequently occurring words using Term Frequency - Inverse Document Frequency (TF-IDF). This study was conducted to find and summarize hidden information in the form of frequently discussed topics, thus understanding public opinions related to the COVID -19 vaccination refusal case. LDA and LSA methods will display topics based on the probability and mathematical calculations of word occurrences in each topic in the document. The topics that appear will be further analyzed through coherence score by applying a limit of 20 topics to display the best value. Further modeling experiments are carried out to display topics through LDA and LSA models, this study takes 6 topics with the highest coherence values including the right of individuals to choose whether to be vaccinated or not (0.484607), the Ribka Tjiptaning controversy (0.473368), rejection of the COVID-19 vaccine by groups represented by public figures (0.463631), punishment for non-compliance in the form of fines (0.324924), and halal certification (0.312521).</abstract>
+      <publisher>Infinite Corporation</publisher>
+      <periodical><full-title>Jurnal Teknik Informatika (Jutif)</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+  </records>
+</xml>
