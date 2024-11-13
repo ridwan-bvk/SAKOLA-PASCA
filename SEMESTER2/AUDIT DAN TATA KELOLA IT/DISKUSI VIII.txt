@@ -1,0 +1,27 @@
+Berikan contoh paper jurnal tentan perhitungan maturity tatakelola TI?
+
+JUDUL JURNAL	: PENERAPAN FRAMEWORK COBIT 2019 PADA AUDIT TEKNOLOGI INFORMASI DI PT. LUM 
+PENULIS		: Mohamad Firdaus, Indra Bakti 
+SUMBER		: https://journal.smartpublisher.id/index.php/jimi/article/view/53
+TAHUN 		: 2024
+Ringkasan :
+Tujuan
+Tujuan Penelitian bertujuan untuk mengevaluasi efektivitas penerapan framework COBIT 2019 dalam audit teknologi informasi di PT. LUM.
+Metodelogi
+Metodologi penelitian melibatkan analisis deskriptif kualitatif dengan mengumpulkan data melalui wawancara, kuesioner, dan tinjauan dokumen internal perusahaan.
+Hasil
+Hasil penelitian menunjukkan bahwa PT. LUM telah mengimplementasikan sebagian besar proses dalam domain COBIT 2019, namun masih terdapat beberapa area yang memerlukan perbaikan lebih lanjut. Temuan ini mencakup perlunya peningkatan dalam pengelolaan risiko TI, peningkatan kapasitas sumber daya manusia di bidang TI, serta penguatan mekanisme pemantauan dan evaluasi.
+Saran
+disarankan 
+agar PT. LUM melakukan penyempurnaan kebijakan dan prosedur terkait tata kelola TI sesuai dengan rekomendasi COBIT 2019
+
+Perhitungan Maturity
+Acuan Capability level CMMI
+
+
+setelah didapat rata-rata perhitungan dari hasil penelitian, maka dilakukan Analisis Kesenjangan (Gap Analysis)  
+Analisis kesenjangan diawali dengan melakukan
+
+pengukuran Maturity Level pada setiap domain terhadap 
+Analisis kesenjangan diawali dengan melakukan pengukuran Maturity Level pada setiap domaindibandingkan dengan Maturity Level yang diharapkan. 
+

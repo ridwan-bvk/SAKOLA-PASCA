@@ -1,0 +1,37 @@
+apa yang saudara ketahui data dalam penelitian kuantitatif dan kualitatif
+
+silahkan dapat dididkudsikan dan dikembangkan untuk diskusi lebih lanjut
+
+
+Definisi
+Data Kuantitatif
+Data Kuantitatif adalah data yang dapat diukur atau dihitung secara numerik.
+Data Kuantitatif biasanya disajikan dalam bentuk angka dan digunakan untuk analisis statistik. Tujuan dari penelitian kuantitatif adalah untuk menguji hipotesis, membuat generalisasi, dan mengidentifikasi pola dalam populasi yang lebih besar[1]
+contoh:
+Jumlah pegawai di suatu perusahaan.
+Hasil survei kepuasan pelanggan yang dinyatakan dalam angka (misalnya, persentase kepuasan).
+
+Metode Pengumpulan:
+Data kuantitatif biasanya dikumpulkan melalui:
+Kuesioner yang terstruktur.
+Survei dengan skala Likert.
+Pengukuran langsung (seperti pengukuran tinggi badan atau berat badan)
+
+Data Kualitatif
+Definisi
+Data kualitatif adalah data yang bersifat deskriptif dan tidak dapat diukur secara numerik. Data ini lebih fokus pada makna, konteks, dan pengalaman subjektif dari individu atau kelompok yang diteliti. Penelitian kualitatif bertujuan untuk memahami fenomena secara mendalam dan memberikan wawasan tentang perspektif subjek penelitian
+Contoh:
+Wawancara mendalam dengan responden tentang pengalaman mereka.
+Observasi perilaku dalam situasi sosial.
+Analisis dokumen atau catatan lapangan yang menggambarkan konteks tertentu.
+Metode Pengumpulan:
+Metode pengumpulan data kualitatif meliputi:
+Wawancara: Mengumpulkan informasi melalui pertanyaan terbuka.
+Observasi: Mencatat perilaku atau kejadian di lapangan.
+Focus Group Discussion (FGD): Diskusi kelompok untuk menggali pandangan bersama.
+Telaah dokumen: Menganalisis teks atau arsip yang relevan [2]
+
+
+
+[1] https://dibimbing.id/blog/detail/apa-itu-data-kualitatif
+[2] https://kumparan.com/sejarah-dan-sosial/bentuk-data-penelitian-kualitatif-dan-metode-pengumpulannya-21AndYDrSWY
