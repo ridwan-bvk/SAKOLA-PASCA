@@ -1,0 +1,47 @@
+selamat pagi salam jumpa lagi dan salam sehat serta sukses semuanya
+
+Apa yang saudara ketahui tentang Regresi Berganda. Bagaimana menguji model regresi berganda yang baik. Jelaskan
+
+Selamat berdiskusi
+
+terima kasih
+
+Definisi
+Regresi berganda adalah metode analisis statistik yang digunakan untuk memprediksi nilai dari satu variabel dependen (terikat) berdasarkan dua atau lebih variabel independen (bebas)[1]
+Dalam regresi berganda, fokusnya adalah pada bagaimana variabel independen mempengaruhi variabel dependen, Rumus umum untuk analisis regresi linear berganda adalah:
+
+
+Jenis-jenis Regresi Berganda
+Regresi Linear Berganda: Digunakan ketika variabel dependen berskala interval atau rasio. Contoh: Mengkaji pengaruh Debt to Equity Ratio (DER) dan Net Profit Margin (NPM) terhadap return saham12.
+Regresi Logistik Berganda: Digunakan ketika variabel dependen adalah data dikotomi (dua kategori). Contoh: Menganalisis pengaruh merokok dan jenis kelamin terhadap kejadian kanker paru-paru1.
+Regresi Ordinal Berganda: Menerapkan analisis pada variabel dependen yang berskala ordinal, di mana variabel bebas bisa berupa data kategorik atau kuantitatif1.
+Regresi Multinomial Berganda: Digunakan ketika variabel dependen memiliki lebih dari dua kategori. Ini mirip dengan regresi logistik tetapi dengan lebih banyak kategori dalam variabel terikat [1]
+
+
+
+[1] https://www.statistikian.com/2017/06/berbagai-jenis-regresi-berganda.html
+[2] https://hmpsstatistikafmipaunm.com/2023/04/10/analisis-regresi-linear-berganda/
+
+
+
+Untuk menguji model regresi berganda yang baik, ada beberapa langkah dan kriteria yang perlu diperhatikan.
+1. Uji Asumsi Klasik
+Uji Normalitas: Memastikan bahwa residual dari model regresi berdistribusi normal. Ini dapat diuji dengan menggunakan grafik Q-Q atau uji Shapiro-Wilk.
+Uji Linearitas: Hubungan antara variabel independen dan dependen harus bersifat linear. Ini dapat diuji dengan melihat scatter plot antara variabel independen dan residual.
+Uji Multikolinearitas: Memastikan tidak ada korelasi yang tinggi antara variabel independen. Ini dapat diuji dengan Variance Inflation Factor (VIF), di mana nilai VIF yang lebih dari 10 menunjukkan adanya multikolinearitas.
+Uji Heteroskedastisitas: Memastikan bahwa varians dari residual adalah konstan. Uji ini dapat dilakukan dengan menggunakan grafik plot residual atau uji Breusch-Pagan.
+Uji Autokorelasi: Khusus untuk data time series, pastikan tidak ada autokorelasi dalam residual. Uji Durbin-Watson sering digunakan untuk ini, di mana nilai d diharapkan berada di antara 1.5 hingga 2.5 untuk menunjukkan tidak adanya autokorelasi. [3]
+
+2. Uji Signifikansi Model
+Uji F: Digunakan untuk menguji apakah semua koefisien regresi (variabel independen) secara simultan berpengaruh terhadap variabel dependen. Hipotesis nol (H0) menyatakan bahwa semua koefisien regresi sama dengan nol. Jika nilai p (signifikansi) dari uji F kurang dari 0,05, maka H0 ditolak, yang berarti setidaknya satu variabel independen berpengaruh signifikan terhadap variabel dependen.
+
+3. Uji Koefisien Regresi
+Setelah uji F, lakukan uji t untuk masing-masing koefisien regresi:
+Uji t: Untuk menguji signifikansi masing-masing variabel independen terhadap variabel dependen. Setiap koefisien diuji dengan hipotesis nol bahwa koefisien tersebut sama dengan nol. Jika nilai p dari uji t kurang dari 0,05, maka koefisien tersebut dianggap signifikan
+
+4. Evaluasi Model
+Setelah semua pengujian dilakukan, evaluasi model regresi berganda dengan melihat:
+R-squared (R²): Mengukur seberapa baik model menjelaskan variasi dalam data. Nilai R² berkisar antara 0 dan 1; semakin mendekati 1, semakin baik model dalam menjelaskan variasi.
+Adjusted R-squared: Mengoreksi R² untuk jumlah variabel dalam model, memberikan gambaran lebih akurat tentang seberapa baik model menjelaskan data saat menambah variabel baru.
+
+[3] https://accounting.binus.ac.id/2021/08/12/memahami-analisis-regresi-linear-berganda/
