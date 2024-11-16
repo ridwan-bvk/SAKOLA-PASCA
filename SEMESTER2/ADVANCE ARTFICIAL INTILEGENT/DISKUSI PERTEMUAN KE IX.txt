@@ -1,0 +1,25 @@
+Assalamualaikum Dear All...
+
+Please find attached the paper you must read,
+Make a Summary of the Paper in short but accurate
+The Summary can be written on this FD 09
+Deadline, Saturday, the 16th of November 2024 at 12.00 Noon
+Good Luck and Thanks a Lot.
+Tugas 09 AIS.pdf
+
+JUDUL	: 'Formulasi Kebijakan Sistem Transportasi Laut Dengan Penerapan Electronic Navigation (E-Navigation)'
+PENULIS	:Dian Tamerlan, Pascasarjana Teknik Informatika, Universitas Pamulang.
+SUMBER	: Tugas 09 AIS.pdf
+LATAR BELAKANG
+Penelitian ini membahas formulasi kebijakan transportasi laut untuk meningkatkan sistem logistik maritim Indonesia. Fokusnya adalah pada konsep "Tol Laut," yang bertujuan memodernisasi transportasi laut, mengurangi disparitas logistik antarwilayah, dan mendorong pertumbuhan ekonomi melalui peningkatan infrastruktur serta digitalisasi, khususnya dengan penerapan E-Navigation.
+PERMASALAHAN DAN TUJUAN PENELITIAN
+Penelitian ini mengidentifikasi masalah utama seperti keterlambatan ketersediaan infrastruktur, terbatasnya sumber daya, dan ketidakefisienan dalam transportasi laut. Tujuannya adalah mengevaluasi dan mengusulkan formulasi kebijakan yang efektif untuk sistem transportasi laut yang berkelanjutan, memastikan keterjangkauan, efisiensi, dan peningkatan layanan logistik ke daerah-daerah terpencil. Penelitian ini juga bertujuan mengeksplorasi potensi E-Navigation untuk memperlancar logistik dan mengurangi biaya operasional.
+METODE PENELITIAN:
+Metode proyeksi yang digunakan dengan metode regresi. Dasar dari metode ini adalah data historis dari aspek yang ditinjau, sedangkan analisis dilakukan dengan memperhatikan kecenderungan perkembangan data yang ada dengan menganggap data tersebut yang menentukan
+variasi lalu lintas akan terus menunjukkan hubungan- hubungan yang serupa pada masa depan.
+ANALISIS HASIL DAN PEMBAHASAN
+Hasil penelitian menunjukkan bahwa efektivitas formulasi kebijakan adalah langkah penting dalam kebijakan maritim. Keberhasilan pelaksanaan program Tol Laut bergantung pada analisis masalah yang terstruktur, keterlibatan para pemangku kepentingan, dan keselarasan antara tujuan pemerintah dan kebutuhan publik. Penelitian ini juga menunjukkan bahwa sistem navigasi modern, seperti E-Navigation, berperan penting dalam meningkatkan pertukaran informasi dalam rantai pasokan maritim, yang dapat mengurangi biaya dan meningkatkan efisiensi operasional.
+KELEMAHAN DAN KELEBIHAN
+
+KESIMPULAN
+Dalam rangka menindaklanjuti program pemerintah mengenai pelaksanaan tol laut, Kementerian Perhubungan (khususnya Direktorat Jenderal Perhubungan Laut) telah mengeluarkan Trayek Liner Non Komersial. Trayek tersebut ditugaskan kepada PT. Pelni (Persero) untuk melayani dengan diberikan pennugasan kewajiban pelayanan publik untuk angkutan barang dalam rangka pelaksanaan tol laut, guna menjamin ketersediaan barang dan mengurangi disparitas harga bagi masyarakat serta menjamin kelangsungan masyarakat itu sendiri.
