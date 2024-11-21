@@ -20,3 +20,4 @@ Teknologi AI digunakan untuk menganalisis data dan menemukan pola dalam pilihan 
 Hasil Penelitian
 Penelitian ini menunjukkan bahwa setiap budaya telah mengembangkan bahan otentik mereka sendiri, yang mungkin menunjukkan bahwa kebugaran dapat sangat bervariasi di seluruh masakan. Pola-pola statistik yang dicatat dalam penelitian ini menunjukkan bahwa masakan Amerika Utara dan Eropa Barat cenderung menggabungkan bahan-bahan yang memiliki rasa yang sama senyawa, sedangkan masakan Asia Timur menghindarinya. Hasil ini memberikan contoh tentang bagaimana metode analisis jaringan berbasis data dapat menghasilkan wawasan baru di bidang ilmu pangan.1
 Dengan demikian, file Tugas 10 AIS menjelaskan kompleksitas Food Pairing dan penerapan teknologi AI dalam analisis data kuliner, serta menampilkan hasil penelitian yang menunjukkan pola-pola dalam pilihan bahan makanan yang berbeda-beda di berbagai budaya.
+
