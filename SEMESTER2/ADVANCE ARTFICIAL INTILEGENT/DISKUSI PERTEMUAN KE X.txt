@@ -1,0 +1,23 @@
+Assalamualaikum Dear All...
+
+Please find attached the paper you must read,
+Make a Summary of the Paper in short but accurate
+The Summary can be written on this FD 10
+Deadline, Saturday, the 23th of November 2024 at 12.00 Noon
+Good Luck and Thanks a Lot.
+ Tugas 10 AIS.pdf
+
+Latar Belakang
+File Tugas 10 AIS menjelaskan tentang Food Pairing, yaitu ilmu yang mencari dan mengidentifikasi jenis bahan makanan atau minuman yang dapat bercampur untuk disantap bersamaan, sehingga menghasilkan sensasi bersantap yang sesuai dengan penerimaan indra perasa dan penciuman. Ilmu ini menggunakan metode analisis kimia seperti High Performance Liquid Chromatography (HPLC) dan Gas Chromatography-Spectroscopy Mass (GC-MS) untuk menemukan komponen kimia yang memiliki kesamaan.1
+Konsep Dasar Food Pairing
+Food Pairing dimulai dengan analisis kimiawi suatu makanan. Senyawa aroma ditentukan dengan bantuan kromatografi gas, yang dalam banyak kasus digabungkan dengan spektrometer massa (GC-MS). Aroma kunci dapat diidentifikasi dengan membandingkan konsentrasi dari aroma dengan masing-masing ambang batas rasa. Aroma kunci adalah senyawa yang secara efektif akan tercium oleh manusia dan didefinisikan sebagai setiap senyawa yang ada dalam konsentrasi yang lebih tinggi dari ambang batas rasa spesifiknya.1
+Contoh Kasus Food Pairing
+Sebuah studi klasik oleh Heston Blumenthal menemukan bahwa kaviar dan cokelat putih adalah pasangan yang sempurna. Penelitian ini menunjukkan bahwa makanan yang berbeda akan menyatu dengan baik ketika mereka berbagi komponen rasa utama. Hipotesis ini kemudian dikembangkan menjadi teori Food Pairing, yang menyatakan bahwa makanan yang berbagi komponen rasa utama akan memiliki kombinasi yang harmonis.1
+Metode Analisis
+Untuk menguji hipotesis bahwa pilihan bahan didorong oleh apresiasi bahan pasangan yang berbagi senyawa rasa, penulis menggunakan metode pengukuran jumlah rata-rata senyawa bersama di setiap resep. Hasil ini dibandingkan dengan dataset resep referensi yang dibangun secara acak untuk mengontrol frekuensi bahan tertentu dalam masakan daerah tertentu. Pengukuran ini menunjukkan bahwa resep dengan banyak senyawa bersama (N8) lebih disukai secara statistik dalam masakan c.1
+Penerapan Teknologi AI
+Teknologi AI digunakan untuk menganalisis data dan menemukan pola dalam pilihan bahan makanan. Sistem komputer dengan teknologi AI dapat membantu dan mempermudah pekerjaan manusia dalam analisis data dan pengambilan keputusan. Contohnya, aplikasi GC-MS dapat digunakan dalam identifikasi zat-zat dalam sampel uji, termasuk deteksi obat, investigasi kebakaran, dan analisis lingkungan.1
+Hasil Penelitian
+Penelitian ini menunjukkan bahwa setiap budaya telah mengembangkan bahan otentik mereka sendiri, yang mungkin menunjukkan bahwa kebugaran dapat sangat bervariasi di seluruh masakan. Pola-pola statistik yang dicatat dalam penelitian ini menunjukkan bahwa masakan Amerika Utara dan Eropa Barat cenderung menggabungkan bahan-bahan yang memiliki rasa yang sama senyawa, sedangkan masakan Asia Timur menghindarinya. Hasil ini memberikan contoh tentang bagaimana metode analisis jaringan berbasis data dapat menghasilkan wawasan baru di bidang ilmu pangan.1
+Dengan demikian, file Tugas 10 AIS menjelaskan kompleksitas Food Pairing dan penerapan teknologi AI dalam analisis data kuliner, serta menampilkan hasil penelitian yang menunjukkan pola-pola dalam pilihan bahan makanan yang berbeda-beda di berbagai budaya.
+

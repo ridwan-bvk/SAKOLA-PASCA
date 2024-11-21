@@ -1,0 +1,37 @@
+apa yang saudara ketahui tentang asumsi klasik dalam uji persyaratan analisis. Jelaskan
+
+Selamat berdiskusi
+
+salam sukses
+
+
+Asumsi klasik dalam uji persyaratan analisis regresi linear berganda adalah sebuah rangkaian prasyarat statistik yang harus dipenuhi untuk memastikan bahwa model regresi yang dibuat adalah akurat, tidak bias, dan konsisten.
+
+
+Berikut adalah empat asumsi dasar:
+1. Normalitas
+Data harus berdistribusi normal. Artinya, jika Anda ingin memprediksi perilaku suatu fenomena, data yang terkait harus tersusun rapi tanpa pola aneh. Contoh sederhananya: Bayangkan kamu sedang menjual es krim. Kamu ingin tahu berapa banyak es krim yang bisa terjual dalam seminggu. Jika jumlah penjualan tiap hari sama-sama normal (bukan sangat tinggi atau rendah), maka data kamu sudah siap digunakan.
+
+2. Linearitas
+Hubungan antara variabel prediktor (X) dan variabel kriteria (Y) harus linear. Artinya, jika kamu meningkatkan X sebanyak satu unit, maka Y juga harus meningkat atau turun secara proporsional. Contoh: Jumlah jam belajar siswa (X) dan skornya (Y). Jika setiap jam tambahan belajar membuat skor siswa naik secara langsung dan proporsional, maka hubungan mereka linearr.
+
+3. Multikolinearitas
+Variabel bebas tidak boleh saling korelatif kuat. Artinya, jika kamu punya beberapa faktor yang mempengaruhi hasil, maka tidak boleh ada hubungan yang kuat di antara faktorfaktor tersebut. Contoh: Ketika kamu ingin mengetahui pengaruh harga barang (X1), promosi (X2), dan lokasi toko (X3) terhadap penjualan (Y). Jika harga barang dan lokasi toko saling korelatif kuat, maka model regresimu tidak akan akurat.
+
+4. Autokorelasi dan Heteroskedastisitas
+Autokorelasi: Kesalahan pengganggu pada saat t tidak boleh korelatif dengan kesalahan pengganggu pada saat t-1. Artinya, jika kamu mengukur penjualan harian dan malam hari, maka kesalahan penjualan pagi hari tidak boleh memengaruhi kesalahan penjualan sore hari.
+Heteroskedastisitas: Varian kesalahan pengganggu tidak boleh berbeda-beda. Artinya, jika kamu mengukur penjualan harian dan variansnya berubah-ubah, maka model regreismu tidak akan akurat.
+Dengan memenuhi asumsi klasik ini, kamu dapat membangun model regresi yang akurat dan dapat dipercaya untuk memprediksi fenomena yang kompleks.
+
+sumber:
+https://accounting.binus.ac.id/2021/08/06/memahami-uji-asumsi-klasik-dalam-penelitian-ilmiah/
+https://repository.uksw.edu/bitstream/123456789/24716/4/T1_212013206_BAB%20IV.pdf
+
+
+Contoh Sederhana:
+Bayangkan kamu ingin memprediksi berapa banyak buku yang akan terjual berdasarkan harga buku dan iklan daring.
+Normalitas: Pastikan data penjualan buku dan harga buku serta iklan daring berdistribusi normal.
+Linearitas: Pastikan hubungan antara harga buku dan iklan daring dengan penjualan buku linear.
+Multikolinearitas: Pastikan harga buku dan iklan daring tidak saling korelatif kuat.
+Autokorelasi & Heteroskedastisitas: Pastikan kesalahan pengganggu penjualan buku tidak korelatif antarperiode dan varian kesalahannya stabil.
+Dengan memenuhi asumsi klasik ini, kamu dapat membangun model regresi yang efektif untuk memprediksi penjualan buku berdasarkan harga dan iklan daring.
