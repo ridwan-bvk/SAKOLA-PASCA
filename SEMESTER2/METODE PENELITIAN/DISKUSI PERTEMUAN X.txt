@@ -3,5 +3,12 @@ apa yang saudara ketahui Uji akurasi data
 sebutkan dan jealskan uji akurasi data dari proposal saudara..
 
 
-Uji akurasi data adalah proses untuk mengukur seberapa tepat atau benar hasil dari suatu model atau metode dalam memprediksi atau mengklasifikasikan data dibandingkan dengan nilai sebenarnya atau data referensi (ground truth)
+	
+
+Proses Uji Akurasi
+Berikut adalah langkah-langkah umum dalam melakukan uji akurasi:
+Siapkan Dataset: Dataset harus memiliki label atau kategori yang sudah diketahui.
+Buat Model: Model dapat berupa algoritma pembelajaran mesin yang akan melakukan prediksi pada dataset.
+Lakukan Prediksi: Gunakan model untuk memprediksi kategori dari dataset.
+Bandingkan Hasil: Hitung jumlah prediksi yang benar dan bandingkan dengan label sebenarnya untuk menentukan akurasi
 
