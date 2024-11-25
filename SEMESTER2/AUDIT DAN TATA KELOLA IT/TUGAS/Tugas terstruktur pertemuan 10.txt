@@ -1,0 +1,176 @@
+domain **Align**, **Plan**, dan **Organize** (APO) dalam framework COBIT 5. Setiap pertanyaan dirancang untuk menggali aspek-aspek spesifik dari praktik manajemen TI di organisasi Anda.
+
+### Kuesioner Terperinci untuk Domain Align, Plan, dan Organize (APO)
+
+#### Instruksi
+Silakan berikan penilaian Anda berdasarkan pengalaman dan observasi Anda terhadap praktik manajemen TI di organisasi Anda. Gunakan skala berikut untuk memberikan jawaban:
+
+- 1: Sangat Tidak Setuju
+- 2: Tidak Setuju
+- 3: Netral
+- 4: Setuju
+- 5: Sangat Setuju
+
+### Pertanyaan Domain Align
+
+#### Struktur Organisasi TI
+1. **Definisi Struktur**  
+   Apakah struktur organisasi untuk manajemen TI telah didefinisikan secara jelas dan dipahami oleh semua pihak?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+2. **Peran dan Tanggung Jawab**  
+   Apakah setiap peran dalam manajemen TI memiliki deskripsi tugas yang jelas dan terdokumentasi?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+3. **Kepatuhan terhadap Kebijakan**  
+   Apakah semua karyawan mematuhi kebijakan dan prosedur TI yang telah ditetapkan?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+#### Strategi TI
+4. **Keterkaitan Strategi**  
+   Apakah strategi TI secara langsung mendukung tujuan strategis organisasi secara keseluruhan?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+5. **Evaluasi Strategi**  
+   Apakah ada proses formal untuk mengevaluasi efektivitas strategi TI setiap tahun?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+6. **Keterlibatan Stakeholder**  
+   Apakah stakeholder utama dilibatkan dalam proses perencanaan strategis TI?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+### Pertanyaan Domain Plan
+
+#### Arsitektur TI
+7. **Relevansi Arsitektur**  
+   Apakah arsitektur TI yang ada saat ini mendukung kebutuhan bisnis yang berkembang?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+8. **Dokumentasi Arsitektur**  
+   Apakah dokumentasi arsitektur TI selalu diperbarui dan mudah diakses oleh tim terkait?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+9. **Evaluasi Berkala**  
+   Apakah arsitektur TI dievaluasi secara berkala untuk memastikan kesesuaiannya dengan perkembangan teknologi terbaru?  
+   * Jawaban: 1 | 2 | 3 | 4 | 5
+
+#### Inovasi Teknologi
+10. **Dorongan Inovasi**  
+    Apakah organisasi memberikan insentif bagi karyawan untuk mengusulkan ide-ide inovatif terkait teknologi informasi?  
+    * Jawaban: 1 | 2 | 3 | 4 | 5
+
+11. **Proses Identifikasi Teknologi Baru**  
+    Apakah ada proses formal untuk mengidentifikasi dan mengevaluasi teknologi baru yang dapat diimplementasikan?  
+    * Jawaban: 1 | 2 | 3 | 4 | 5
+
+12. **Implementasi Teknologi Baru**  
+    Seberapa sering teknologi baru diimplementasikan dalam operasi sehari-hari organisasi?  
+    * Jawaban: 
+      - Sangat Jarang
+      - Jarang
+      - Kadang-kadang
+      - Sering
+      - Sangat Sering
+
+### Pertanyaan Domain Organize
+
+#### Manajemen Portofolio Proyek
+13. **Pengelolaan Portofolio Proyek**  
+    Apakah proyek-proyek TI dikelola dalam portofolio yang terintegrasi dengan baik?  
+    * Jawaban: 1 | 2 | 3 | 4 | 5
+
+14. **Analisis Investasi Proyek**  
+    Apakah keputusan investasi proyek didasarkan pada analisis risiko dan manfaat yang komprehensif?  
+    * Jawaban: 1 | 2 | 3 | 4 | 5
+
+15. **Pemantauan Kinerja Proyek**  
+    Apakah ada mekanisme pemantauan kinerja proyek yang efektif untuk mengevaluasi kemajuan dan hasil proyek?  
+    * Jawaban: 
+      - Tidak Ada
+      - Ada, tetapi tidak efektif
+      - Ada, cukup efektif
+      - Ada, sangat efektif
+
+#### Manajemen Anggaran TI
+16. **Perencanaan Anggaran**  
+    Apakah anggaran TI direncanakan dengan mempertimbangkan kebutuhan bisnis yang aktual dan proyeksi masa depan?  
+    * Jawaban: 
+      - Sangat Tidak Memadai
+      - Tidak Memadai
+      - Cukup Memadai
+      - Memadai
+      - Sangat Memadai
+
+17. **Transparansi Pengeluaran**  
+    Apakah pengeluaran TI dikelola dengan transparansi kepada semua stakeholder terkait?  
+    * Jawaban: 
+      - Sangat Tidak Transparan
+      - Tidak Transparan
+      - Cukup Transparan
+      - Transparan
+      - Sangat Transparan
+
+18. **Laporan Anggaran**  
+    Apakah laporan anggaran dan pengeluaran TI disampaikan secara rutin kepada manajemen senior?  
+    * Jawaban: 
+      - Tidak Pernah
+      - Jarang
+      - Kadang-kadang
+      - Sering
+      - Selalu
+
+#### Manajemen Sumber Daya Manusia TI
+19. **Keterampilan Karyawan**  
+    Apakah karyawan memiliki keterampilan yang sesuai untuk mendukung fungsi manajemen TI dengan baik?  
+    * Jawaban: 
+      - Sangat Tidak Sesuai
+      - Tidak Sesuai
+      - Cukup Sesuai
+      - Sesuai
+      - Sangat Sesuai
+
+20. **Program Pelatihan Berkelanjutan**  
+    Apakah terdapat program pelatihan berkelanjutan yang memadai untuk pengembangan keterampilan TI karyawan?  
+    * Jawaban: 
+      - Tidak Ada Program Pelatihan
+      - Ada, tetapi tidak memadai
+      - Ada, cukup memadai
+      - Ada, sangat memadai
+
+21. **Penilaian Kinerja Karyawan**  
+    Apakah penilaian kinerja karyawan mencakup kontribusi mereka terhadap manajemen TI dan inovasi teknologi?   
+    * Jawaban:
+      	*1|2|3|4|5 
+
+Bagian 1: Pengelolaan Kerangka Manajemen TI (APO01)
+Organisasi telah mendefinisikan struktur organisasi untuk manajemen TI.
+Terdapat peran dan tanggung jawab yang jelas dalam manajemen TI.
+Kebijakan dan prosedur TI didokumentasikan dan disosialisasikan kepada seluruh karyawan.
+Bagian 2: Manajemen Strategi (APO02)
+Strategi TI sejalan dengan tujuan bisnis organisasi.
+Terdapat mekanisme untuk mengevaluasi dan memperbarui strategi TI secara berkala.
+Stakeholder terlibat dalam proses perencanaan strategis TI.
+Bagian 3: Manajemen Arsitektur Perusahaan (APO03)
+Arsitektur TI mendukung kebutuhan bisnis saat ini.
+Terdapat dokumentasi yang memadai mengenai arsitektur TI.
+Arsitektur TI dievaluasi secara berkala untuk memastikan kesesuaiannya.
+Bagian 4: Manajemen Inovasi (APO04)
+Organisasi mendorong inovasi dalam penggunaan teknologi informasi.
+Terdapat proses untuk mengidentifikasi dan menerapkan teknologi baru.
+Karyawan didorong untuk memberikan ide-ide inovatif terkait penggunaan TI.
+Bagian 5: Manajemen Portofolio (APO05)
+Proyek TI dikelola dalam portofolio yang terintegrasi.
+Keputusan investasi TI didasarkan pada analisis risiko dan manfaat.
+Terdapat mekanisme untuk memantau kinerja proyek TI secara berkala.
+Bagian 6: Manajemen Anggaran dan Biaya (APO06)
+Anggaran TI direncanakan dengan mempertimbangkan kebutuhan bisnis.
+Pengeluaran TI dipantau dan dikelola dengan baik.
+Terdapat transparansi dalam laporan anggaran dan pengeluaran TI.
+Bagian 7: Manajemen Sumber Daya Manusia (APO07)
+Karyawan memiliki keterampilan yang sesuai untuk mendukung manajemen TI.
+Terdapat program pelatihan yang berkelanjutan untuk pengembangan keterampilan TI.
+Penilaian kinerja karyawan mencakup kontribusi mereka terhadap manajemen TI.
+Bagian 8: Pengelolaan Layanan (APO09)
+Layanan TI disesuaikan dengan kebutuhan pengguna.
+Terdapat kesepakatan layanan yang jelas antara penyedia layanan dan pengguna.
+Kinerja layanan TI dipantau menggunakan indikator kinerja yang relevan.
