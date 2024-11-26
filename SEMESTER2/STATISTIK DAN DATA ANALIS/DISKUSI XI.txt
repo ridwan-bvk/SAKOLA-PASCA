@@ -1,0 +1,9 @@
+salam jumpa lagi di E Learning , materi diskusi kali ini adalah
+
+Apa yang saudara ketahui tentang statistik non Parametrik? yang dipelajar dalam statistik non parametrik ini apa saja? sebutkan dan berikan contoh
+
+dalam diskusi tidak wajib menjawab soal dosen tapi dapat memberikan komentar atau menjawab dari pertanyaan mahasiswa lainnya.
+
+selamat berdiskusi
+
+Statistik non-parametrik adalah cabang dari statistik yang tidak bergantung pada asumsi distribusi tertentu dari data yang dianalisis. Berbeda dengan statistik parametrik, yang memerlukan asumsi tentang parameter populasi (seperti rata-rata dan varians), statistik non-parametrik dapat diterapkan pada data yang tidak terdistribusi normal atau ketika informasi tentang distribusi populasi tidak tersedia
