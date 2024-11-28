@@ -1,0 +1,13 @@
+
+Makalah ini membahas tentang identifikasi forensik tengkorak manusia yang tidak dikenal, dengan fokus pada pemanfaatan teknologi rekonstruksi 3D dan pengenalan wajah berbasis kecerdasan buatan (AI). Penulis, Muhamad Rodin, mengemukakan bahwa kepolisian Indonesia mengalami kesulitan dalam mengidentifikasi tengkorak karena kurangnya data identitas, database DNA, dan laporan orang hilang. Oleh karena itu, penelitiannya bertujuan untuk mengembangkan metode yang lebih efektif dalam identifikasi forensik
+
+Latar Belakang
+Data dari Badan Pusat Statistik menunjukkan tingginya angka kejahatan di Indonesia, dengan banyak kasus yang melibatkan korban tanpa identitas. Salah satu contohnya adalah penemuan tengkorak di Bali, yang menyoroti perlunya teknologi yang lebih baik dalam identifikasi forensik. Proses manual untuk rekonstruksi wajah dari tengkorak memakan waktu lama dan tidak selalu akurat.
+Metode
+Makalah ini menggunakan dua metode penelitian:
+Studi Literatur: Mengumpulkan informasi tentang teknologi pengenalan wajah dan rekonstruksi tengkorak.
+Metode Eksperimental: Mengembangkan kolaborasi antara rekonstruksi 3D dan pengenalan wajah menggunakan data E-KTP.
+Hasil dan Pembahasan
+Hasil eksperimen menunjukkan bahwa kombinasi rekonstruksi 3D dengan algoritma pengenalan wajah dapat meningkatkan akurasi identifikasi tengkorak. Model jaringan saraf yang digunakan adalah skull2face, yang menerjemahkan data kedalaman tengkorak menjadi tampilan wajah. Teknologi ini berpotensi membantu tim forensik Polri dalam mengidentifikasi korban dan mengungkap kasus kejahatan.
+Kesimpulan
+Makalah ini menyarankan penerapan teknologi terbaru dalam identifikasi forensik di Indonesia. Dengan memanfaatkan AI dan rekonstruksi 3D, diharapkan proses identifikasi tengkorak manusia yang tidak dikenal dapat dilakukan dengan lebih cepat dan akurat, sehingga mendukung penegakan hukum di masa depan.
