@@ -1,0 +1,1 @@
+Saudara diminta untuk membuat Datasets minimal 17 data tentang suatu permasalahan. silahkan membangun model regresi berganda. minimal ada 3 variabel bebas dan 1 variabel terikat. obyek kajian bebas.
