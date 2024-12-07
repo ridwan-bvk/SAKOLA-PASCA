@@ -1,0 +1,37 @@
+salam jumpa lagi di sesi 12
+
+diskusi kali ini akan dibahas tentang statistik non parametrik 2 sample.
+
+diskusikan apa yang saudara ketahui dua sample saling berhubungan dan 2 sampel tidak saling berhubungan.
+
+model uji yang digunakan apakah sama? sebutkan ui statistik yang cocok dari kedua sampel tersebut untuk membuat kesimpulannya
+
+selamat belajar
+
+Dua Sampel Saling Berhubungan  (dependent samples)
+Dua sampel saling berhubungan merujuk pada situasi di mana dua kelompok data berasal dari sumber yang sama atau memiliki hubungan tertentu. Dalam konteks ini, setiap pengukuran dalam satu sampel berpasangan dengan pengukuran dalam sampel lainnya. Contoh :
+Pengukuran sebelum dan sesudah
+Misalnya, mengukur tekanan darah pasien sebelum dan setelah pengobatan.
+Sampel yang sama dengan perlakuan berbeda
+Seperti menguji performa siswa pada dua metode pengajaran yang berbeda dalam satu kelas.
+
+uji Dua Sampel Saling Berhubungan ini dalam statistik non-parametrik termasuk:
+Uji Wilcoxon Signed-Rank: Digunakan untuk menguji perbedaan antara dua sampel berpasangan ketika data tidak terdistribusi normal.
+Uji Tanda: Merupakan alternatif lain untuk menguji perbedaan antara dua kondisi dalam satu kelompok
+
+
+Dua Sampel Tidak Saling Berhubungan  (independent samples)
+Sebaliknya, dua sampel tidak saling berhubungan berarti bahwa kedua kelompok data berasal dari populasi yang berbeda dan tidak ada hubungan langsung antara pengukuran di satu kelompok dengan pengukuran di kelompok lainnya. 
+Contoh sederhana
+Perbandingan dua grup berbeda
+Misalnya, membandingkan hasil ujian antara siswa di kelas A dan kelas B yang diajarkan dengan kurikulum yang berbeda.
+Studi survei 
+Menggunakan dua kelompok responden yang berbeda untuk menilai preferensi produk.
+
+Uji Sampel Tidak Saling Berhubungan  (independent samples)
+
+Uji Mann-Whitney U: Digunakan untuk menguji apakah terdapat perbedaan signifikan antara dua sampel independen ketika data tidak terdistribusi normal.
+Uji Kolmogorov-Smirnov: Untuk membandingkan distribusi dari dua sampel independen
+sumber:
+https://dqlab.id/mengenal-analisis-uji-komparatif-statistik-non-parametrik
+
