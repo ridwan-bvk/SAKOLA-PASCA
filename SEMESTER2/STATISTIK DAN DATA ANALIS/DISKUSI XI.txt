@@ -6,4 +6,48 @@ dalam diskusi tidak wajib menjawab soal dosen tapi dapat memberikan komentar ata
 
 selamat berdiskusi
 
-Statistik non-parametrik adalah cabang dari statistik yang tidak bergantung pada asumsi distribusi tertentu dari data yang dianalisis. Berbeda dengan statistik parametrik, yang memerlukan asumsi tentang parameter populasi (seperti rata-rata dan varians), statistik non-parametrik dapat diterapkan pada data yang tidak terdistribusi normal atau ketika informasi tentang distribusi populasi tidak tersedia
+Statistik non-parametrik adalah cabang dari statistik yang tidak bergantung pada asumsi distribusi tertentu dari data yang dianalisis. Berbeda dengan statistik parametrik, yang memerlukan asumsi tentang parameter populasi (seperti rata-rata dan varians), statistik non-parametrik dapat diterapkan pada data yang tidak terdistribusi normal atau ketika informasi tentang distribusi populasi tidak tersedia.
+
+Poin-Poin Utama dalam Statistik Non-Parametrik
+Tanpa Asumsi Distribusi
+Statistik non-parametrik tidak memerlukan asumsi mengenai distribusi data, sehingga cocok untuk data yang berskala nominal atau ordinal.
+Ukuran Sampel Kecil
+Metode ini sering digunakan untuk sampel kecil, biasanya kurang dari 30 data.
+Penggunaan Median
+Dalam analisis non-parametrik, ukuran tendensi sentral yang umum digunakan adalah median, bukan rata-rata
+
+sumber : https://id.wikipedia.org/wiki/Statistika_nonparametrik
+
+Aspek dan metode yang Dipelajari dalam Statistik Non-Parametrik
+
+Pengujian Hipotesis
+Statistik non-parametrik digunakan untuk menguji hipotesis tanpa memerlukan asumsi distribusi normal. Ini mencakup uji untuk menentukan apakah ada perbedaan antara dua atau lebih kelompok.
+
+Analisis Data Kategori 
+Metode ini sering diterapkan pada data kategori (nominal dan ordinal), seperti dalam penelitian sosial di mana data sering kali tidak terdistribusi normal.
+
+Penggunaan Median 
+Dalam analisis non-parametrik, ukuran tendensi sentral yang umum digunakan adalah median, bukan rata-rata, karena median lebih tahan terhadap outlier.
+
+Uji Chi-Square
+Digunakan untuk menguji hubungan antara dua variabel kategori. 
+contoh, untuk menentukan apakah ada perbedaan perilaku mahasiswa dalam mendukung program kampus berdasarkan kategori dukungan (ya/tidak).
+Uji Mann-Whitney
+Alternatif untuk uji t independen, digunakan untuk membandingkan dua kelompok yang tidak berdistribusi normal. 
+Contoh penggunaannya adalah membandingkan tingkat kepuasan pelanggan antara dua produk berbeda 67.
+
+Uji Wilcoxon 
+Digunakan untuk membandingkan dua kelompok terkait (paired samples). 
+Misalnya, mengukur perubahan dalam skor tes sebelum dan setelah intervensi pada kelompok yang sama.
+
+Uji Kruskal-Wallis 
+Merupakan generalisasi dari Uji Mann-Whitney untuk lebih dari dua kelompok. 
+Contoh penerapannya adalah untuk menguji apakah terdapat perbedaan signifikan antara tiga atau lebih grup dalam penelitian medis.
+
+Korelasi Spearman
+Digunakan untuk mengukur kekuatan dan arah hubungan antara dua variabel ordinal. 
+Contoh, mengukur hubungan antara tingkat pendidikan dan penghasilan individu
+
+sumber :
+https://cattleyapublicationservices.com/?p=749
+https://dqlab.id/statistik-parametrik-dan-non-parametrik-dalam-ilmu-statistika
