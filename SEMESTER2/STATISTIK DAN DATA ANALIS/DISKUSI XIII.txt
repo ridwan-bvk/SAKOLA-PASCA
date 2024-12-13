@@ -1,0 +1,32 @@
+
+apa yang saudara ketahui tentang statisttik non parametrik K sampel. jelaskan bagaimana menguji dengan apa saja
+
+selamat belajar
+
+Statistik non parametrik k sampel adalah metode analisis yang digunakan untuk menguji perbedaan antara lebih dari dua kelompok sampel independen ketika data yang dianalisis tidak memenuhi asumsi normalitas atau ketika data berskala nominal atau ordinal. Metode ini tidak memerlukan asumsi tentang distribusi data populasi, sehingga sering disebut sebagai statistik bebas distribusi atau assumption-free test.[1]
+
+Karakteristik Utama
+Data yang Digunakan: Biasanya berupa data ordinal atau nominal.
+Jumlah Sampel: Dapat digunakan untuk sampel dengan jumlah kecil (kurang dari 30) dan tidak harus sama antar kelompok.
+Tanpa Asumsi Normalitas: Tidak perlu melakukan uji normalitas sebelum analisis[2]
+
+Metode Uji dalam Statistik Non Parametrik K Sampel
+Uji Kruskal-Wallis
+Digunakan untuk menguji apakah terdapat perbedaan median antara tiga kelompok atau lebih.
+Merupakan alternatif non parametrik untuk ANOVA satu arah.
+Cocok untuk data ordinal dan tidak memerlukan asumsi distribusi normal.
+
+Uji Median Diperluas
+Memperluas uji tanda untuk membandingkan median dari k sampel independen.
+Berguna ketika ingin mengetahui apakah kelompok-kelompok tersebut berasal dari populasi dengan median yang sama.
+
+Uji Jonckheere-Terpstra
+Menguji hipotesis bahwa ada urutan tertentu dalam median dari k kelompok.
+Sering digunakan ketika ada dugaan bahwa satu kelompok lebih besar atau lebih kecil dari yang lain dalam urutan tertentu.
+
+Uji Chi-Square K Sampel
+Digunakan untuk menguji hubungan antara dua variabel kategorikal dalam k kelompok.
+Cocok untuk data nominal dan dapat memberikan informasi tentang distribusi frekuensi dalam kategori yang berbeda
+
+sumber : [1] https://dqlab.id/tipe-uji-statistik-statistik-parametrik-dan-statistik-non-parametrik
+[2] https://www.statistikian.com/2012/04/komparasi-k-sampel-independentidak.html
