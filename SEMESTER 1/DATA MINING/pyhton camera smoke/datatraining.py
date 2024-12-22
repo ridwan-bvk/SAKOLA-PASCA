@@ -1,3 +1,6 @@
+import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Sequential
@@ -6,9 +9,9 @@ from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 
 # Definisikan path untuk dataset
-base_dir = 'I:/data mining sidang/datashet'
-train_dir = 'I:/data mining sidang/datashet/training_data'
-validation_dir = 'I:/data mining sidang/datashet/validation_data'
+base_dir = 'D:/ABI/__MATA KULIAH PASCA/clone 2/SAKOLA-PASCA/SEMESTER 1/DATA MINING/pyhton camera smoke/DATASHEET'
+train_dir = 'D:/ABI/__MATA KULIAH PASCA/clone 2/SAKOLA-PASCA/SEMESTER 1/DATA MINING/pyhton camera smoke/DATASHEET/training_data'
+validation_dir = 'D:/ABI/__MATA KULIAH PASCA/clone 2/SAKOLA-PASCA/SEMESTER 1/DATA MINING/pyhton camera smoke/DATASHEET/validation_data'
 
 # Augmentasi gambar untuk data training
 train_datagen = ImageDataGenerator(
@@ -65,37 +68,37 @@ model.compile(
 )
 
 # Melatih Model
-history = model.fit(
-    train_generator,
-    steps_per_epoch=100,  # Jumlah batch yang akan dieksekusi pada setiap epoch
-    epochs=30,
-    validation_data=validation_generator,
-    validation_steps=50,  # Jumlah batch yang akan dieksekusi pada setiap epoch validasi
-    verbose=2  # Tampilkan detail progress training
-)
+# history = model.fit(
+#     train_generator,
+#     steps_per_epoch=100,  # Jumlah batch yang akan dieksekusi pada setiap epoch
+#     epochs=30,
+#     validation_data=validation_generator,
+#     validation_steps=50,  # Jumlah batch yang akan dieksekusi pada setiap epoch validasi
+#     verbose=2  # Tampilkan detail progress training
+# )
 
 # Simpan model setelah pelatihan
-model.save('model_merokok.h5')
+# model.save('model_merokok.h5')
 
 # Evaluasi Model
-acc = model.evaluate(validation_generator, verbose=2)
+# acc = model.evaluate(validation_generator, verbose=2)
 
-print(f'Validation accuracy: {acc[1]}')
+# print(f'Validation accuracy: {acc[1]}')
 
 # Plot training & validation accuracy values
-plt.plot(history.history['accuracy'])
-plt.plot(history.history['val_accuracy'])
-plt.title('Model accuracy')
-plt.ylabel('Accuracy')
-plt.xlabel('Epoch')
-plt.legend(['Train', 'Validation'], loc='upper left')
-plt.show()
+# plt.plot(history.history['accuracy'])
+# plt.plot(history.history['val_accuracy'])
+# plt.title('Model accuracy')
+# plt.ylabel('Accuracy')
+# plt.xlabel('Epoch')
+# plt.legend(['Train', 'Validation'], loc='upper left')
+# plt.show()
 
 # Plot training & validation loss values
-plt.plot(history.history['loss'])
-plt.plot(history.history['val_loss'])
-plt.title('Model loss')
-plt.ylabel('Loss')
-plt.xlabel('Epoch')
-plt.legend(['Train', 'Validation'], loc='upper left')
-plt.show()
+# plt.plot(history.history['loss'])
+# plt.plot(history.history['val_loss'])
+# plt.title('Model loss')
+# plt.ylabel('Loss')
+# plt.xlabel('Epoch')
+# plt.legend(['Train', 'Validation'], loc='upper left')
+# plt.show()

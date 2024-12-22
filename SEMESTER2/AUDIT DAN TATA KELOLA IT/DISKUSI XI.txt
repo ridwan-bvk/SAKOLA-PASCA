@@ -1,0 +1,22 @@
+
+Bagaimana konsep tatakelola dalam sistem pemerintah berbasis elektronik (SPBE) yang anda ketahui?
+
+Secara sederhana, Sistem Pemerintahan Berbasis Elektronik (SPBE) merupakan penyelenggaraan pemerintahan yang memanfaatkan teknologi informasi dan komunikasi. 
+
+Pembuatan sistem ini berdasarkan arahan pemerintah pusat dalam Peraturan Presiden No. 28 tahun 2018 mengenai Sistem Pemerintahan Berbasis Elektronik. 
+
+Prinsip dasar SPBE, dorong kinerja instansi pemerintahan
+
+SPBE dibuat pemerintah pusat untuk meningkatkan kinerja instansi dan kantor-kantor pemerintahan dengan memfokuskan pada 7  prinsip, yaitu:
+
+Efektivitas, optimalkan jumlah sumber daya untuk hasil maksimal
+Keterpaduan, ciptakan sistem yang lebih terintegrasi bagi pekerja
+Berkesinambungan,  penerapan SPBE bersifat terencana, bertahap, dan terus menerus.
+Efisiensi, optimalisasikan pemanfaatan sumber daya tepat guna
+Akuntabilitas, kejelasan fungsi dan pertanggungjawabannya
+Interoperabilitas, koordinasi dan kolaborasi antar proses 
+Keamanan, menjaga kerahasiaan, keutuhan, ketersediaan, keaslian, dan keabsahan.
+
+Seperti pada prinsipnya, aplikasi SPBE dilengkapi dengan fitur dan fasilitas yang mewujudkan ketujuh poin di atas, misalnya aplikasi Srikandi yang mengintegrasikan sistem di daerah dan pusat yang memungkinkan proses verifikasi lebih terkontrol dan terstandarisasi dalam skala nasional untuk meningkatkan keamanan, interoperasionalitas, dan  akuntabilitas.
+
+https://primadoc.id/prinsip-dasar-spbe-wujudkan-tata-kelola-pemerintahan-yang-baik/
