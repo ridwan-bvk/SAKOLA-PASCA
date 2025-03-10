@@ -1,0 +1,14 @@
+UTS
+==========================
+Materi:
+-CNN CV
+-Tensorflow pada CV
+Type :
+1.Dokumentasi (Blog,Github, Linkin, Medium)
+
+UAS
+===========================
+Project [CV] kelompok maksimal 5 orang
+Type :
+1.Dokumentasi (Blog,Github, Linkin, Medium)
+2.Youtube
