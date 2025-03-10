@@ -8,12 +8,12 @@ salam sukses
 Asumsi klasik dalam uji persyaratan analisis regresi linear berganda adalah sebuah rangkaian prasyarat statistik yang harus dipenuhi untuk memastikan bahwa model regresi yang dibuat adalah akurat, tidak bias, dan konsisten.
 
 
-Berikut adalah empat asumsi dasar:
+empat asumsi dasar/persyaratan Asumsi klasik :
 1. Normalitas
 Data harus berdistribusi normal. Artinya, jika Anda ingin memprediksi perilaku suatu fenomena, data yang terkait harus tersusun rapi tanpa pola aneh. Contoh sederhananya: Bayangkan kamu sedang menjual es krim. Kamu ingin tahu berapa banyak es krim yang bisa terjual dalam seminggu. Jika jumlah penjualan tiap hari sama-sama normal (bukan sangat tinggi atau rendah), maka data kamu sudah siap digunakan.
 
 2. Linearitas
-Hubungan antara variabel prediktor (X) dan variabel kriteria (Y) harus linear. Artinya, jika kamu meningkatkan X sebanyak satu unit, maka Y juga harus meningkat atau turun secara proporsional. Contoh: Jumlah jam belajar siswa (X) dan skornya (Y). Jika setiap jam tambahan belajar membuat skor siswa naik secara langsung dan proporsional, maka hubungan mereka linearr.
+Hubungan antara variabel prediktor (X) dan variabel kriteria (Y) harus linear. Artinya, jika kamu meningkatkan X sebanyak satu unit, maka Y juga harus meningkat atau turun secara proporsional. Contoh: Jumlah jam belajar siswa (X) dan skornya (Y). Jika setiap jam tambahan belajar membuat skor siswa naik secara langsung dan proporsional, maka hubungan mereka linear.
 
 3. Multikolinearitas
 Variabel bebas tidak boleh saling korelatif kuat. Artinya, jika kamu punya beberapa faktor yang mempengaruhi hasil, maka tidak boleh ada hubungan yang kuat di antara faktorfaktor tersebut. Contoh: Ketika kamu ingin mengetahui pengaruh harga barang (X1), promosi (X2), dan lokasi toko (X3) terhadap penjualan (Y). Jika harga barang dan lokasi toko saling korelatif kuat, maka model regresimu tidak akan akurat.
