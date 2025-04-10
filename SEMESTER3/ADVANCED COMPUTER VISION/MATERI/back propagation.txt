@@ -1,0 +1,5 @@
+Beberapa contoh ilustrasi perhitungan back propagation dapat dipelajari melalui: 
+https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/
+https://medium.com/@givi.odikadze/backpropagation-with-actual-numbers-98de37254d1
+https://medium.com/@karna.sujan52/back-propagation-algorithm-numerical-solved-f60c6986b643
+https://hmkcode.com/ai/backpropagation-step-by-step/
