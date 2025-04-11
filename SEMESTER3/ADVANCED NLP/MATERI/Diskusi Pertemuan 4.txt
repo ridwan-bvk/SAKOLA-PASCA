@@ -1,0 +1,67 @@
+Ringkasan dalam Materi pertemua 4: Ekstraksi Fitur dalam NLP
+
+Ekstraksi fitur adalah langkah krusial dalam NLP untuk mengubah teks menjadi data numerik yang dapat dianalisis oleh model. Teknik seperti BoW, TF-IDF, dan Word Embeddings membantu dalam memahami dan mengklasifikasikan teks secara lebih efektif.
+
+Teknik Feature Extraction
+1. Bag of Words (BoW)
+ Representasi teks berdasarkan frekuensi kata.
+2. TF-IDF (Term Frequency-Inverse Document Frequency)
+Teknik untuk menilai pentingnya kata dalam dokumen tertentu dibandingkan dengan kumpulan dokumen lainnya.
+3. Word Embeddings (Word2Vec, GloVe, FastText)
+ Representasi vektor untuk kata-kata yang menangkap makna semantik.  Menangkap hubungan semantik antar kata (contoh: "raja" dan "ratu" memiliki vektor yang mirip).
+
+Teknik Preprocessing Teks
+1. Tokenization
+Memecah teks menjadi kata-kata atau token.
+2. Stopword Removal
+Menghapus kata-kata umum yang tidak memiliki makna signifikan (misalnya: "dan", "di", "adalah").
+3. Stemming 
+Mengubah kata ke bentuk dasarnya dengan memangkas akhiran (contoh: "berjalan" → "jalan").
+4. Lemmatization
+Mengubah kata ke bentuk dasarnya berdasarkan kamus (contoh: "running" → "run").
+
+Cosine Similarity dalam NLP
+Digunakan untuk mengukur kemiripan antara dua teks berdasarkan sudut antara vektor mereka.
+Nilai berkisar dari -1 (sangat berbeda) hingga 1 (sangat mirip).
+Sering digunakan dalam sistem pencarian informasi dan deteksi plagiarisme.
+
+
+
+
+
+3. Teknik Representasi Teks
+
+Bag of Words (BoW):
+
+Mengubah teks menjadi vektor berdasarkan frekuensi kata dalam dokumen.
+
+Tidak mempertimbangkan urutan kata atau makna kontekstual.
+
+TF-IDF (Term Frequency - Inverse Document Frequency):
+
+Menghitung bobot kata berdasarkan frekuensi dalam dokumen dan keseluruhan corpus.
+
+Mengurangi bobot kata-kata yang terlalu umum dalam banyak dokumen.
+
+Word Embeddings (Word2Vec, GloVe, FastText):
+
+Merepresentasikan kata dalam bentuk vektor berdimensi tinggi berdasarkan konteks.
+
+Menangkap hubungan semantik antar kata (contoh: "raja" dan "ratu" memiliki vektor yang mirip).
+
+4. Cosine Similarity dalam NLP
+
+Digunakan untuk mengukur kemiripan antara dua teks berdasarkan sudut antara vektor mereka.
+Nilai berkisar dari -1 (sangat berbeda) hingga 1 (sangat mirip).
+Sering digunakan dalam sistem pencarian informasi dan deteksi plagiarisme.
+
+5. Implementasi dalam Python
+
+Preprocessing teks menggunakan pustaka seperti nltk dan sklearn.
+
+BoW dan TF-IDF dapat diimplementasikan dengan CountVectorizer dan TfidfVectorizer dari sklearn.feature_extraction.text.
+
+Cosine Similarity dihitung menggunakan cosine_similarity dari sklearn.metrics.pairwise.
+
+Kesimpulan
+

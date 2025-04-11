@@ -1,0 +1,43 @@
+Chapter 1 - An Introduction to Neural Networks
+pada file ini ada beberapa pembahasan diantaranya:
+
+A. Pengantar Jaringan Syaraf
+1. Jaringan saraf tiruan merupakan teknik pembelajaran mesin populer yang mensimulasikan mekanisme pembelajaran pada organisme biologis.Mekanisme biologis ini disimulasikan dalam jaringan saraf tiruan, yang berisi unit komputasi yang disebut neuron.
+2. Jaringan saraf tiruan menghitung fungsi masukan dengan menyebarkan nilai yang dihitung dari neuron masukan ke neuron keluaran dan menggunakan bobot sebagai parameter antara. dan pembelajaran terjadi dengan mengubah bobot yang menghubungkan neuron. 
+
+B. Arsitetur dasar 
+1. pada sub bab Single Computational Layer: The Perceptron dibahas :
+-Rumus percepton  bobot dan prediksi pendekatan variabel pada layer itu tersendiri
+-algoritma percepton dan cara optimasinya
+-pemilihan dan cara pengambilan output node
+-Fungsi Aktivasi dan fungsi Loss
+2. pada multi layer, pembahasan meliput
+-jaringan Multilayer sebagai Grafik Komputasional
+-Melatih Jaringan Syaraf dengan Backpropagation, ada Forward phase dan Backward phase
+3. dan pembahasan beberapa promblem pada training di JST seperti Overfitting,The Vanishing and Exploding Gradient Problems, Kesulitan dalam Konvergensi,Optima Lokal dan Palsu, tantangan Komputasi yang membutuhkan GPU yang tidak kecil, Pentingnya Aktivasi Nonlinier
+
+C. Arsitektur Neural SeUmum (Common Neural Architectures), 
+ada beberapa pembahasan, seperti:
+-Simulating Basic Machine Learning dengan Shallow Models, Radial Basis Function Network, Restricted Boltzmann Machines, Convolutional Neural Networks(CNN), Recurrent Neural Networks
+
+Chapter 11 - Neural Network
+-pendahuluan pada chapter ini menjelaskan :
+-Jaringan saraf adalah aproksimator fungsi universal. Dalam melatih jaringan saraf, menyesuaikan kurva non-linier menggunakan data yang tersedia 
+-mathematical modeling, dari farward propagation, Back Propagation
+-pembahasan non linieritas yang disebut sigmoid, rectified linear Unit (RELU) dan Leaky Relu
+
+
+Chapter 12
+Convolutional Neural Network (CNN)
+ringkasan yang didapat dalam bab ini :
+-CNN awalnya dikembangkan sebagai model matematika penglihatan. Oleh karena itu, sangat cocok untuk memecahkan masalah visi komputer.
+-CNN dibuat dengan komposisi lapisan konvolusi dan maxpooling diikuti oleh pengklasifikasi atau regresor, yang biasanya berupa jaringan saraf
+- Parameter lapisan konvolusi dipelajari menggunakan proses back-propagation 
+
+baik pak izin menanggapi terkait video 
+beberapa hal yang dibahas dalam video yang disampaikan: 
+1.  jaringan saraf tersusun dari lapisan simpul. Ada lapisan simpul masukan, ada lapisan tersembunyi, dan ada lapisan keluaran. 
+2. Setiap simpul (node) dalam jaringan saraf beroperasi seperti model regresi linear, memengaruhi hasil melalui koneksi berbobot.
+3. Aliran data terjadi secara umpan maju (feed-forward) antar lapisan,  untuk mengambil keputusan dalam contoh diberikan case kita berselancar
+4 Convolutional Neural Networks (CNN) untuk pengenalan gambar.
+5 Recurrent Neural Networks (RNN) untuk prediksi data deret waktu.
