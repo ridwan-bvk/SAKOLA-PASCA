@@ -1,0 +1,7 @@
+pada pertemua 4
+https://www.yorku.ca/research/bccc/ucs-technical/cybersecurity-datasets-cds/
+
+- setiap nilai intensitas piksel akan dianggap sebagai fitur dari obyek yg terapat pada citra digital. Bisa dibayangkan, citra digital kecil, cenderung gak jelas, berukuran 28x28 piksel menghasilkan 784 nilai input. Bayangkan dengan citra digital saat ini yang ukurannya sangat besar, jumlah inputnya tentu berlipat-lipat kali lebih besar. Sedangkan dataset seperti yg ada di https://www.yorku.ca/research/bccc/ucs-technical/cybersecurity-datasets-cds/ hanya punya atribut yg kuran g dari 100. Belum lagi ketika kt menerapkan arsitektur CNN yg kompleks, maka kebutuhan memori utk mengolahnya juga membesar. Ini memang kendala dalam computer vision
+
+- Trm kasih sharingnya. Btw, CNN dan RNN sedikit berbeda. CNN bertugas untuk melakukan EKSTRAKSI fitur, sedangkan RNN adalah varian NN utk melakukan KALASIFIKASI pada data yang punya KETERGANTUNGAN waktu. Meski basisnya NN, tugasnya berbeda. Kit juga sudah paham dgn KNN, yg bahkan bukan neural network
+-----------------------------------------------------------------------------

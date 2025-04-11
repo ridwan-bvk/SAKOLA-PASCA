@@ -1,0 +1,52 @@
+Pertemuan 4
+https://www.youtube.com/watch?v=jmmW0F0biz0
+
+beberapa hal yang dibahas dalam video yang disampaikan: 
+1. jaringan saraf tersusun dari lapisan simpul (layer)
+-input layer
+
+
+
+Berikut lima hal yang perlu diketahui tentang jaringan saraf dalam waktu kurang dari lima menit. Nomor satu: jaringan saraf tersusun dari lapisan simpul. Ada lapisan simpul masukan, ada lapisan tersembunyi, dan ada lapisan keluaran. Dan jaringan saraf ini mencerminkan perilaku otak manusia, yang memungkinkan program komputer mengenali pola dan memecahkan masalah umum di bidang AI dan pembelajaran mendalam. Faktanya, kita harus menggambarkannya sebagai jaringan saraf buatan, atau ANN, untuk membedakannya dari jaringan saraf yang sangat tidak buatan yang beroperasi di kepala kita. Sekarang,
+pukul 00.44
+anggaplah setiap simpul, atau neuron buatan, sebagai model regresi liniernya sendiri. Itu nomor dua. Regresi linier adalah model matematika yang digunakan untuk memprediksi kejadian di masa mendatang. Bobot koneksi antara simpul menentukan seberapa besar pengaruh setiap masukan terhadap keluaran. Jadi setiap simpul terdiri dari data masukan, bobot, bias, atau ambang batas, lalu keluaran. Sekarang data diteruskan dari satu lapisan dalam jaringan saraf ke lapisan berikutnya dalam apa yang dikenal sebagai jaringan umpan maju -- nomor tiga. Untuk mengilustrasikan ini, mari kita pertimbangkan apa yang mungkin dilakukan oleh satu simpul dalam jaringan saraf kita
+pukul 01.22
+sepertinya harus memutuskan -- haruskah kita berselancar. Keputusan untuk pergi atau tidak adalah hasil prediksi kita atau dikenal sebagai yhat kita. Mari kita asumsikan ada tiga faktor yang memengaruhi keputusan kita. Apakah ombaknya bagus, 1 untuk ya atau 0 untuk tidak. Ombaknya kencang, jadi x1 sama dengan 1, 1 untuk ya. Apakah antreannya kosong, sayangnya tidak, jadi mendapat 0. Dan kemudian mari kita pertimbangkan apakah di luar sana bebas hiu, itu x3 dan ya, tidak ada serangan hiu yang dilaporkan. Sekarang untuk setiap keputusan kita berikan bobot berdasarkan kepentingannya pada skala 0 hingga 5. Jadi katakanlah ombaknya, kita akan
+pukul 02.05
+nilai yang itu, eh, jadi ini penting, mari kita beri nilai 5. Dan untuk orang banyak, itu w2. Eh, tidak begitu penting, kita akan beri nilai 2. Dan hiu, baiklah, kita akan beri nilai 4. Sekarang kita dapat memasukkan nilai-nilai ini ke dalam rumus untuk mendapatkan hasil yang diinginkan. Jadi yhat sama dengan (1 * 5) + (0 * 2) + (1 * 4), lalu dikurangi 3, itulah ambang batas kita, dan itu memberi kita nilai 6. Enam lebih besar dari 0, jadi keluaran dari simpul ini adalah 1 -- kita akan berselancar. Dan jika kita menyesuaikan bobot atau ambang batas, kita dapat memperoleh hasil yang berbeda.
+pukul 02.54
+Nomor empat. Ya, memang, tetapi nomor empat, jaringan saraf bergantung pada data pelatihan untuk belajar dan meningkatkan akurasinya dari waktu ke waktu. Kami memanfaatkan pembelajaran terbimbing pada kumpulan data berlabel untuk melatih algoritme. Saat kami melatih model, kami ingin mengevaluasi akurasinya menggunakan sesuatu yang disebut fungsi biaya. Pada akhirnya, tujuannya adalah untuk meminimalkan fungsi biaya kami guna memastikan ketepatan kecocokan untuk setiap pengamatan yang diberikan, dan itu terjadi saat model menyesuaikan bobot dan biasnya agar sesuai dengan data pelatihan.
+pukul 03.28
+set, melalui apa yang dikenal sebagai penurunan gradien, yang memungkinkan model menentukan arah yang harus diambil untuk mengurangi kesalahan, atau lebih khusus lagi, meminimalkan fungsi biaya. Dan akhirnya, nomor lima: ada beberapa jenis jaringan saraf di luar jaringan saraf umpan maju yang telah kami jelaskan di sini. Misalnya, ada jaringan saraf konvolusional, yang dikenal sebagai CNN, yang memiliki arsitektur unik yang sangat cocok untuk mengidentifikasi pola seperti pengenalan gambar. Dan ada jaringan saraf berulang, atau RNN, yang diidentifikasi oleh loop umpan baliknya dan
+pukul 04.02
+
+RNN terutama dimanfaatkan menggunakan data deret waktu untuk membuat prediksi tentang peristiwa masa depan seperti perkiraan penjualan. Jadi, lima hal dalam lima menit. Untuk mempelajari lebih lanjut tentang jaringan neural, lihat video berikut. Terima kasih telah menonton. Jika Anda memiliki pertanyaan, silakan tulis di bawah ini. Dan jika Anda ingin melihat lebih banyak video seperti ini di masa mendatang, silakan Sukai dan Berlangganan.
+
+### Ringkasan
+Neural networks adalah struktur yang meniru cara kerja otak manusia, digunakan dalam bidang kecerdasan buatan dan pembelajaran mendalam. Mereka terdiri dari beberapa lapisan, yaitu lapisan masukan, lapisan tersembunyi, dan lapisan keluaran, di mana setiap node dapat dianggap sebagai model regresi linier yang memprediksi hasil berdasarkan data yang diberikan. Neural networks bekerja dengan cara mengalirkan data dari satu lapisan ke lapisan lainnya dan bergantung pada data pelatihan untuk meningkatkan akurasi dari waktu ke waktu. Model ini meminimalkan fungsi biaya melalui proses yang dikenal sebagai penurunan gradien. Selain itu, terdapat berbagai jenis neural networks seperti convolutional neural networks (CNN) dan recurrent neural networks (RNN) yang memiliki karakteristik dan aplikasi khusus di bidang pengenalan pola dan prediksi berbasis data waktu.
+
+### Sorotan
+- 🧠 **Struktur Jaringan Saraf:** Terdiri dari lapisan masukan, tersembunyi, dan keluaran yang merefleksikan cara kerja otak.
+- 📊 **Model Regresi Linier untuk Node:** Setiap node dalam jaringan saraf berfungsi sebagai model regresi linier yang memprediksi hasil.
+- 🔄 **Proses Feed Forward:** Data mengalir dari satu lapisan ke lapisan berikutnya dalam jaringan saraf.
+- 📈 **Data Pelatihan untuk Peningkatan Akurasi:** Neural networks menggunakan data berlabel untuk belajar dan memperbaiki akurasinya.
+- ⚖️ **Fungsi Biaya dan Penurunan Gradien:** Proses pengurangan kesalahan dilakukan dengan meminimalkan fungsi biaya.
+- 🖼️ **Jenis Beragam Jaringan Saraf:** Terdapat CNN untuk pengenalan gambar dan RNN yang digunakan untuk data berbasis waktu.
+- 📽️ **Pentingnya Pembelajaran Berkelanjutan:** Pengguna didorong untuk menjelajahi lebih banyak tentang neural networks melalui konten video tambahan.
+
+### Wawasan Kunci
+- 🤖 **Replikasi Otak Manusia:** Neural networks berfungsi seperti otak manusia dengan kemampuan untuk belajar dari data. Ini menunjukkan kategori teknologi yang semakin mirip dengan cara kerja organ biologis kita, membuka cakrawala baru dalam penelitian dan penerapan AI.
+  
+- 📉 **Fleksibilitas dalam Prediksi:** Dengan menyesuaikan bobot dan ambang batas, neural networks dapat digunakan untuk berbagai aplikasi yang berbeda. Fleksibilitas ini memungkinkan pengguna untuk membuat sistem prediktif yang lebih responsif terhadap kondisi dan parameter yang berubah.
+  
+- 🔄 **Pentingnya Data Berlabel:** Penggunaan data pelatihan yang berlabel sangat penting karena memberikan konteks yang diperlukan agar algoritma bisa memahami pola yang ada. Tanpa data yang berkualitas, model yang dihasilkan cenderung tidak akurat dan kurang dapat diandalkan.
+  
+- ⏳ **Proses Pembelajaran Berkelanjutan:** Melalui metode penurunan gradien, neural networks dapat terus belajar dan menyesuaikan diri, menunjukkan bahwa pembelajaran adalah proses dinamis yang tidak berhenti. Hal ini menekankan pentingnya evaluasi dan perbaikan berkelanjutan dalam pengembangan model AI.
+  
+- 🖼️ **Konvolusi dalam Pengenalan Gambar:** CNN memiliki arsitektur yang unik, menjadikannya sangat efektif dalam analisis gambar. Ini membuka aplikasi baru di bidang seperti pengenalan wajah, deteksi objek, dan pemrosesan gambar lainnya yang menjadi relevan dalam era digital saat ini.
+  
+- 📊 **Prediksi dari Data Waktu:** RNN berfokus pada data urutan dan memiliki kemampuan untuk memahami konteks temporal. Ini sangat penting dalam situasi seperti peramalan penjualan, di mana pola masa lalu dapat membantu memprediksi perilaku di masa depan.
+  
+- 🎥 **Provider Konten Pembelajaran:** Permintaan untuk konten edukatif tentang neural networks menunjukkan adanya minat yang kuat dalam memahami teknologi AI. Ini lebih dari sekadar tren; ini adalah tanda evolusi yang mengarah pada inovasi lebih lanjut di sektor teknologi. 
+
+Dalam era di mana kecerdasan buatan terus menjelajahi potensi baru, pemahaman tentang neural networks menjadi fundamental bagi individu, peneliti, dan profesional di berbagai bidang. Melalui penggunaan neural networks, kita tidak hanya membangun sistem yang lebih efisien, tetapi juga menavigasi tantangan dan kesempatan yang muncul dari tingginya permintaan akan teknologi yang cerdas dan adaptif.

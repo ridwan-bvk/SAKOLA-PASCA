@@ -1,0 +1,48 @@
+selamat jumpa lagi. salam sehat dan sejahtera 
+
+mohon maaf lahir batin
+
+jumpa lagi dalam forum diskusi dan kali ini akan kita bahas tentang:
+
+Dalam konteks Big Data, bagaimana pendekatan analisis data berbeda dengan analisis data tradisional? Jelaskan metode atau algoritma yang umum digunakan dalam analisis Big Data dan keunggulannya.
+
+selamat belajar
+
+salam Tuky
+
+Baik pak izin menjawab
+Perbedaan Pendekatan Analisis Big Data dan Analisis Tradisional
+
+Analisis Tradisional
+1. dari segi Volume Data relatif kecil, dapat ditangani oleh satu komputer atau server
+2. Kecepatan (Velocity) Pemrosesan batch, tidak real-time
+3. Variasi (Variety) Umumnya data terstruktur (misalnya dari database relasional)
+4. tools yang digunakan seperti; SQL, Excel, SPSS, dll.
+5. secara Skalabilitas Terbatas
+
+Untuk Analisis Big Data
+1. Volume Data dalam skala besar (terabyte hingga petabyte), memerlukan sistem terdistribusi
+2. Kecepatan Mendukung pemrosesan real-time atau near real-time
+3. Variasi Data terstruktur, semi-terstruktur, dan tidak terstruktur (teks, gambar, video, log)
+4. Tools Hadoop, Spark, NoSQL, Kafka, dll.
+5. Skalabel secara horizontal (dapat menambah node)
+
+https://datafloq.com/read/big-data-vs-traditional-analytics-key-differences/
+
+Metode atau Algoritma Umum dalam Analisis Big Data
+1. MapReduce
+Digunakan untuk Pemrosesan batch data dalam jumlah besar secara paralel
+Keunggulan: Skalabilitas tinggi dan Toleransi kesalahan (fault-tolerant)
+Platform: Hadoop
+
+2. Apache Spark
+Digunakan untuk: Pemrosesan data in-memory (lebih cepat dari MapReduce), mendukung batch dan real-time
+Keunggulan: Sangat cepat karena pemrosesan di memori, Mendukung machine learning (MLlib), graph processing (GraphX), dan streaming
+
+3 Streaming Data Analysis
+Digunakan untuk: Analisis data secara real-time (contoh: log server, sensor IoT)
+Keunggulan: Respons cepat terhadap data baru, Cocok untuk alert system, monitoring, dan prediksi waktu nyata
+Tools: Apache Kafka, Apache Flink, Apache Storm
+
+4. bisa menggunakan Machine Learning Algorithms
+seperti:K-Means (Clustering),Decision Tree / Random Forest,Gradient Boosting (XGBoost, LightGBM), Logistic Regression (klasifikasi),Neural Networks / Deep Learning (terutama untuk data gambar, suara, teks)
