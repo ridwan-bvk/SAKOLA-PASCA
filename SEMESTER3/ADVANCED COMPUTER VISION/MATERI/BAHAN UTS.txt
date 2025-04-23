@@ -1,0 +1,22 @@
+Pertemuan 1
+Cari 10 jurnal terkait perkembangan NLP terkini (5tahun terakhir)
+Cari 10 teknologi NLP yang yang telah diadopsi oleh Industri/ Government/Perusahaan TI
+Diskusikan dalam Forum
+Tuliskan dalam laporan (dikumpulkan saat UTS)
+
+Pertemuan 3
+Cari 10 jurnal terkait dengan perkembangan Preprocessing di NLP
+Buatlah program untuk melakukan Text Preprocessing pada suatu dokumen 
+
+
+Sales Achievement By AE
+
+https://github.com/BVLC/caffe
+UTS CV
+https://medium.com/@abhishekagarwal582/face-recognition-for-custom-images-using-tensorflow-3576183358e1
+
+
+https://medium.com/@radengumilarr/understanding-tensorflow-a-deep-learning-framework-for-the-future-of-ai-1f01488a491a
+https://medium.com/@iwancilibur/mengenal-tensorflow-sejarah-pengembangan-dan-contoh-kasus-dalam-deep-learning-a631bedfdcf1
+https://medium.com/@l3mburbut40007/mengenal-pytorch-framework-deep-learning-yang-fleksibel-dan-dinamis-37500b0ec97c
+https://medium.com/@ilyas.boys/klasifikasi-gambar-menggunakan-cnn-untuk-pemula-menggunakan-cifar-10-dataset-254d40ca98a7
