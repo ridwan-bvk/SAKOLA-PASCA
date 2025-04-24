@@ -20,3 +20,16 @@ https://medium.com/@radengumilarr/understanding-tensorflow-a-deep-learning-frame
 https://medium.com/@iwancilibur/mengenal-tensorflow-sejarah-pengembangan-dan-contoh-kasus-dalam-deep-learning-a631bedfdcf1
 https://medium.com/@l3mburbut40007/mengenal-pytorch-framework-deep-learning-yang-fleksibel-dan-dinamis-37500b0ec97c
 https://medium.com/@ilyas.boys/klasifikasi-gambar-menggunakan-cnn-untuk-pemula-menggunakan-cifar-10-dataset-254d40ca98a7
+
+
+Project UTS
+DR ARYA ADHYAKSA WASKITA S.SI.,M.SI
+Seperti yg telah saya sampaikan, ada tawaran tambahan tugas yang hasilnya akan saya jadikan nilai UTS. Opsi tema yang dapat direview adalah:
+a. Framework deep learning seperti Tensorflow, Keras, PyTorch, Theano, dll. Materi review meliputi sejarah, pengembangan, operasi sederhana dan contoh kasus penggunaan framework. 
+b. Dasar teori terkait neural network dan CNN
+Sumber review saya bebaskan, meliputi blog seperti https://medium.com/@samuelsena/pengenalan-deep-learning-part-3-backpropagation-algorithm-720be9a5fbb8, https://majianglin2003.medium.com/create-neural-network-with-pytorch-1f91054fe229#783e atau https://jillanisofttech.medium.com/building-an-ann-with-pytorch-a-deep-dive-into-neural-network-training-a7fdaa047d81 
+Hasil review dilaporkan dalam bentuk link blog dan dikumpulkan sebagai hasil UTS.
+
+Kekurangan: Sintaks rumit, dokumentasi kurang, dan akhirnya...
+
+Hai, teman-teman pecinta AI dan pemrograman! 👋
