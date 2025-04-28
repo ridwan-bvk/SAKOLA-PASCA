@@ -1,0 +1,8 @@
+selamat sore pak
+izin menjawab pak
+materi PPT Pertemuan 6 - Topic Model. membahas pemodelan topik (Topic Modeling) dimana topik model adalah teknik dalam NLP yang digunakan untuk mengidentifikasi dan mengekstrak topik tersembunyi (latent topic)
+
+salah satu model yang dibahas pada materi ini adalah LDA. LDA  memodelkan dokumen sebagai campuran dari beberapa topik dan topik sebagai distribusi probabilistik dari kata-kata.
+
+
+pada materi ini juga dibahas Pentingnya Koherensi. dimana koherensi membantu menilai kualitas topik yang dihasilkan oleh model, dengan memastikan kata-kata dalam topik saling terkait dan mudah dipahami.

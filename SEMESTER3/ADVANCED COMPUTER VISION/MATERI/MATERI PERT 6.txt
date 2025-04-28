@@ -1,0 +1,68 @@
+Pada CHAPTER 3 ini membahas evolusi arsitektur Deep Learning, khususnya dalam computer vision, dengan fokus pada arsitektur LeNet sebagai salah satu pionir dalam image classification
+
+LeNet Architecture
+LeNet menjadi dasar penting dalam perkembangan CNN modern karena kesederhanaan dan efektivitasnya, khususnya untuk dataset sederhana seperti MNIST.
+LeNet merupakan arsitektur CNN sederhana yang terkenal karena digunakan untuk mengenali digit tulisan tangan pada cek bank.
+Terdapat beberapa varian: LeNet-1, LeNet-4, dan LeNet-5 (yang paling banyak digunakan).
+
+LeNet-1 Architecture
+Struktur:
+-Input: 28x28
+-Conv layer: 4x 24x24 (5x5)
+-Average pooling: 2x2
+-Conv layer: 8x 12x12 (5x5)
+-Average pooling: 2x2
+-Output layer
+Menggunakan average pooling, bukan max pooling
+
+LeNet-4 Architecture
+Peningkatan dari LeNet-1:
+Struktur:
+-Input: 32x32
+-Conv layer: 4x 24x24 (5x5)
+-Average pooling: 2x2
+-Conv layer: 16x 12x12 (5x5)
+-Average pooling: 2x2
+-Fully connected: 120 neuron → 10 output
+Penambahan fully connected layer dan jumlah feature map.
+
+LeNet-5 Architecture
+Arsitektur paling populer dan sering digunakan:
+-Input: 32x32 grayscale
+-Conv layer: 6x 28x28 (5x5)
+-Pooling: 14x14x6 (2x2, stride 2)
+-Conv layer: 16x 10x10 (5x5)
+-Pooling: 5x5x16 (2x2, stride 2)
+-Fully connected: 120 feature maps (1x1)
+-Fully connected: 84 units
+-Output: Softmax 10 kelas (digit)
+Keunggulan: jumlah parameter lebih sedikit, simetri arsitektur dipecah untuk pembelajaran lebih baik.
+
+Boosted LeNet-4 Architecture
+Boosting adalah teknik ensemble untuk menggabungkan beberapa model lemah menjadi model kuat.
+Pada Boosted LeNet-4, output dari beberapa arsitektur digabung untuk meningkatkan akurasi dan robustnes.
+
+Pada CHAPTER 3 ini membahas 
+- evolusi arsitektur Deep Learning, khususnya dalam computer vision, dengan fokus pada arsitektur LeNet sebagai salah satu pionir dalam image classification
+- bab ini juga secara sistematis memperkenalkan arsitektur LeNet, mulai dari sejarah, varian, hingga implementasi praktis untuk image classification. 
+-LeNet menjadi dasar penting dalam perkembangan CNN modern karena kesederhanaan dan efektivitasnya, khususnya untuk dataset sederhana seperti MNIST. 
+-LeNet merupakan arsitektur CNN sederhana yang terkenal karena digunakan untuk mengenali digit tulisan tangan pada cek bank.
+-Penggunaan teknik boosting dan penyesuaian pooling juga diperkenalkan untuk meningkatkan performa. 
+-Studi kasus pada MNIST memberikan gambaran praktik membangun model deep learning dari awal hingga evaluasi. 
+- materi di bab ini menekankan pentingnya pemahaman arsitektur dasar sebelum melangkah ke model yang lebih kompleks dalam computer vision.
+-Terdapat beberapa varian: LeNet-1, LeNet-4, dan LeNet-5 (yang paling banyak digunakan).
+
+
+Pada CHAPTER 3 ini membahas evolusi arsitektur Deep Learning, khususnya dalam computer vision, dengan fokus pada arsitektur LeNet sebagai salah satu pionir dalam image classification
+
+Ada dua case pada file ini
+1. Klasifikasi angka tulisan tangan menggunakan dataset MNIST , dengan hasil akurasi validasi mencapai 99.07% .
+2. Klasifikasi rambu lalu lintas Jerman, dengan akurasi validasi sebesar 91.16% .
+
+
+dari file materi ini membahas tentang pengaturan dan pengenalan framework deep learning,seperti.
+1. frameworkColab adalah platform berbasis cloud yang memudahkan pemula untuk menjalankan kode Python, khususnya untuk machine learning dan deep learning, tanpa perlu instalasi rumit di komputer lokal
+2. framework TensorFlow,TensorFlow merupakan framework paling populer untuk deep learning, dikenal karena kekuatan, fleksibilitas, dan komunitasnya yang besar.
+3. framework Keras adalah API tingkat tinggi yang berjalan di atas TensorFlow, memudahkan pembuatan dan pengujian model deep learning dengan sintaks yang sederhana dan intuiti.
+4. framework PyTorch diperkenalkan sebagai alternatif populer yang menawarkan fleksibilitas dan kemudahan kustomisasi, serta didukung oleh komunitas yang berkembang pesat
+Dopamine adalah framework ringan untuk prototipe cepat dalam reinforcement learning.

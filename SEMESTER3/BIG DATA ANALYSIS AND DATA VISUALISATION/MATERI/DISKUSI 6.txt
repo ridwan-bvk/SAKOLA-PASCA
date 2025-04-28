@@ -1,0 +1,43 @@
+Selamat jumpa lagi dalam pertemuan sesi 6, salam semangat dan kali ini kita akan diskusi tentang analisis Data
+
+Dalam analisis data ada Supervised Learning dengan Unsupervised Learning. Coba diskusikan dan berikan contoh masing masing
+
+Selamat belajar dan sukses semuanya
+
+Baik pak terimakasih
+Supervised learning adalah metode pembelajaran mesin di mana algoritma dilatih menggunakan data yang sudah dilabeli,artinya setiap data input sudah diketahui output yang diharapkan. Tujuan utama supervised learning adalah mempelajari hubungan antara input dan output agar bisa memprediksi output untuk data baru yang belum pernah dilihat sebelumnya.
+
+Contoh Supervised Learning
+
+1. Klasifikasi Email Spam
+Sistem dilatih dengan email yang sudah diberi label “spam” atau “bukan spam” untuk mengenali email baru yang masuk.
+2. Prediksi Harga Properti
+Model dilatih dengan data rumah (jumlah kamar, luas, lokasi) beserta harga jualnya untuk memprediksi harga rumah baru.
+3. Face Recognition 
+Sistem mengenali wajah dengan data gambar wajah yang sudah diberi label nama individu.
+4. Diagnosis Penyakit 
+Model dilatih dengan data gejala dan diagnosis penyakit untuk membantu dokter mendiagnosis pasien
+
+referensi: 
+https://blog.algorit.ma/supervised-learning/
+https://www.revou.co/kosakata/supervised-learning
+
+Unsupervised learning adalah metode pembelajaran mesin di mana algoritma dilatih menggunakan data yang tidak berlabel. Algoritma ini bertujuan menemukan pola, struktur, atau hubungan tersembunyi dalam data tanpa adanya output yang diketahui sebelumnya
+
+Contoh Unsupervised Learning
+1. Clustering Pelanggan 
+Mengelompokkan pelanggan berdasarkan perilaku belanja tanpa label, misal untuk strategi pemasaran yang lebih tepat.
+2. Deteksi Anomali
+Menemukan transaksi keuangan yang tidak biasa untuk mendeteksi potensi penipuan.
+3.Market Basket Analysis
+Menemukan asosiasi antara produk yang sering dibeli bersamaan di supermarket.
+4. Pengurangan Dimensi
+Mengurangi jumlah fitur dalam dataset untuk visualisasi atau efisiensi pemrosesan data.
+
+referensi:
+https://codingstudio.id/blog/unsupervised-learning-adalah/
+https://greatnusa.com/article/unsupervised-learning-adalah
+
+Kesimpulan
+- Supervised learning cocok digunakan saat tersedia data berlabel dan tujuan utamanya adalah prediksi atau klasifikasi.
+- Unsupervised learning digunakan saat data tidak berlabel dan ingin menemukan pola, struktur, atau kelompok dalam data.
