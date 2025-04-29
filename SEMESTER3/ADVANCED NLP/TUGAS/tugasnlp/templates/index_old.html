@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <title>Inverted Index Search App</title>
+    
+        <!-- Bootstrap lokal -->
+        <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    
+        <style>
+            mark {
+                background-color: yellow;
+                padding: 2px;
+            }
+        </style>
+    
+        <!-- Bootstrap JS lokal -->
+        <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const input = document.getElementById("searchInput");
+                input.addEventListener("keypress", function(event) {
+                    if (event.key === "Enter") {
+                        event.preventDefault();
+                        document.getElementById("searchForm").submit();
+                    }
+                });
+            });
+        </script>
+    </head>
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Topik Search</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Flash Message -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        <div class="container mt-3">
+            {% for category, message in messages %}
+            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endwith %}
+        <!-- Upload Section -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <strong>Silahkan Upload File</strong>
+            </div>
+            <div class="card-body">
+                <form method="POST" enctype="multipart/form-data" class="d-flex gap-3">
+                    <input type="file" name="file" accept=".txt" class="form-control" required>
+                    <button type="submit" class="btn btn-success">Upload</button>
+                </form>
+            </div>
+        </div>
+
+        {% if uploads %}
+            <!-- File Table & Search -->
+            <div class="card mb-4">
+                <div class="card-header">
+                    <strong>Daftar File & Pencarian</strong>
+                </div>
+                <div class="card-body">
+                    <form method="POST" id="searchForm">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover">
+                                <thead class="table-secondary">
+                                    <tr>
+                                        <th>Pilih</th>
+                                        <th>Nama File</th>
+                                        <th>-</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for file in uploads %}
+                                    <tr>
+                                        <td><input type="checkbox" name="selected_files" value="{{ file }}" {% if file in selected_files %}checked{% endif %}></td>
+                                        <td>{{ file }}</td>
+                                        <td>
+                                            <a href="{{ url_for('delete_file', filename=file) }}" class="btn btn-sm btn-danger" onclick="return confirm('Yakin mau hapus {{ file }}?')">Hapus</a>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="mt-3">
+                            <label for="searchInput" class="form-label">Pencarian Kata:</label>
+                            <input type="text" id="searchInput" name="query" class="form-control" placeholder="Masukkan kata kunci..." required autofocus>
+                            <button type="submit" class="btn btn-primary mt-2">Cari</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        {% endif %}
+
+        <!-- Search Results -->
+        {% if query %}
+            <div class="card">
+                <div class="card-header">
+                    <strong>Hasil Pencarian untuk: "{{ query }}"</strong>
+                </div>
+                <div class="card-body">
+                    {% if results %}
+                        <ul class="list-group">
+                            {% for doc in results %}
+                                <li class="list-group-item">{{ doc|safe }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <div class="alert alert-warning mt-2">Tidak ada hasil ditemukan.</div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p class="mb-0">© 2025 - Aplikasi Pencarian Topik | Dibuat dengan Flask & Bootstrap</p>
+    </footer>
+
+</body>
+</html>

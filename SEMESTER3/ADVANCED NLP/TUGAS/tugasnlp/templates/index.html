@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div id="section-search">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h3>🔍 Inverted Index Search</h3>
+      <button id="toggleBtn" class="btn btn-sm btn-outline-secondary" onclick="toggleSidebar()">☰</button>
+    </div>
+
+    <!-- Upload form -->
+    <div class="card mb-4">
+      <div class="card-header"><strong>Silahkan Upload File</strong></div>
+      <div class="card-body">
+        <form method="POST" enctype="multipart/form-data" class="d-flex gap-3">
+          <input type="file" name="file" accept=".txt" class="form-control" required>
+          <button type="submit" class="btn btn-success">Upload</button>
+        </form>
+      </div>
+    </div>
+
+    {% if uploads %}
+      <div class="card mb-4">
+        <div class="card-header"><strong>Daftar File & Pencarian</strong></div>
+        <div class="card-body">
+          <form method="POST" id="searchForm">
+            <table class="table table-bordered">
+              <thead class="table-light">
+                <tr>
+                  <th>Pilih</th><th>Nama File</th><th>Aksi</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for file in uploads %}
+                <tr>
+                  <td><input type="checkbox" name="selected_files" value="{{ file }}" {% if file in selected_files %}checked{% endif %}></td>
+                  <td>{{ file }}</td>
+                  <td><a href="{{ url_for('delete_file', filename=file) }}" class="btn btn-sm btn-danger">Hapus</a></td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+
+            <div class="mt-3">
+              <label for="searchInput" class="form-label">Pencarian Kata:</label>
+              <input type="text" id="searchInput" name="query" class="form-control" placeholder="Masukkan kata kunci..." required>
+              <button type="submit" class="btn btn-primary mt-2">Cari</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    {% endif %}
+
+    {% if query %}
+      <div class="card">
+        <div class="card-header"><strong>Hasil Pencarian untuk: "{{ query }}"</strong></div>
+        <div class="card-body">
+          {% if results %}
+            <ul class="list-group">
+              {% for doc in results %}
+                <li class="list-group-item">{{ doc|safe }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <div class="alert alert-warning">Tidak ada hasil ditemukan.</div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+{% endblock %}

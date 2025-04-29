@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplikasi NLP</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <!-- <style>
+    body {
+      display: flex;
+    }
+
+    .sidebar {
+      width: 220px;
+      min-height: 100vh;
+      background-color: #f8f9fa;
+      padding: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar.hidden {
+      margin-left: -220px;
+    }
+
+    .content {
+      flex-grow: 1;
+      padding: 2rem;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar a {
+      display: block;
+      padding: 0.5rem 0;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #e2e6ea;
+    }
+
+    .toggle-btn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 999;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        position: absolute;
+        z-index: 998;
+        height: 100%;
+      }
+
+      .content {
+        padding-left: 40px;
+      }
+    }
+  </style> -->
+</head>
+<body>
+
+  
+ <!-- Tombol toggle sidebar (selalu terlihat meski sidebar disembunyikan) -->
+ <button id="toggleBtn" class="btn btn-sm btn-outline-secondary position-absolute" 
+ style="top: 1rem; left: 220px; z-index: 1000;" onclick="toggleSidebar()">☰</button>
+ 
+ <div class="sidebar" id="sidebar">
+   <!-- Button toggle -->
+   <div class="d-flex justify-content-between align-items-center mb-3">
+      <h5 class="mb-0">📘 Menu</h5>
+    </div>
+    <a href="#search" onclick="showSection('search')">🔍 Inverted Index</a>
+    <a href="#topic" onclick="showSection('topic')">📊 Topic Modeling</a>
+  </div>
+
+  <div class="content">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <div id="section-search">
+      <h3>🔍 Inverted Index Search</h3>
+      <!-- Upload/search form di sini -->
+    </div>
+
+    <div id="section-topic" style="display:none">
+      <h2>📊 Topic Modeling</h2>
+      <!-- Form topik model di sini -->
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const toggleBtn = document.getElementById('toggleBtn');
+  
+      sidebar.classList.toggle('hidden');
+  
+      if (sidebar.classList.contains('hidden')) {
+        toggleBtn.style.left = '10px'; // Pindah ke sisi kiri layar saat sidebar hilang
+      } else {
+        toggleBtn.style.left = '220px'; // Kembali ke samping sidebar saat muncul
+      }
+    }
+  
+    function showSection(id) {
+      document.getElementById("section-search").style.display = "none";
+      document.getElementById("section-topic").style.display = "none";
+      document.getElementById("section-" + id).style.display = "block";
+    }
+  </script>
+  
+</body>
+</html>

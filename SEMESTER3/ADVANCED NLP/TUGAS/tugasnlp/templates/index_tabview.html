@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplikasi NLP</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+</head>
+<body>
+
+  <div class="container py-4">
+    <h2 class="mb-4">Aplikasi NLP</h2>
+
+    <!-- Tab Navigation -->
+    <ul class="nav nav-tabs" id="menuTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="search-tab" data-bs-toggle="tab" data-bs-target="#search" type="button" role="tab">🔍 Inverted Index</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="topic-tab" data-bs-toggle="tab" data-bs-target="#topic" type="button" role="tab">📊 Topic Modeling</button>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content mt-3" id="menuTabContent">
+      <!-- Inverted Index Tab -->
+      <div class="tab-pane fade show active" id="search" role="tabpanel">
+        <h4>Pencarian Inverted Index</h4>
+        <!-- Upload/search form di sini -->
+      </div>
+
+      <!-- Topic Modeling Tab -->
+      <div class="tab-pane fade" id="topic" role="tabpanel">
+        <h4>Pengolahan Topik Model</h4>
+        <!-- Form topik model di sini -->
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>
