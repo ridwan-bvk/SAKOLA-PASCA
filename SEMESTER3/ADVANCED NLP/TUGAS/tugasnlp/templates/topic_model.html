@@ -1,0 +1,106 @@
+<!-- templates/topic_model.html -->
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+
+    <!-- Flash Message -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show mt-3" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <!-- Upload Section -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <strong>Upload Dokumen untuk Analisis Topik</strong>
+        </div>
+        <div class="card-body">
+            <form method="POST" enctype="multipart/form-data" action="{{ url_for('upload_topic_file') }}" class="d-flex gap-3">
+                <input type="file" name="file" accept=".txt" class="form-control" required>
+                <button type="submit" class="btn btn-success">Upload</button>
+            </form>
+        </div>
+    </div>
+
+    {% if uploads %}
+    <!-- Pilih Dokumen + Pilih Model -->
+    <form method="POST" action="{{ url_for('process_topic_model') }}">
+        <div class="card mb-4">
+            <div class="card-header">
+                <strong>Pengolahan Topik</strong>
+            </div>
+            <div class="card-body">
+
+                <!-- Tabel file -->
+                <div class="table-responsive mb-3">
+                    <table class="table table-bordered table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Pilih</th>
+                                <th>Nama File</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for file in uploads %}
+                            <tr>
+                                <td><input type="checkbox" name="selected_files" value="{{ file }}" checked></td>
+                                <td>{{ file }}</td>
+                                <td>
+                                    <a href="{{ url_for('delete_file', filename=file) }}" class="btn btn-sm btn-danger"
+                                       onclick="return confirm('Yakin mau hapus {{ file }}?')">Hapus</a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pilihan model + jumlah topik -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="model" class="form-label">Pilih Model:</label>
+                        <select name="model" id="model" class="form-select" required>
+                            <option value="lda">LDA</option>
+                            <option value="bertopic">BERTopic</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="n_topics" class="form-label">Jumlah Topik:</label>
+                        <input type="number" name="n_topics" id="n_topics" class="form-control" min="2" max="20" required value="5">
+                    </div>
+                    <div class="col-md-4 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary">Proses Topic Modeling</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    {% endif %}
+
+    <!-- Hasil Topik -->
+    {% if topics %}
+    <div class="card mb-5">
+        <div class="card-header">
+            <strong>Topik yang Dihasilkan</strong>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                {% for topic in topics %}
+                <li class="list-group-item">{{ topic }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+{% endblock %}
+
+

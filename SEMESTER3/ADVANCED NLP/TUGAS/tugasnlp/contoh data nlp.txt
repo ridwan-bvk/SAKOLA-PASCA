@@ -1,0 +1,5 @@
+ "Islam adalah agama yang damai dan penuh kasih sayang.",
+            "Shalat lima waktu merupakan kewajiban setiap muslim.",
+            "Al-Qur'an adalah kitab suci umat Islam.",
+            "Pendidikan sangat penting dalam Islam.",
+            "Zakat membantu meringankan beban saudara yang membutuhkan."

@@ -1,5 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
+from werkzeug.utils import secure_filename
 import os
+# from sklearn.decomposition import TruncatedSVD
+# from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.decomposition import LatentDirichletAllocation
 
 app = Flask(__name__)
 app.secret_key = 'supersecret'
@@ -89,7 +94,72 @@ def delete_file(filename):
         os.remove(filepath)
     return redirect(url_for('index'))
 
+
+@app.route('/upload-topic-file', methods=['POST'])
+def upload_topic_file():
+    if 'file' not in request.files or request.files['file'].filename == '':
+        flash("File tidak boleh kosong!", "danger")
+        return redirect(request.referrer or url_for('process_topic_model'))
+
+    file = request.files['file']
+    filename = secure_filename(file.filename)
+    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+    flash(f"File '{filename}' berhasil diupload!", "success")
+    return redirect(url_for('process_topic_model'))
+
+@app.route('/topic-model', methods=['GET', 'POST'])
+def process_topic_model():
+    topics = []
+    uploads = os.listdir(app.config['UPLOAD_FOLDER'])
+
+    if request.method == 'POST':
+        model_choice = request.form.get('model')
+        n_topics = int(request.form.get('n_topics'))
+        selected_files = request.form.getlist('selected_files')
+
+        documents = []
+        for file in selected_files:
+            with open(os.path.join(app.config['UPLOAD_FOLDER'], file), encoding='utf-8') as f:
+                documents.append(f.read())
+
+        if model_choice == 'lda':
+            # Proses LDA
+            vectorizer = CountVectorizer(stop_words='english')
+            X = vectorizer.fit_transform(documents)
+            lda = LatentDirichletAllocation(n_components=n_topics, random_state=0)
+            lda.fit(X)
+
+            terms = vectorizer.get_feature_names_out()
+            topics = []
+            for idx, topic in enumerate(lda.components_): 
+                top_terms = sorted(
+                    [(terms[i], topic[i]) for i in topic.argsort()[:-6:-1]], 
+                    key=lambda x: x[1], 
+                    reverse=True
+                )
+                formatted_terms = [f"{term} ({weight:.4f})" for term, weight in top_terms]
+                topic_str = f"Topik {idx+1}: " + ", ".join(formatted_terms)
+                # print(topic_str)  # atau flash(topic_str, "info") jika ingin tampil di browser
+                topics.append(topic_str)
+                # print(f"Topik  {top_terms}")
+        elif model_choice == 'bertopic':
+             if len(documents) < 2:
+                flash("Model BERTopic membutuhkan minimal 2 dokumen untuk diproses.", "danger")
+             else:
+                # Proses BERTopic (pastikan sudah diinstall)
+                from bertopic import BERTopic
+                topic_model = BERTopic()
+                topics_bertopic, _ = topic_model.fit_transform(documents)
+                topics_data = topic_model.get_topic_info()
+                for _, row in topics_data.iterrows():
+                    topics.append(f"Topik {row['Topic']}: {row['Name']}")
+
+    return render_template("topic_model.html", uploads=uploads, topics=topics)
+
+
+
 if __name__ == '__main__':
     if not os.path.exists('uploads'):
         os.makedirs('uploads')
     app.run(debug=True)
+

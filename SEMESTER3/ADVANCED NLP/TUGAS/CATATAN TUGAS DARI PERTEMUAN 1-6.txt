@@ -1,0 +1,23 @@
+PERTEMUAN 1
+Cari 10 jurnal terkait perkembangan NLP terkini (5tahun terakhir)
+Cari 10 teknologi NLP yang yang telah diadopsi oleh Industri/ Government/Perusahaan TI
+Diskusikan dalam Forum
+Tuliskan dalam laporan (dikumpulkan saat UTS)
+
+PERTEMUAN 3
+Cari 10 jurnal terkait dengan perkembangan Preprocessing di NLP
+Buatlah program untuk melakukan Text Preprocessing pada suatu dokumen 
+
+PERTEMUAN 4
+Cari 10 jurnal terkait dengan perkembangan Feature Extraction di NLP
+Buatlah program untuk melakukan Feature Extraction pada corpus/dataset
+
+PERTEMUAN 5
+Cari 10 jurnal terkait dengan Information Retrieval!
+Buatlah program Inverted Index untuk menampung corpus/dataset!
+
+PERTEMUAN 6
+Buatlah Model LDA (Dataset bahasa Indonesia&Inggris)
+Cari 10 Jurnal terkait pemanfaatan Topic Model (LDA dan turunannya/related work)
+Diskusikan dalam Forum
+Tuliskan dalam laporan (dikumpulkan saat UAS)
