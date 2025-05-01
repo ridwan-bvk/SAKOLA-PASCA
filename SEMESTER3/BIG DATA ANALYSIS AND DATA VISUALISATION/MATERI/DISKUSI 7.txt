@@ -1,0 +1,36 @@
+Selamat pagi salam sehat dan sejahtera untuk kita semua, dalam sesi 7 ini kita akan bahas tentang dataMining secara umum. Adapun materi diskusi sebagai berikut:
+
+Apa perbedaan dan persamaan yang mendasar antara data mining dan machine learning dalam hal tujuan dan proses?
+
+Selamat belajar dan berdiskusi
+
+Salam sukses semuanya
+
+
+Persamaan
+Keduanya merupakan bagian dari ilmu data (data science) dan digunakan untuk menganalisis data dalam jumlah besar demi menemukan pola atau menghasilkan prediksi.
+Sama-sama menggunakan teknik statistik, matematika, dan algoritma untuk mengenali pola dalam data.
+Seringkali, algoritma machine learning digunakan dalam proses data mining untuk meningkatkan akurasi hasil analisis.
+Tujuan akhirnya adalah membantu pengambilan keputusan berbasis data dengan hasil yang lebih baik.
+
+sumber: 
+https://binus.ac.id/malang/2022/05/sekilas-tentang-data-science-data-mining-dan-machine-learning/
+
+
+perbedaan
+Data mining
+Data mining berfokus pada penemuan pola atau hubungan tersembunyi yang sebelumnya tidak diketahui dari kumpulan data besar
+Tujuan Data mining utamanya adalah mengubah data mentah menjadi informasi yang mudah dimengerti dan bermanfaat untuk pengambilan keputusan
+Pada data mining, prosesnya biasanya dimulai dengan data historis, lalu dilakukan analisis untuk menemukan pola. 
+Prosesnya sering membutuhkan intervensi manusia dalam memilih data, menentukan teknik analisis, hingga interpretasi hasil
+
+Machine learning
+Machine learning bertujuan membangun model yang mampu belajar dari data yang ada untuk membuat prediksi atau keputusan otomatis tanpa instruksi eksplisit dari manusia.
+Fokus utamanya adalah pada proses pembelajaran mesin secara mandiri agar performa prediksi semakin baik seiring waktu
+Pada machine learning, prosesnya melibatkan pelatihan (training) model pada data (baik berlabel maupun tidak), lalu model tersebut digunakan untuk memprediksi data baru. 
+Proses pembelajaran dan penyempurnaan model berlangsung otomatis, dengan minim intervensi manusia setelah tahap awal
+
+sumber
+https://bernardmarr.com/what-is-the-difference-between-data-mining-and-machine-learning/
+
+MODEL PREDIKSI KESELAMATAN PENUMPANG TITANIC (TITANIC DATASET) MENGGUNAKAN METODE REGRESI LOGISTIK, DECISION TREE, NAIVE BAYES DAN K-NEAREST NEIGHBOR
