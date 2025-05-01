@@ -1,0 +1,56 @@
+Terimakasih pak, izin menjawab dan merangkum 
+Bab 1: Introduction to Computer Vision and Deep Learning
+•Memperkenalkan dasar-dasar Computer Vision (CV) dan Deep Learning (DL).
+•Perbedaan antara teknik image processing tradisional (OpenCV) dan pendekatan modern dengan DL
+Sub-bab :
+1.Technical Requirements
+	o Python dan Jupyter Notebook digunakan untuk seluruh buku
+2.Image Processing using OpenCV
+	o Konsep dasar bahwa gambar adalah data tak terstruktur.
+	o Deteksi warna: menggunakan nilai HSV untuk mendeteksi warna seperti biru.
+	o Deteksi bentuk: mengenali segitiga, persegi, lingkaran dengan metode contour detection.
+	o Deteksi wajah: menggunakan Haar-cascade classifier untuk mendeteksi wajah dan mata.
+3.Fundamentals of Deep Learning
+	o DL sebagai bagian dari ML.
+	o Proses umum proyek ML: ingestion, cleaning, preparation, EDA, training, deployment.
+4.Komponen Neural Network:
+	o Layers: input, hidden, output.
+	o Neuron: unit dasar, terdiri dari weights, bias, activation function.
+	o Hyperparameters: learning rate, jumlah neuron, fungsi aktivasi.
+	o Bias Term: mirip dengan konstanta dalam persamaan linear.
+	o Activation Functions: sigmoid, tanh, ReLU, softmax, dll.
+	o Learning Rate: mengontrol langkah koreksi selama pelatihan.
+	o Backpropagation: algoritma utama untuk pembelajaran dengan gradient descent.
+	o Overfitting: dijelaskan dengan solusi seperti dropout dan batch normalization.
+	o Loss Functions: cross-entropy, hinge loss, MSE, dll
+5. How Deep Learning Works
+	o Proses aliran data dari input ke output.
+	o Peran loss function dan optimizer untuk pelatihan.
+	o Pentingnya iterasi dan penyesuaian weights.
+6. Popular Deep Learning Libraries
+	o TensorFlow, Keras, PyTorch, MXNet, Sonnet.
+	o Keras disarankan untuk pemula
+
+Bab 2: Nuts and Bolts of Deep Learning for Computer Vision
+•Pendalaman tentang CNN (Convolutional Neural Network) dan penerapan praktis pertama untuk klasifikasi gambar.
+Sub-bab dan isinya:
+1.Deep Learning with TensorFlow and Keras
+	o Penjelasan tentang TensorFlow dan Keras sebagai framework DL populer.
+2.What is a Tensor?
+	o Definisi tensor sebagai entitas matematika dengan banyak arah, dasar bagi perhitungan di TensorFlow.
+3.Convolutional Neural Network (CNN)
+ o Tujuan utama: ekstraksi fitur gambar seperti garis, bentuk, pola.
+ o Konsep filter/kernel, receptive field, stride, padding, feature maps.
+	o Dimensi input-output layer dijelaskan secara matematis.
+4.Pooling Layer
+ o Mengurangi kompleksitas jaringan dengan average pooling atau max pooling.
+ o Downsampling untuk efisiensi dan generalisasi.
+5.Fully Connected Layer
+ o Mengubah hasil dari feature map menjadi keputusan klasifikasi akhir.
+6.Developing a DL solution using CNN
+o Studi kasus: klasifikasi gambar kucing vs anjing dari dataset Kaggle.
+o Langkah-langkah dari pengumpulan data, preprocessing, pembuatan model, training, evaluasi.
+
+
+
+

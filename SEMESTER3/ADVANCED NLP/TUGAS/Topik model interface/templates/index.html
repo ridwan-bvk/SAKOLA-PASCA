@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Topic Modeling Interface</title>
+</head>
+<body>
+    <h1>Topic Modeling & Search</h1>
+
+    <h2>Cari Dokumen</h2>
+    <form method="POST" action="/search">
+        <input type="text" name="keyword" placeholder="Ketik kata kunci..." required>
+        <button type="submit">Cari</button>
+    </form>
+    {% if keyword %}
+        <h3>Hasil pencarian untuk: "{{ keyword }}"</h3>
+        <ul>
+        {% for result in search_results %}
+            <li>{{ result }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+    <hr>
+
+    <h2>Bentuk Model Topik</h2>
+    <form method="POST" action="/topic_model">
+        <label>Jumlah Topik:</label>
+        <input type="number" name="n_topics" value="2" min="1" required>
+    
+        <label>Pilih Metode:</label>
+        <select name="method">
+            <option value="lsa">LSA (TruncatedSVD)</option>
+            <option value="lda">LDA (LatentDirichletAllocation)</option>
+        </select>
+    
+        <button type="submit">Bentuk Model</button>
+    </form>
+
+    {% if topics %}
+        <h3>Topik yang terbentuk:</h3>
+        <ul>
+        {% for topic in topics %}
+            <li>{{ topic }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
