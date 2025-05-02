@@ -1,0 +1,27 @@
+Trm kasih sharingnya. Teknik SAD digunakan untuk menentukan sejauh apa potongan citra identik berada di posisi berbada dalam citra stereo. Dari perhitungan tersebut, dapat ditentukan jarak dari titik pengamatan ke obyek. Jika dilakukan pada seluruh permukaan obyek, maka rekonstruksi dapat dilakukan. Saran yang menarik, meski kita butuh dataset yang memadai. Tapi ini bs jadi opsi riset yang menarik.
+
+Baik pak terimakasih izin menanggapi
+Dari github yang diberikan mengulas,
+Proyek stereo-vision yang dikembangkan oleh Young Seok Seo bertujuan untuk melakukan rekonstruksi 3D dari dua citra 2D menggunakan prinsip binocular disparity, yaitu perbedaan posisi suatu titik objek pada dua gambar yang diambil dari sudut pandang berbeda-mirip dengan cara kerja penglihatan manusia dalam mempersepsikan kedalaman.
+
+Inti Metode:
+Dua kamera ditempatkan sejajar dengan jarak tertentu untuk menangkap dua gambar dari satu adegan yang sama.
+Dengan mengetahui parameter kalibrasi kamera (jarak antar kamera/baseline dan panjang fokus/focal length), serta menghitung perbedaan posisi pixel (disparity) antara kedua gambar, 
+kedalaman (z) setiap titik dapat dihitung menggunakan rumus 
+
+z= b.f/(Xl - Xr)
+dimana: 
+b adalah baseline, 
+f adalah focal length, dan 
+xl,xr  adalah posisi pixel pada gambar kiri dan kanan
+
+Langkah-langkah Utama dalam metode ini
+Pre-processing: Gambar dari Middlebury Stereo Dataset diubah ke grayscale dan diperkecil untuk mempercepat pemrosesan.
+Perhitungan Disparity: Menggunakan metode Sum of Absolute Differences (SAD) untuk mencari pasangan pixel yang paling cocok antara kedua gambar. Disparity dihitung sebagai selisih posisi pixel kiri dan kanan.
+Post-processing: Hasil disparity sering mengandung noise, terutama pada area datar.
+
+Untuk mengurangi noise dan memperhalus hasil output:
+- Denoising by mode: Mengganti nilai disparity pixel yang noisy dengan modus dari window sekitarnya.
+- Smoothing by average: Jika perbedaan disparity pixel dengan rata-rata window kecil di sekitarnya melebihi ambang tertentu, nilainya diganti dengan rata-rata.
+- Thresholding: Menghilangkan pixel dengan disparity di luar batas tertentu. 
+Proses ini dapat diulang beberapa kali untuk hasil yang lebih baik

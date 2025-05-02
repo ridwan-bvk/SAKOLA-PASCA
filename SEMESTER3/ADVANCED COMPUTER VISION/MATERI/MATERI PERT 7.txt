@@ -1,0 +1,14 @@
+Simak konten github berikut: https://github.com/youngseok-seo/stereo-vision
+Lalu berikan tanggapan terhadap project tersebut berupa ringkasan, pertanyaan bahkan saran jika menurut Anda ada hal yang masih dapat ditingkatkan. Semoga menginspirasi riset tesis.
+
+
+
+Simak beberapa blog terkait serba serbi deep learning berikut:
+
+https://towardsdatascience.com/activation-functions-in-neural-networks-how-to-choose-the-right-one-cb20414c04e5/
+https://medium.com/@pramestihattak/menilik-activation-functions-7710177a54c9
+https://www.v7labs.com/blog/neural-networks-activation-functions
+https://machinelearningmastery.com/loss-functions-in-tensorflow/
+https://medium.com/data-science/creating-custom-loss-functions-using-tensorflow-2-96c123d5ce6c
+https://medium.com/coinmonks/loss-optimization-in-tensorflow-c4336629504f
+Dari sejumlah sejumlah sumber tersebut, 3 blog pertama terkait dengan activatioan function sedangkan 3 berikutnya terkait loss function dan optimizer. Selanjutnya, berikan tanggapan, summary bahkan bertanyaan yang munkin muncul dari proses belajar pekan ini. Selamat belajar, semoga bermanfaat...
