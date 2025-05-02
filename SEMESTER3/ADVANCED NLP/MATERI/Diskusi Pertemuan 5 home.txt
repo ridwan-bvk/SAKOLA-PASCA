@@ -1,0 +1,11 @@
+Izin menjawag pak, terkait materi pertemuan 5 "Information Retrieval (IR)":
+Information Retrieval (IR):
+IR adalah proses menemukan dokumen atau materi (biasanya berupa teks) yang tidak terstruktur untuk memenuhi kebutuhan informasi dari koleksi dokumen yang besar.
+Contoh aplikasi IR meliputi pencarian web (Google Search), pencarian email, pencarian di laptop, basis pengetahuan perusahaan, dan pencarian informasi hukum.
+
+keterkaitan IR deng Natural Language Processing (NLP). Tahapannya meliputi pra-pemrosesan teks (tokenisasi, stopword removal, stemming), ekstraksi fitur (TF-IDF, Bag of Words, word embedding), serta pemanfaatan machine learning dan deep learning untuk meningkatkan akurasi hasil pencarian.
+
+Inverted Index
+Solusi untuk mengatasi ineffisiensi matriks besar adalah dengan membuat inverted index.
+- Inverted index menyimpan daftar dokumen (dengan docID) yang mengandung setiap kata, sehingga hanya menyimpan informasi posisi "1" pada matriks biner.
+- Contoh operasional: Melakukan operasi bitwise pada vektor untuk memproses query seperti “Brutus AND Caesar BUT NOT Calpurnia”, serta menangani penambahan kata ke dalam dokumen baru.

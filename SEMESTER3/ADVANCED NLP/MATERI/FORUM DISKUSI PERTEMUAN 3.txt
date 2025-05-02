@@ -1,0 +1,14 @@
+terimakasih izin mengulas materi 3 yang disampaikan
+tahap pertama NLP pipline adalaha Text Preprocessing 
+adalah proses yang bertujuan untuk membersihkan, menyederhanakan, dan menstandarisasi data teks yang belum terstruktur agar lebih mudah dan efektif untuk dianalisis
+
+
+beberapa tahap dari Text Preprocessing
+Tokenization: Memecah teks menjadi kata atau frasa.
+Lowercasing: Mengubah semua huruf menjadi kecil.
+Stopword Removal: Menghapus kata-kata umum yang tidak terlalu bermakna (misalnya "the", "and")
+Stemming dan Lemmatization: Mengurangi kata ke bentuk dasarnya untuk menyederhanakan analisis.
+Punctuation Removal: Menghapus tanda baca yang tidak diperlukan.
+Stemming & Lemmatization: Mengubah kata ke bentuk dasarnya.
+Part-of-Speech (POS) Tagging: Menandai jenis kata dalam kalimat.
+Proses ini penting untuk meningkatkan akurasi model NLP dengan mengurangi kompleksitas data teks.

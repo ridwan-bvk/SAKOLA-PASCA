@@ -1,0 +1,19 @@
+selamat malam salam sejahtera dan sukses selalu, pada forum ini kita akan diskusi tentang Data Proprocessing
+
+Mengapa proses data preprocessing sangat penting dalam proyek machine learning atau data mining? Jelaskan dampak yang mungkin terjadi jika proses ini diabaikan, dan berikan contoh kasus nyata.
+
+Selamat Belajar
+
+Proses data preprocessing sangat penting dalam proyek machine learning atau data mining karena data yang digunakan dalam model sering kali tidak dalam kondisi yang ideal untuk dianalisis atau dipelajari oleh algoritma
+
+Data yang mentah biasanya memiliki banyak masalah seperti ketidaksesuaian format, nilai yang hilang, data yang tidak relevan, atau bahkan data yang terdistorsi. Proses preprocessing membantu memastikan bahwa data yang digunakan dapat meningkatkan kinerja model dan hasil yang lebih akurat
+
+Dampak jika proses preprocessing diabaikan
+1. Kinerja Model yang Buruk.  Jika data tidak diproses dengan baik, model machine learning mungkin tidak dapat belajar dengan baik dari data, menghasilkan akurasi yang rendah, atau bahkan model yang tidak dapat berfungsi sama sekali.
+2. Overfitting atau Underfitting. Data yang tidak diproses dengan baik bisa menyebabkan model mengalami overfitting (model terlalu menyesuaikan diri dengan data latihan dan tidak mampu generalisasi dengan baik pada data baru) atau underfitting (model tidak mampu menangkap pola penting dalam data).
+3. Kesalahan dalam Interpretasi Data. Data yang tidak dibersihkan atau diproses dengan benar bisa menyembunyikan pola penting atau memberikan kesalahan dalam analisis.
+
+contoh kasus
+Proyek Deteksi Penyakit Menggunakan Data Medis
+Dalam sebuah proyek machine learning untuk mendeteksi penyakit berdasarkan data medis, data mungkin memiliki nilai yang hilang, misalnya, tidak semua pasien memiliki hasil tes darah yang lengkap. 
+Jika data hilang tidak diatasi dengan benar (misalnya dengan menghapus baris atau mengisi dengan nilai rata-rata), model bisa saja tidak dapat mempelajari pola yang benar dan mengabaikan pasien-pasien dengan data yang tidak lengkap.

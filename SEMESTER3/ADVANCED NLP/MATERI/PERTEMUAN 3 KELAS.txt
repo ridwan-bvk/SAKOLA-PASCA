@@ -1,0 +1,20 @@
+NLP
+install ollama
+-lm studio
+-streamlit
+
+metode
+-lamma
+-misral
+
+cari
+-chatboot menggunakan metode naif bayes
+
+prosesnya
+data masuk ke model-jadi vektor(menggunakan llm/misrall)-
+
+
+pengukur 
+beyoskell
+rauge
+RAG

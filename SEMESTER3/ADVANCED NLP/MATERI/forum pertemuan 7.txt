@@ -1,0 +1,15 @@
+
+Baik pak izin menjawab
+Materi PPT Pertemuan 7 Tentang Topic Model - Bag 2
+Topic modeling adalah teknik dalam NLP yang digunakan untuk mengidentifikasi dan mengekstrak topik atau tema yang tersembunyi (latent topic) dalam sebuah koleksi dokumen, teks maupun dataset. 
+BERTopic sebuah metode neural topic modeling modern yang menggunakan embedding berbasis Transformer untuk menghasilkan topik yang lebih bermakna dari sekumpulan dokumen teks.
+BERTopic menghasilkan representasi topik melalui tiga langkah: mengonversi dokumen ke embedding menggunakan model bahasa seperti SBERT, mereduksi dimensi embedding dengan UMAP untuk optimasi klastering, dan mengelompokkan dokumen menggunakan HDBSCAN, diikuti ekstraksi topik dengan variasi TF-IDF berbasis kelas (C-TF-IDF). 
+
+Istilah pada bert
+-Embedding adalah langkah untuk mengubah teks menjadi representasi numerik (vektor) yang dapat diproses oleh algoritma. Secara sederhana, embedding membantu mengubah teks menjadi bentuk numerik yang dapat diolah komputer untuk analisis topik.
+-Reduksi dimensi dalam BERTopic bertujuan untuk menyederhanakan data vektor (embedding) dari dokumen agar lebih mudah diproses, sekaligus mempertahankan informasi yang paling penting. Proses ini mengurangi jumlah fitur dalam vektor sehingga analisis clustering dapat dilakukan lebih efisien.
+-Cluster Documents, HDBSCAN adalah algoritma clustering yang mengelompokkan data dengan kepadatan tinggi sambil mengabaikan data yang tidak cocok dengan cluster mana pun.
+-CountVectorizer adalah teknik Bag-of-Words yang mengubah teks menjadi representasi numerik berdasarkan jumlah kata dalam dokumen. Setiap kata unik diubah menjadi fitur, dan nilai fiturnya menunjukkan frekuensi kemunculan kata tersebut.
+-ClassTfidfTransformer() adalah variasi dari TF-IDF (Term Frequency-Inverse Document Frequency) yang digunakan dalam BERTopic untuk meningkatkan pemisahan antar topik. Ini menghitung bobot kata dalam konteks masing-masing cluster atau topik, bukan seluruh korpus, sehingga membantu menekankan kata-kata yang lebih khas untuk setiap topik.
+Intinya, ClassTfidfTransformer membantu menyoroti kata-kata yang lebih spesifik dalam setiap topik, membuat pembagian topik lebih tajam dan jelas.
+
