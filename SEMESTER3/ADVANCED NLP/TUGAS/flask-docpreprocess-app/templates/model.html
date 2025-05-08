@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+    <!-- <div class="container mx-auto p-4"> -->
+        <!-- Header -->
+        <h1 class="text-2xl font-bold mb-6">Model Process</h1>
+        
+       <!-- Model Configuration Section -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <!-- Tab Buttons -->
+            <div class="flex space-x-4 mb-4 border-b">
+                <button 
+                    id="moduleTab" 
+                    class="px-4 py-2 font-medium text-blue-600 border-b-2 border-blue-600 focus:outline-none"
+                    onclick="switchTab('module', 'result')"
+                >
+                    Module Configuration
+                </button>
+                <button 
+                    id="resultTab" 
+                    class="px-4 py-2 font-medium text-gray-500 hover:text-blue-600 focus:outline-none"
+                    onclick="switchTab('result', 'module')"
+                >
+                    Results
+                </button>
+            </div>
+
+            <!-- Tab Contents -->
+            <div class="tab-content">
+                <!-- Module Configuration Content -->
+                <div id="moduleContent" class="block">
+                    <h2 class="text-lg font-semibold mb-4">Model Configuration</h2>
+                    <div class="mb-4">
+                        <!-- Existing module configuration content -->
+                        <div class="ml-4 text-gray-600">
+                            <!-- Tambahkan konten module configuration di sini -->
+                            <!-- Text Modeling Configuration -->
+                            <div class="bg-white rounded-lg shadow p-6">
+                                <h2 class="text-lg font-semibold mb-4">Text Modeling Configuration</h2>
+                                
+                                <!-- Model Type -->
+                                <div class="mb-6">
+                                    <h3 class="font-medium mb-2">Select Model Type</h3>
+                                    <div class="flex items-center ml-4">
+                                        <input type="checkbox" checked class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded">
+                                        <label class="ml-2">LDA (Latent Dirichlet Allocation)</label>
+                                    </div>
+                                </div>
+
+                                <!-- Number of Topics -->
+                                <div class="mb-6">
+                                    <h3 class="font-medium mb-2">Number of Topics</h3>
+                                    <div class="flex items-center ml-4">
+                                        <input type="radio" checked class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded">
+                                        <label class="ml-2">5 topics</label>
+                                    </div>
+                                </div>
+
+                                <!-- Advanced Settings -->
+                                <div class="mb-6">
+                                    <h3 class="font-medium mb-2">Advanced Settings</h3>
+                                    <div class="ml-4 space-y-2">
+                                        <div class="flex items-center">
+                                            <span class="w-24">Alpha parameter</span>
+                                            <input type="text" value="0.1" class="ml-2 p-1 border rounded w-20">
+                                            <input type="text" value="0.01" class="ml-2 p-1 border rounded w-20">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Run Button -->
+                                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                                    Run Model
+                                </button>
+
+                                <!-- Beta Parameter -->
+                                <div class="mt-6">
+                                    <div class="flex items-center">
+                                        <span class="w-24">Beta parameter</span>
+                                        <input type="text" value="0.01" class="ml-2 p-1 border rounded w-20">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+
+                <!-- Results Content -->
+                <div id="resultContent" class="hidden">
+                    <h2 class="text-lg font-semibold mb-4">Results</h2>
+                    <div class="ml-4 text-gray-600">
+                        <!-- Tambahkan konten results di sini -->
+                        <p>Analysis results...</p>
+                        <p>Visualizations...</p>
+                        <p>Data metrics...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+        function switchTab(showId, hideId) {
+            // Toggle content visibility
+            document.getElementById(`${showId}Content`).classList.remove('hidden');
+            document.getElementById(`${hideId}Content`).classList.add('hidden');
+            
+            // Update tab styles
+            document.getElementById(`${showId}Tab`).classList.add('text-blue-600', 'border-blue-600');
+            document.getElementById(`${hideId}Tab`).classList.remove('text-blue-600', 'border-blue-600');
+            document.getElementById(`${showId}Tab`).classList.remove('text-gray-500');
+            document.getElementById(`${hideId}Tab`).classList.add('text-gray-500');
+        }
+        </script>
+    <!-- </div> -->
+    {% endblock %}

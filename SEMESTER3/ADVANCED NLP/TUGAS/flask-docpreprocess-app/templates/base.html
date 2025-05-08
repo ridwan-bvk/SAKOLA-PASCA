@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DocPreprocess</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <div class="flex h-screen">
+    <aside class="w-64 bg-[#0f172a] text-white flex flex-col">
+      <div class="p-4 text-xl font-bold border-b border-gray-700">DocPreprocess</div>
+      <nav class="p-4 space-y-3 text-sm">
+        <a href="{{url_for('index')}}" class="flex items-center space-x-2 hover:text-blue-400"><span>🏠</span><span>Dashboard</span></a>
+        <a href="{{ url_for('search') }}" class="flex items-center space-x-2 hover:text-blue-400"><span>🔍</span><span>Search Index</span></a>
+        <a href="{{ url_for('preprocess') }}" class="flex items-center space-x-2 hover:text-blue-400"><span>⚙️</span><span>Preprocess</span></a>
+        <a href="{{ url_for('model') }}" class="flex items-center space-x-2 hover:text-blue-400"><span>📊</span><span>Model Process</span></a>
+      </nav>
+    </aside>
+    <main class="flex-1 p-6 bg-white overflow-y-auto">
+      {% block content %}
+      
+      {% endblock %}
+      <footer class="text-center text-sm text-gray-500 mt-8">&copy; 2025 DocPreprocess. All rights reserved.</footer>
+    </main>
+  </div>
+</body>
+</html>

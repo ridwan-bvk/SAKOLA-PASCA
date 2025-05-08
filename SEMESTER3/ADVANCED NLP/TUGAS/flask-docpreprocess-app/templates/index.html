@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="mb-6">
+  <h1 class="text-2xl font-bold text-gray-800 mb-1">Dashboard</h1>
+  <p class="text-gray-600">Overview and analytics</p>
+</div>
+
+<div class="mb-6">
+  <h2 class="text-xl font-semibold text-gray-800">Dashboard</h2>
+  <p class="text-gray-500">Document Processing System</p>
+</div>
+
+<!-- Grid container -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+  <!-- Card 1: Search Index -->
+  <div class="border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition duration-200">
+    <div class="flex items-center justify-between mb-4">
+      <div class="text-sm text-gray-500 font-medium">Search Index</div>
+      <div class="text-gray-400 text-lg">🔍</div>
+    </div>
+    <h3 class="text-xl font-semibold text-gray-800 mb-1">Search Document</h3>
+    <p class="text-gray-500 text-sm mb-4">Explore and search document content quickly</p>
+    <a href="{{ url_for('search') }}" class="inline-flex items-center justify-center w-full px-4 py-2 border border-gray-300 bg-white rounded-md text-sm font-medium text-green-600 hover:bg-gray-50">
+      Open Search <span class="ml-2">→</span>
+    </a>
+  </div>
+
+  <!-- Card 2: Document Preprocessing -->
+  <div class="border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition duration-200">
+    <div class="flex items-center justify-between mb-4">
+      <div class="text-sm text-gray-500 font-medium">Document Preprocessing</div>
+      <div class="text-gray-400 text-lg">📄</div>
+    </div>
+    <h3 class="text-xl font-semibold text-gray-800 mb-1">5 Stage Process</h3>
+    <p class="text-gray-500 text-sm mb-4">Clean, extract, and prepare your document data</p>
+    <a href="{{ url_for('preprocess') }}" class="inline-flex items-center justify-center w-full px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-blue-600 bg-white hover:bg-gray-50">
+      Start Processing <span class="ml-2">→</span>
+    </a>
+  </div>
+
+  <!-- Card 3: Model Processing -->
+  <div class="border rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition duration-200">
+    <div class="flex items-center justify-between mb-4">
+      <div class="text-sm text-gray-500 font-medium">Model Processing</div>
+      <div class="text-gray-400 text-lg">🧠</div>
+    </div>
+    <h3 class="text-xl font-semibold text-gray-800 mb-1">AI Models</h3>
+    <p class="text-gray-500 text-sm mb-4">Apply machine learning models to your data</p>
+    <a href="{{ url_for('model') }}" class="inline-flex items-center justify-center w-full px-4 py-2 border border-gray-200 bg-gray-100 rounded-md text-sm font-medium text-gray-800 hover:bg-gray-200">
+      Configure Models <span class="ml-2">→</span>
+    </a>
+  </div>
+
+
+</div>
+{% endblock %}
