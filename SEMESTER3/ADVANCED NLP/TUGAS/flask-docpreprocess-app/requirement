@@ -1,0 +1,3 @@
+pip install flask
+pip install pypdf2
+pip install python-docx openpyxl pandas odfpy pyppdf pypdf2
