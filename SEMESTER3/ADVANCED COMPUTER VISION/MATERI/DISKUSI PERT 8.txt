@@ -1,0 +1,4 @@
+VGG adalah singkatan dari Visual Geometry Group; ini adalah arsitektur Convolutional Neural Network (CNN) standar dengan beberapa lapisan. "Dalam" mengacu pada jumlah lapisan dengan VGG-16 atau VGG-19 yang terdiri dari 16 dan 19 lapisan konvolusional.
+
+Arsitektur VGG merupakan dasar dari model pengenalan objek yang inovatif. Dikembangkan sebagai jaringan saraf dalam, VGGNet juga melampaui garis dasar pada banyak tugas dan kumpulan data di luar ImageNet . Selain itu, VGGNet masih menjadi salah satu arsitektur pengenalan gambar yang paling populer .
+

@@ -1,0 +1,11 @@
+Pekan ini, kita akan diskusi tentang AlexNet, sebuah arsitektur deep learning yang sangat revolusioner di jamannya karena capaiannya dalam annual ImageNet Large Scale Visual Recognition Challenge (ILSVRC). Materinya dapat dipelajari di 
+a. https://viso.ai/deep-learning/alexnet/ Dalam laman tersebut, dibahas juga contoh bidang ilmu di mana AlexNet dapat diimplementasi serta implementasi arsitektur ini dalam kode program python berbasis TF yang dapat dipelajari di https://www.kaggle.com/code/blurredmachine/alexnet-architecture-a-complete-guide/notebook. Atau https://medium.com/analytics-vidhya/pytorch-directly-use-pre-trained-alexnet-for-image-classification-and-visualization-of-the-dea0de3eade9 yang berbasis Torch. Kajian terkait arsitektur AlexNet juga dapat dipelajari salah satunya di https://medium.com/@siddheshb008/alexnet-architecture-explained-b6240c528bd5
+b. https://medium.com/@abhikdey06/alexnet-the-architecture-that-changed-ai-6b69ad4d8af9
+Sedangkan, sebuah artikel review terkait arsitektur ini dapat dipelajari di https://arxiv.org/abs/2311.08655 
+Selamat belajar. Kemudian berikan komentar, ringkasan atau pertanyaa yang mungkin muncul dari referensi yang disebutkan dalam beberapa laman tersebut. Review yang dibuat dapat dibuat dari beragam perspektif, bisa dari perspektif teoritis, implementasi, atau terkait kompetisi yang dimenangkan oleh AlexNet.
+Semoga bermanfaat.
+
+VGG
+Selain AlexNet, kita juga kenal arsitektur lain yang dikenal sebagai Visual Geometry Group (VGG). Arsitektur yang juga mengikuti kompetisi ILSVRC 2014, salah satu referensinya dapat ditemukan di https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/
+Arsitektur ini dibahas dalam artikel ilmiah yang disimpan di https://arxiv.org/abs/1409.1556v6
+Selamat belajar. Kemudian berikan komentar, ringkasan atau pertanyaan yang mungkin muncul dari referensi tersebut. Mahasiswa disilakan untuk membuat review dari beragam perspektif, bisa dari perspektif teoritis, implementasi, atau terkait kompetisi yang dimenangkan oleh VGG. Semoga bermanfaat.
