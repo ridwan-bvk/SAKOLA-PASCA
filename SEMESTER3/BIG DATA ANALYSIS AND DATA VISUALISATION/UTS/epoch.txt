@@ -1,0 +1,62 @@
+163/163 ━━━━━━━━━━━━━━━━━━━━ 2689s 16s/step - accuracy: 0.0771 - loss: 2.5846 - val_accuracy: 0.0755 - val_loss: 2.5647
+Epoch 2/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 112s 687ms/step - accuracy: 0.0733 - loss: 2.5650 - val_accuracy: 0.0816 - val_loss: 2.5648
+Epoch 3/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 112s 687ms/step - accuracy: 0.0741 - loss: 2.5651 - val_accuracy: 0.0755 - val_loss: 2.5649
+Epoch 4/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 111s 684ms/step - accuracy: 0.0789 - loss: 2.5651 - val_accuracy: 0.0755 - val_loss: 2.5648
+Epoch 5/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 110s 675ms/step - accuracy: 0.0820 - loss: 2.5650 - val_accuracy: 0.0755 - val_loss: 2.5649
+Epoch 6/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 147s 705ms/step - accuracy: 0.0696 - loss: 2.5652 - val_accuracy: 0.0816 - val_loss: 2.5648
+Epoch 7/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 115s 702ms/step - accuracy: 0.0746 - loss: 2.5651 - val_accuracy: 0.0816 - val_loss: 2.5647
+Epoch 8/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 114s 699ms/step - accuracy: 0.0684 - loss: 2.5651 - val_accuracy: 0.0755 - val_loss: 2.5650
+Epoch 9/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 111s 679ms/step - accuracy: 0.0760 - loss: 2.5651 - val_accuracy: 0.0544 - val_loss: 2.5651
+Epoch 10/10
+163/163 ━━━━━━━━━━━━━━━━━━━━ 113s 694ms/step - accuracy: 0.0779 - loss: 2.5650 - val_accuracy: 0.0816 - val_loss: 2.5650
+
+
+epoch ke 2
+/usr/local/lib/python3.11/dist-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+Epoch 1/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 2420s 18s/step - accuracy: 0.0777 - loss: 2.6172 - val_accuracy: 0.0773 - val_loss: 2.5793
+Epoch 2/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 607s 5s/step - accuracy: 0.0786 - loss: 2.5876 - val_accuracy: 0.0773 - val_loss: 2.5688
+Epoch 3/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 552s 4s/step - accuracy: 0.0779 - loss: 2.5819 - val_accuracy: 0.0773 - val_loss: 2.5681
+Epoch 4/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 555s 4s/step - accuracy: 0.0900 - loss: 2.5653 - val_accuracy: 0.0773 - val_loss: 2.5698
+Epoch 5/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 602s 5s/step - accuracy: 0.0887 - loss: 2.5690 - val_accuracy: 0.0686 - val_loss: 2.5603
+Epoch 6/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 554s 4s/step - accuracy: 0.0963 - loss: 2.5592 - val_accuracy: 0.0763 - val_loss: 2.5701
+Epoch 7/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 542s 4s/step - accuracy: 0.0837 - loss: 2.5592 - val_accuracy: 0.0850 - val_loss: 2.5605
+Epoch 8/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 590s 5s/step - accuracy: 0.0942 - loss: 2.5524 - val_accuracy: 0.0860 - val_loss: 2.5704
+Epoch 9/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 574s 4s/step - accuracy: 0.0973 - loss: 2.5472 - val_accuracy: 0.0773 - val_loss: 2.5582
+Epoch 10/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 551s 4s/step - accuracy: 0.0992 - loss: 2.5517 - val_accuracy: 0.0783 - val_loss: 2.5744
+Epoch 11/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 545s 4s/step - accuracy: 0.0904 - loss: 2.5483 - val_accuracy: 0.1111 - val_loss: 2.5269
+Epoch 12/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 553s 4s/step - accuracy: 0.0868 - loss: 2.5387 - val_accuracy: 0.0763 - val_loss: 2.5880
+Epoch 13/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 600s 5s/step - accuracy: 0.0996 - loss: 2.5377 - val_accuracy: 0.0763 - val_loss: 2.7776
+Epoch 14/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 566s 4s/step - accuracy: 0.0976 - loss: 2.5326 - val_accuracy: 0.1324 - val_loss: 2.5114
+Epoch 15/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 546s 4s/step - accuracy: 0.0995 - loss: 2.5415 - val_accuracy: 0.0812 - val_loss: 2.6274
+Epoch 16/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 596s 5s/step - accuracy: 0.0917 - loss: 2.5374 - val_accuracy: 0.0870 - val_loss: 2.5305
+Epoch 17/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 620s 5s/step - accuracy: 0.0916 - loss: 2.5433 - val_accuracy: 0.0928 - val_loss: 2.5301
+Epoch 18/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 539s 4s/step - accuracy: 0.0980 - loss: 2.5351 - val_accuracy: 0.0705 - val_loss: 2.5601
+Epoch 19/20
+130/130 ━━━━━━━━━━━━━━━━━━━━ 545s 4s/step - accuracy: 0.1083 - loss: 2.5289 - val_accuracy: 0.0763 - val_loss: 2.5741
