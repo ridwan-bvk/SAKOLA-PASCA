@@ -1,0 +1,40 @@
+Evaluasi model prediksi adalah proses untuk mengukur seberapa baik sebuah model prediksi (misalnya model machine learning) dalam menghasilkan prediksi yang akurat pada data baru yang belum pernah dilihat sebelumnya. Proses ini penting untuk memastikan bahwa model yang telah dibangun benar-benar efektif, dapat diandalkan, dan sesuai dengan tujuan penggunaannya, baik untuk klasifikasi maupun regresi
+
+refrenece
+https://mysertifikasi.com/evaluasi-model-machine-learning-metrik-dan-teknik/
+
+Pemilihan metrik evaluasi sangat bergantung pada jenis masalah yang dihadapi, penjelasannya seperti berikut:
+A. Untuk Masalah Klasifikasi
+- Akurasi (Accuracy)
+Mengukur persentase prediksi yang benar dari seluruh prediksi yang dilakukan. Cocok digunakan jika data seimbang antar kelas.
+Contoh: Jika dari 100 email, 90 diklasifikasikan dengan benar, akurasi = 90%.
+- Presisi (Precision)
+Mengukur berapa banyak prediksi positif yang benar dari seluruh prediksi positif yang dibuat. Penting jika kesalahan prediksi positif harus diminimalkan (misal: diagnosis penyakit).
+- Recall (Sensitivitas)
+Mengukur berapa banyak kasus positif yang berhasil ditemukan dari seluruh kasus positif yang ada. Penting jika tidak ingin melewatkan kasus positif (misal: deteksi penipuan).
+- F1-Score
+Rata-rata harmonik dari presisi dan recall. Digunakan jika ingin keseimbangan antara presisi dan recall, terutama pada data tidak seimbang.
+- ROC-AUC (Receiver Operating Characteristic – Area Under Curve)
+Mengukur kemampuan model membedakan antara kelas positif dan negatif. Nilai AUC mendekati 1 menandakan model sangat baik.
+
+B. Untuk Masalah Regresi
+- Mean Absolute Error (MAE)
+Rata-rata selisih absolut antara nilai prediksi dan nilai aktual. Semakin kecil MAE, semakin baik model.
+- Mean Squared Error (MSE)
+Rata-rata selisih kuadrat antara nilai prediksi dan nilai aktual. MSE lebih sensitif terhadap error besar.
+- Root Mean Squared Error (RMSE)
+Akar kuadrat dari MSE, memiliki satuan yang sama dengan target.
+- R-Squared (R²)
+Mengukur proporsi variabilitas target yang dapat dijelaskan oleh model. Nilai R² mendekati 1 menunjukkan model sangat baik.
+
+Contoh dan Analisis
+Kasus Regresi: Prediksi Harga Mobil Bekas
+Model: Random Forest, Gradient Boosting, Regresi Linear.
+Metrik: MSE dan R².
+
+Hasil Evaluasi:
+Gradient Boosting: MSE = 175.063.625, R² = 0.963868
+Random Forest: MSE = 486.169.848, R² = 0.899657
+Regresi Linear: MSE = 2.820.305.019, R² = 0.417905
+
+Analisis: Gradient Boosting memiliki nilai MSE paling rendah dan R² paling tinggi, artinya model ini paling akurat dan mampu menjelaskan variabilitas harga mobil bekas dengan sangat baik. Sebaliknya, Regresi Linear kurang cocok untuk data kompleks karena error yang tinggi dan R² yang rendah

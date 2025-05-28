@@ -1,0 +1,34 @@
+Silakan pelajari blog berikut: https://viso.ai/deep-learning/xception-model/
+Selanjutnya, berikan komentar, ringkasan atau mungkin pertanyaan yang muncul dari mempelajari blog tersebut. Semoga bermanfaat.
+
+
+izin menyimpulkan dari referensi sumber blog yang bisa sedikit  saya pahami bahwa.
+Jaringan Inception diciptakan dengan ide untuk meningkatkan kemampuan jaringan saraf dalam sekaligus memanfaatkan sumber daya komputasi secara efisien.
+Jaringan Inception dirilis dalam beberapa versi, yang masing-masing versi memiliki beberapa peningkatan dibanding versi sebelumnya
+-Arsitektur Inception V1
+Inception V1 memungkinkan penggunaan filter dengan berbagai ukuran (misal 1x1, 3x3, 5x5) secara paralel pada satu layer, sehingga dapat menangkap fitur lokal dan global sekaligus
+Tantangan awalnya adalah jumlah parameter yang sangat besar, sehingga solusi yang digunakan adalah menambahkan convolution 1x1 sebelum convolution yang lebih besar untuk mengurangi dimensi (jumlah channel), sehingga parameter dan kebutuhan komputasi berkurang.
+-Perbedaan Inception V1 dan Inception V3
+Inception V3 memperkenalkan teknik baru seperti memecah convolution besar (misal 5x5) menjadi beberapa convolution yang lebih kecil (misal dua 3x3), serta menggunakan convolution asimetris (misal 1x3 diikuti 3x1).
+Tujuannya tetap sama: mengurangi jumlah parameter dan mempercepat proses komputasi tanpa mengurangi akurasi.
+
+Penerapan Transfer Learning dengan Inception
+penulis membandingkan hasil model CNN biasa dengan model Inception yang hanya melatih layer terakhir. Hasilnya, akurasi validasi meningkat dari 77% (CNN biasa) menjadi 90% (Inception V3 dengan transfer learning).
+
+Xception, Model ini merupakan pengembangan dari arsitektur Inception, dengan inovasi utama berupa penggunaan depthwise separable convolution untuk menggantikan inception module.
+
+Arsitektur Xception
+Terdiri dari tiga bagian utama:
+Entry Flow: Ekstraksi fitur awal dari gambar input (299x299 piksel, RGB), menggunakan beberapa layer konvolusi dan depthwise separable convolution.
+Middle Flow: Delapan kali pengulangan blok depthwise separable convolution untuk ekstraksi fitur tingkat tinggi.
+Exit Flow: Ekstraksi fitur kompleks dan klasifikasi akhir menggunakan global average pooling dan fully connected layer.
+
+Depthwise Separable Convolution
+-Depthwise convolution: Satu filter per channel.
+-Pointwise convolution: 1x1 convolution untuk menggabungkan hasil depthwise.
+- Pada Xception, urutannya dimodifikasi: pointwise convolution dulu, lalu depthwise.
+
+Teknik Regularisasi
+- Weight Decay (L2 regularization): Mengurangi overfitting dengan membatasi bobot agar tidak terlalu besar.
+- Dropout: Mengabaikan neuron secara acak saat training untuk mencegah overfitting.
+- Residual/Skip Connections: Membantu aliran gradien agar tidak hilang pada jaringan yang sangat dalam.
