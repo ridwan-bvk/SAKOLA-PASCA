@@ -1,0 +1,21 @@
+Pekan ini kita akan diskusi tentang skip connection dan arsitektur ResNet, arsitektur yang dibangun berdasarkan ide skip connection di setiap blok. Beberapa sumber yang dapat menjadi referensi antara lain
+1. https://chautuankien.medium.com/skip-connection-and-explanation-of-resnet-afabe792346c
+2. https://www.analyticsvidhya.com/blog/2021/08/all-you-need-to-know-about-skip-connections/
+
+Sedangkan beberapa artikel ilmiah terkait di antaranya
+1. https://arxiv.org/html/2405.01725v1
+2. https://arxiv.org/abs/2002.05990
+
+Dari sumber2 tersebut, berikan komentar, ringkasan atau pertanyaan yang mungkin mucul dari mempelajari minimal salah satu dari referensi tersebut. Semoga bermanfaat...
+
+
+Selain itu, pekan ini kita akan diskusi tentang MBConv block dan EfficientNet. Beberapa referensi yang dapat dijadikan sumber belajar antara lain:
+1. https://viso.ai/deep-learning/efficientnet/
+2. https://medium.com/image-processing-with-python/efficientnet-a835427acf8b
+
+Sedangkan beberapa artikel ilmiah terkait di antaranya
+1. https://arxiv.org/abs/1905.11946
+2. https://doi.org/10.1109/ACCESS.2021.3051085
+
+Dari sumber2 tersebut, berikan komentar, ringkasan atau pertanyaan yang mungkin mucul dari mempelajari minimal salah satu dari referensi tersebut. Semoga bermanfaat...
+
