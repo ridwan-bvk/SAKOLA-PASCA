@@ -1,0 +1,31 @@
+Artikel tersebut membahas tentang perkembangan algoritma deteksi objek dalam bidang computer vision, khususnya membandingkan dan menjelaskan evolusi dari R-CNN, Fast R-CNN, Faster R-CNN, hingga YOLO.
+
+https://www.perplexity.ai/search/https-towardsdatascience-com-r-D43vrue0SIKgCc4QufSe1A
+1. R-CNN (Region-based Convolutional Neural Network)
+R-CNN memperkenalkan ide region proposal, yaitu mengidentifikasi area potensial pada gambar yang mungkin berisi objek menggunakan metode seperti Selective Search.
+Setiap proposal region diubah ukurannya dan diekstrak fiturnya menggunakan CNN (misal AlexNet), lalu diklasifikasikan menggunakan SVM.
+Bounding box regression digunakan untuk memperbaiki posisi kotak deteksi, dan Non-Maximum Suppression (NMS) menghilangkan deteksi yang tumpang tindih.
+Kelebihan: Akurasi tinggi dibanding metode sebelumnya.
+Kekurangan: Proses lambat karena setiap proposal diproses terpisah, tidak cocok untuk aplikasi real-time.
+
+2. Fast R-CNN
+Fast R-CNN mempercepat proses dengan mengekstrak fitur dari seluruh gambar sekali saja menggunakan CNN, lalu proposal region dipetakan ke feature map.
+Setiap region of interest (RoI) dievaluasi dengan pooling dan diklasifikasikan dalam satu jaringan.
+Hasil: Lebih cepat dari R-CNN, namun masih bergantung pada metode proposal eksternal seperti Selective Search.
+
+3. Faster R-CNN
+Inovasi utama: Region Proposal Network (RPN) yang secara otomatis menghasilkan proposal region langsung dalam jaringan, tanpa metode eksternal.
+RPN berbagi fitur dengan jaringan deteksi, sehingga proses proposal hampir tanpa biaya tambahan.
+Hasil: Jauh lebih cepat dan tetap akurat, namun masih lebih lambat dibanding metode satu tahap untuk aplikasi real-time.
+
+4. YOLO (You Only Look Once)
+YOLO mengubah paradigma deteksi objek dengan menganggap deteksi sebagai masalah regresi tunggal.
+Gambar dibagi menjadi grid, setiap sel grid memprediksi beberapa bounding box dan probabilitas kelas sekaligus dalam satu pass jaringan.
+Kelebihan: Sangat cepat (real-time), cocok untuk aplikasi seperti autonomous driving, surveillance, dan augmented reality.
+Kekurangan: Akurasi pada objek kecil atau yang berdekatan bisa lebih rendah dibanding Faster R-CNN, namun terus membaik pada versi-versi terbaru
+
+Algoritma	Kecepatan	Akurasi	Kelebihan Utama	Kekurangan Utama
+R-CNN	Lambat	Tinggi	Akurasi baik, pionir deep learning	Proses lambat, tidak real-time
+Fast R-CNN	Lebih cepat	Tinggi	Ekstraksi fitur efisien	Masih butuh proposal eksternal
+Faster R-CNN	Cukup cepat	Sangat tinggi	Proposal region otomatis	Masih lebih lambat dari YOLO
+YOLO	Sangat cepat	Kompetitif	Real-time, satu tahap prediksi	Akurasi objek kecil bisa turun

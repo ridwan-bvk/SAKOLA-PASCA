@@ -1,0 +1,15 @@
+Pekan ini kita mulai diskusi tentang deteksi obyek. Sejumlah teknik yang telah dikembangkan antara lain berbasis R-CNN dan YOLO. Coba simak blog berikut: 
+a. https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e/
+b. https://www.ultralytics.com/blog/what-is-r-cnn-a-quick-overview
+Seperti biasa, berikan komentar, ringkasan atau pertanyaan yang mungkin muncul dari mempelajari blog tersebut. Selamat belajar...
+
+Simak video terkait RCNN berikut:
+
+https://www.youtube.com/watch?v=nJzQDpppFj0
+https://www.youtube.com/watch?v=26PWiWCz1v8
+https://www.youtube.com/watch?v=5DvljLV4S1E
+Seperti biasa, berikan komentar, ringkasan atau pertanyaan yang mungkin muncul dari mempelajari materi dari video tersebut. Selamat belajar...
+
+Sebuah potongan ebook terkait deep learning saya simpan di https://drive.google.com/file/d/1kfuduTgDWNfWHAUSpJI-fzQm66osVMsK/view?usp=sharing
+Selamat belajar. Lalu buat review terkait teknik deteksi obyek dan varian2nya, termasuk YOLO.
+
