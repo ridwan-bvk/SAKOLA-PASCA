@@ -1,0 +1,1 @@
+Skip connection adalah teknik dalam jaringan saraf yang memungkinkan output dari satu layer dilewatkan langsung ke layer yang lebih jauh, melewati satu atau beberapa layer di antaranya.
