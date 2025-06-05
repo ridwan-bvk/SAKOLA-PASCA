@@ -1,0 +1,30 @@
+Glove didasarkan pada teknik faktorisasi matriks pada matriks konteks kata. Pertama-tama ia membangun matriks besar informasi kemunculan bersamaan (kata x konteks), yaitu. untuk setiap kata, Anda menghitung seberapa sering kita melihat kata-kata tersebut dalam beberapa konteks dalam korpus besar.
+
+GloVe: Vektor Global untuk Representasi Kata dan sangat layak dibaca karena menjelaskan beberapa kelemahan LSA dan Word2Vec sebelum menjelaskan metode mereka sendiri.
+
+Kunci efektivitas GloVe terletak pada konstruksi matriks konteks kata dan proses faktorisasi selanjutnya.
+
+1. Pembentukan Matriks Konteks Kata:
+Langkah pertama dalam mekanika GloVe melibatkan pembuatan matriks kata-konteks. Matriks ini dirancang untuk menggambarkan kemungkinan munculnya kata tertentu di dekat kata lain di seluruh korpus. Setiap sel dalam matriks memuat jumlah kemunculan bersamaan seberapa sering kata-kata muncul bersamaan dalam jendela konteks tertentu.
+
+2. Faktorisasi untuk Vektor Kata:
+Dengan adanya matriks konteks kata, GloVe beralih ke faktorisasi matriks. Tujuan di sini adalah untuk menguraikan matriks berdimensi tinggi ini menjadi dua matriks yang lebih kecil — satu mewakili kata-kata dan lainnya konteks. Mari kita sebutkan keduanya sebagai W untuk kata dan C untuk konteks. Skenario idealnya adalah ketika produk titik W dan CT (transpos C) mendekati matriks asli:
+X ≈ L ⋅ CT
+Melalui optimasi berulang, GloVe menyesuaikan W dan C untuk meminimalkan perbedaan antara X dan W⋅CT. Proses ini menghasilkan representasi vektor yang lebih baik untuk setiap kata, menangkap nuansa pola kemunculannya bersamaan.
+
+3. Representasi Vektor:
+Setelah dilatih, GloVe menyediakan setiap kata dengan vektor padat yang tidak hanya menangkap konteks lokal tetapi juga pola penggunaan kata global. Vektor ini mengkodekan informasi semantik dan sintaksis, mengungkap persamaan dan perbedaan antara kata-kata berdasarkan penggunaan keseluruhannya dalam korpus.
+Fastext
+
+FastText bersifat unik karena dapat memperoleh vektor kata untuk kata-kata yang tidak dikenal atau kata-kata di luar kosakata — ini karena dengan mempertimbangkan karakteristik morfologi kata, ia dapat membuat vektor kata untuk kata yang tidak dikenal. Karena morfologi merujuk pada struktur atau sintaksis kata-kata, FastText cenderung berkinerja lebih baik untuk tugas tersebut, word2vec berkinerja lebih baik untuk tugas semantik.
+
+Fastext model
+1. Subword Information:
+FastText merepresentasikan setiap kata sebagai sekumpulan karakter n-gram di samping keseluruhan kata itu sendiri. Ini berarti bahwa kata “apple” direpresentasikan oleh kata itu sendiri dan n-gram penyusunnya seperti “ap”, “pp”, “pl”, “le”, dll. Pendekatan ini membantu menangkap makna kata-kata yang lebih pendek dan memberikan pemahaman yang lebih baik tentang sufiks dan prefiks.
+
+2. Pelatihan Model:
+Mirip dengan Word2Vec, FastText dapat menggunakan arsitektur CBOW atau Skip-gram. Namun, ia menggabungkan informasi subkata selama pelatihan. Jaringan saraf dalam FastText dilatih untuk memprediksi kata-kata (dalam CBOW) atau konteks (dalam Skip-gram) tidak hanya berdasarkan kata-kata target tetapi juga berdasarkan n-gram ini.
+
+3. Penanganan Kata-kata Langka dan Tidak Dikenal:
+Keuntungan signifikan FastText adalah kemampuannya untuk menghasilkan representasi kata yang lebih baik untuk kata-kata langka atau bahkan kata-kata yang tidak terlihat selama pelatihan. Dengan memecah kata menjadi n-gram, FastText dapat membangun representasi yang bermakna untuk kata-kata tersebut berdasarkan unit subkata.
+
