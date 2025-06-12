@@ -1,0 +1,19 @@
+Selamat siang pak, izin menjawab
+Model Seq2Seq adalah arsitektur pembelajaran mesin yang dirancang untuk tugas-tugas yang melibatkan data sekuensial. Model ini mengambil urutan input, memprosesnya, dan menghasilkan urutan output. Arsitektur ini terdiri dari dua komponen fundamental: encoder dan decoder.
+
+
+berikut percobaan yang saya lakukan pak
+percobaan terkait penerjemahan bahasa inggris dan frances
+https://colab.research.google.com/drive/1cFi0TzVxD5Cll31cYQFX5qxNUAh9Bn7L?usp=sharing
+
+percobaan terkait penerjemahan bahasa inggris dan b indonesia
+https://colab.research.google.com/drive/150i56bXD0ljtjdi_AXqe5ulQjqmyhjzy?usp=sharing
+terimakasih
+
+
+
+select client_code 
+	into:ls_client 
+	from mt_client1
+	where agen_code =:ls_agen_code
+client_direct_flag = 'Y' 
