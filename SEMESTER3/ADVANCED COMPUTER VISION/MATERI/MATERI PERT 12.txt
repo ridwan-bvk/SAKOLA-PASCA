@@ -1,0 +1,11 @@
+Pekan ini kita masuk ke diskusi DETR. Varian teknik deteksi obyek berbasis transformer ini diperkenalkan oleh Facebook AI Research (FAIR) pada tahun 2020. DETR memperkenalkan pendekatan baru yang menyederhanakan pipeline deteksi objek tradisional menjadi sebuah sistem end-to-end yang elegan. Simak blog https://medium.com/data-science-indo/review-metode-objek-deteksi-end-to-end-object-detection-with-transformers-a43d1baa681 dan artikel https://arxiv.org/abs/2005.12872 yang memperkenalkan DETR pertama kali. Seperti biasa, berikan komentar, ringkasan atau pertanyaan yang mungkin muncul dari menyimak referensi tersebut. Selamat belajar...
+
+Jika ada yang sedang berusaha untuk memahami konsep dasar dari Transformer, model yang mendasari DETR dan berbagai variannya, dapat menyimak video 
+
+https://www.youtube.com/watch?v=eMlx5fFNoYc   
+https://www.youtube.com/watch?v=kWLed8o5M2Y
+https://www.youtube.com/watch?v=4Bdc55j80l8 
+https://www.youtube.com/watch?v=KMHkbXzHn7s  yang didahului
+https://www.youtube.com/watch?v=hVM8qGRTaOA  dan
+https://www.youtube.com/watch?v=bNjVxUDZQfM 
+Kesemuanya terkait dengan pengolahan dan pengenalan teks. Tapi, konsep pengenalan berbasis Transformer juga dapat diterapkan pada input citra digital, khususnya pada DETR untuk deteksi obyek. Silakan simak minimal salah satu dari video tersebut, berikan komentar, ringkasan dan mungkin pertanyaan yang muncul dari menyimak video tersebut. Selamat belajar...
