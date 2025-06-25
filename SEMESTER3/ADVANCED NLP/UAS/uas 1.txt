@@ -1,0 +1,40 @@
+Pertemuan 8
+Word Vector – Bag 1
+Cari 10 jurnal terkait dengan Word Vector Representation 
+Buatlah interface untuk menampilkan hasil dari Word Vector Representations
+
+Pertemuan 9
+Word Vector 
+
+Tugas
+Cari 10 jurnal terkait dengan Word Vector Representation 
+Buatlah interface untuk menampilkan hasil dari Word Vector Representations
+
+
+Pertemuan 10
+Model
+RNN
+LSTM
+GRU
+
+Tugas
+Cari 10 jurnal
+Buatlah
+Apa itu prediction gradien vanashing
+Coba dan amati lstm,GRU
+
+Pertemuan 11
+Model
+RNN
+Attention Mechanism
+Transformer
+
+Tugas
+Cari 10 jurnal terkait dengan Seq2Seq
+Buatlah program untuk menampilkan hasil dari Seq2Seq 
+
+Pertemuan 12
+Cari 10 jurnal terkait dengan Transformers
+Buatlah program untuk menampilkan hasil dari percobaan Transformers 
+
+
