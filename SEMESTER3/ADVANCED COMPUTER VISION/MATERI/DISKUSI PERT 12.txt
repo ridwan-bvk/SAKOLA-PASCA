@@ -1,0 +1,22 @@
+DETR merupakan pendekatan end-to-end untuk deteksi objek yang menghilangkan komponen manual seperti:
+.Anchor boxes (kotak referensi prediksi)
+.Non-Maximum Suppression (penyaringan hasil duplikat)
+.Region proposal networks
+
+Sistem ini menggunakan arsitektur hybrid CNN-Transformer dengan:
+.Backbone CNN untuk ekstraksi fitur visual
+.Transformer encoder-decoder yang memodelkan hubungan spasial global
+.Bipartite matching loss (menggunakan Hungarian Algorithm) untuk mencocokkan prediksi dengan ground truth
+
+Keunggulan
+.Simplisitas arsitektur: Tidak memerlukan komponen khusus yang dirancang manual
+.Kinerja setara dengan Faster R-CNN pada dataset COCO
+.Kemampuan panoptic segmentation melalui ekstensi sederhana
+.Deteksi objek besar yang lebih akurat dibanding metode konvensional
+
+Keterbatasan
+.Performansi buruk pada objek kecil karena tidak menggunakan fitur multi-skala
+.Waktu pelatihan panjang (3x lebih lama dari Faster R-CNN)
+.Kompleksitas komputasi tinggi akibat mekanisme attention kuadratik
+
+Kesimpulan utama: DETR merevolusi pendekatan deteksi objek dengan arsitektur end-to-end berbasis transformer, meskipun masih memiliki tantangan dalam efisiensi komputasi dan deteksi objek kecil. Perkembangan terbaru menunjukkan potensi untuk mengatasi keterbatasan ini sambil mempertahankan keunggulan konseptualnya

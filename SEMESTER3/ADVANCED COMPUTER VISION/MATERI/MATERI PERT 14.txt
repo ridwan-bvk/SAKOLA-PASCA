@@ -1,0 +1,13 @@
+UNet adalah arsitektur deep learning yang diperkenalkan oleh Olaf Ronneberger et al. pada tahun 2015 melalui artikel ilmiah "U-Net: Convolutional Networks for Biomedical Image Segmentation" (https://arxiv.org/abs/1505.04597). Arsitektur ini dirancang khusus untuk tugas segmentasi citra, terutama di bidang medis, dan menjadi salah satu pendekatan paling populer untuk semantic segmentation
+
+Struktur dan Cara Kerja UNet
+-Bentuk U, UNet memiliki bentuk arsitektur seperti huruf "U", terdiri dari dua bagian utama: encoder (contracting path) dan decoder (expanding path).
+-Encoder, Bagian ini mengekstrak fitur dari citra melalui beberapa blok konvolusi dan max-pooling, sehingga dimensi spasial berkurang, tetapi jumlah fitur meningkat.
+-Decoder, Bagian ini melakukan upsampling untuk mengembalikan resolusi citra ke ukuran aslinya, dengan mengurangi jumlah fitur secara bertahap.
+-Skip Connections, Salah satu inovasi utama UNet adalah penggunaan skip connections yang menghubungkan setiap blok encoder ke blok decoder yang sesuai. Ini membantu mempertahankan detail spasial yang sering hilang selama proses downsampling dan memperbaiki aliran gradien saat training.
+- Output, Hasil akhir adalah mask segmentasi yang merepresentasikan klasifikasi piksel demi piksel pada citra input
+
+keunggulan 
+-UNet dirancang agar dapat belajar dengan jumlah data pelatihan yang terbatas, sangat cocok untuk aplikasi medis di mana anotasi data mahal dan langka
+-Selain segmentasi citra medis, UNet digunakan untuk berbagai tugas seperti deteksi objek, machine vision, dan face recognitio
+-beberapa varian UNet telah dikembangkan, seperti U-Net dengan attention, LadderNet, dan R2-UNet, untuk meningkatkan performa pada berbagai kasus penggunaan
