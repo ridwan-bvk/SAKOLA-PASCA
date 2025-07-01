@@ -1,0 +1,58 @@
+bisa sarankan untuk membuat datasets dan melakukan analisis data berbasis big data dengan
+memilih salah satu metode analisis . Contoh misalnya dengan:
+1) Klasifikasi (contoh KNN, Naïve Bayes)
+2) Clustering (contoh: K-Means, DBSCAN).
+3) Association Rule Mining (contoh: Apriori, FP-Growth)
+
+hal yang harus diperhatikan
+1. Dataset:
+✓ Gunakan dataset publik (contoh: dataset dari Kaggle, UCI Machine Learning Repository, atau sumber
+resmi lainnya).
+✓ Dataset harus relevan dengan salah satu topik tertentu yang mudah dipahami misalnya pemasaran,
+prediksi cuaca, forest fire atau analisis lainnnya.
+o
+2. Langkah-langkah Analisis:
+➢ Jelaskan proses preprocessing data, termasuk pembersihan data dan penanganan nilai yang hilang.
+➢ visualisasi data yang mendukung hasil analisis menggunakan tools seperti Tableau,
+Python/Matplotlib, exel Pivot.
+➢ Implementasikan metode analisis yang dipilih dan jelaskan hasilnya.
+3. Output:
+➢ Laporan dalam format docs atau PDF berisi penjelasan visualisasi dan hasil analisis
+
+
+buatkan script python pengolahan dengan data set berikut:
+https://archive.ics.uci.edu/dataset/162/forest+fires
+1.Metode Klasifikasi ( Naïve Bayes atau  K-Nearest Neighbors)
+2. degan Tujuan Memprediksi kemungkinan kebakaran hutan berdasarkan suhu, kelembaban, angin, dan curah hujan.
+3. Jelaskan proses preprocessing data, termasuk pembersihan data dan penanganan nilai yang hilang.
+4. buat visualisasi data yang mendukung hasil analisis
+5. Implementasikan metode analisis yang dipilih dan jelaskan hasilnya
+6. buatkan Laporan dalam format docs atau PDF berisi penjelasan visualisasi dan hasil analisis dari pengolahan data tersebut
+
+
+buatkan script python pengolahan dengan data set berikut:
+https://archive.ics.uci.edu/dataset/352/online+retail
+1.Metode Association Rule Mining (Apriori / FP-Growth)
+2. degan Tujuan Menemukan pola pembelian konsumen (misalnya, orang yang beli roti juga cenderung beli selai)
+3. Jelaskan proses preprocessing data, termasuk pembersihan data dan penanganan nilai yang hilang.
+4. buat visualisasi data yang mendukung hasil analisis
+5.output - Rule seperti: {Bread} → {Butter} dengan confidence dan lift
+- Rekomendasi bundling produk untuk meningkatkan penjualan
+6. Implementasikan metode analisis yang dipilih dan jelaskan hasilnya
+7. buatkan Laporan dalam format docs atau PDF berisi penjelasan visualisasi dan hasil analisis dari pengolahan data tersebut
+
+ 
+buatkan script python pengolahan dengan data set berikut:
+https://www.kaggle.com/datasets/rmisra/news-category-dataset
+1. Metode Clustering (K-Means, DBSCAN) + NLP preprocessing
+2. degan Tujuan Mengelompokkan berita berdasarkan topik menggunakan representasi TF-IDF
+3. Jelaskan proses preprocessing data, termasuk pembersihan data dan penanganan nilai yang hilang.
+4. buat visualisasi data yang mendukung hasil analisis
+5.output 
+- Visualisasi klaster berita
+- Analisis kata kunci dominan di tiap klaster
+6. Implementasikan metode analisis yang dipilih dan jelaskan hasilnya
+7. buatkan Laporan dalam format docs atau PDF berisi penjelasan visualisasi dan hasil analisis dari pengolahan data tersebut
+
+https://www.kaggle.com/datasets/rmisra/news-category-dataset?resource=download
+
