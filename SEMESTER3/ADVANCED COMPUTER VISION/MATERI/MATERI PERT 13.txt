@@ -1,0 +1,11 @@
+Pekan ini kita akan masuk ke kajian tentang object segmentation. Salah satu dari arsitektur yang paling banyak mendapatkan perhatian adalah UNet. Simak (minimal) salah satu blog berikut:
+
+https://medium.com/analytics-vidhya/what-is-unet-157314c87634
+https://www.digitalocean.com/community/tutorials/unet-architecture-image-segmentation
+https://medium.com/@haidhiangkawijana/konsep-dan-implementasi-u-net-model-untuk-image-segmentation-dengan-tensorflow-3de40171c5ac
+Unet sendiri pertama kali diperkenalkan melalui artikel https://arxiv.org/abs/1505.04597
+Seperti biasa, berikan komentar, ringkasan atau pertanyaan yang mungkin muncul dari mempelajari UNet dari artikel ilmiah dan blog tersebut.
+
+Berikut ini adalah salah satu video yang membahas tentang UNet https://www.youtube.com/watch?v=GAYJ81M58y8
+Di dalamnya juga membahas tentang bagaimana membuat script terkait UNet. Selain itu, kita juga dapat belajar salah satunya dari https://github.com/zhixuhao/unet
+Silakan untuk mencobanya. Selamat belajar..
